@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="662" nameEn="A Game of Cards" nameRu="Игра в карты">
+		<level min="61" max="85" />
+		<droplist>
+			<npc id="20677">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21109">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21112">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21116">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21114">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21004">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21002">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21006">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21008">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21010">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="18001">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20672">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20673">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20674">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20955">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20962">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20961">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20959">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20958">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20966">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20965">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20968">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20973">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="20972">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21278">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21279">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21280">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21286">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21287">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21288">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21520">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21526">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21530">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21535">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21508">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21510">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21513">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+			<npc id="21515">
+				<item id="8765" min="1" chance="45" rateable="true" /> <!--Red Gem-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="8868" min="43" rateable="true" /> <!--Ziggo's Gemstone-->
+				<item id="959" min="3" rateable="true" /> <!--Scroll: Enchant Weapon (S-Grade)-->
+				<item id="729" min="1" rateable="true" /> <!--Scroll: Enchant Weapon (A-Grade)-->
+			</variant>
+			<variant id="2">
+				<item id="959" min="2" rateable="true" /> <!--Scroll: Enchant Weapon (S-Grade)-->
+				<item id="951" min="2" rateable="true" /> <!--Scroll: Enchant Weapon (C-Grade)-->
+			</variant>
+			<variant id="3">
+				<item id="951" min="2" rateable="true" /> <!--Scroll: Enchant Weapon (C-Grade)-->
+			</variant>
+			<variant id="4">
+				<item id="956" min="2" rateable="true" /> <!--Scroll: Enchant Armor (D-Grade)-->
+			</variant>
+			<variant id="5">
+				<item id="729" min="1" rateable="true" /> <!--Scroll: Enchant Weapon (A-Grade)-->
+				<item id="947" min="2" rateable="true" /> <!--Scroll: Enchant Weapon (B-Grade)-->
+				<item id="955" min="1" rateable="true" /> <!--Scroll: Enchant Weapon (D-Grade)-->
+			</variant>
+			<variant id="6"> <!--Random reward-->
+				<item id="951" min="1" rateable="true" /> <!--Scroll: Enchant Weapon (C-Grade)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

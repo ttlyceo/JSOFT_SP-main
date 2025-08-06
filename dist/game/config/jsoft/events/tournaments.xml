@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tournaments.xsd">
+	<engine isEnable="true"> <!-- Enable Tournament System -->
+		<set name="npcId" val="50009" /> <!-- Tournament NPC for scheduler -->
+		<set name="minLvl" val="76" /> <!-- Min level to participate - (-1 to disable). -->
+		<set name="maxLvl" val="85" /> <!-- Max level to participate - (-1 to disable). -->
+		<set name="npcSpawnLocs" val="83560,148616,-3400,32381" /> <!-- Tournament NPCs spawn location for scheduler Seperate by ";" -->
+		<set name="schedule" val="00:00-23:00" /> <!-- Enable tournament schedule Ex. 18:00-20:00;22:00-23:30 (-1 to disable) -->
+		<set name="timerStart" val="15" /> <!-- Tournament start timer match interval. Show Screen Value in seconds -->
+		<set name="timerEnd" val="15" /> <!-- Tournament end timer match interval. Show Screen Value in seconds -->
+		<set name="matchFindTime" val="30" /> <!-- Tournament find match interval. Value in seconds -->
+		<set name="battleDuration" val="300" /> <!-- Duration of battle. Value in seconds -->
+		<set name="limitByIp" val="0" /> <!-- Allow same IP to participate in tournament - (0 to disable). -->
+		<set name="limitByHwid" val="0" /> <!-- Allow same HWID to participate in tournament - (0 to disable). -->
+		<set name="summonToNpc" val="30" /> <!-- When event start summon to Tournament NPC (interval popup in sec) default 30 sec.-->
+		<set name="givePvp" val="true" /> <!-- Increment pvp kills ? -->
+		<set name="announceCountdown" val="1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;30;60;120;180;240;300;600;900;1200;1500;1800;2400;3000;3600" /> <!-- Announce time countdown in seconds Seperate by ";" (off to disable) -->
+	</engine>
+	<tournament id="1" type="F1X1" registerType="TEAM" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+	<tournament id="2" type="F2X2" registerType="TEAM" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+	<tournament id="3" type="F3X3" registerType="TEAM" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+	<tournament id="4" type="F4X4" registerType="TEAM" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+	<tournament id="5" type="F5X5" registerType="SOLO" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+	<tournament id="6" type="F9X9" registerType="TEAM" isEnable="true">
+		<set name="limitClassesByType" val="FIGHTERS,-1;TANKS,-1;ARCHERS,-1;DAGGERS,-1;MAGES,-1;SUMMONERS,-1;HEALERS,-1;SUPPORTS,-1;KAMAELS,-1" /> <!-- LimitedClassesByType (-1 no limited) -->
+		<set name="limitClassesById" val="96,-1;98,-1" /> <!-- LimitedClassesById (-1 no limited) -->
+		<set name="restrictedClass" val="-1" /> <!-- Tournament disabled classes Seperate by ";" Example: 16;97;98-->
+		<set name="restrictedItems" val="1829;1830;736;737;5859;5858;1538;2013;2036;2040;2177;2178;2213;2214;4422" /> <!-- Tournament disabled items Seperate by ";" -->
+		<set name="restrictedSkills" val="3160;395;396;2099;2100;1255;1050" /> <!-- Tournament disabled skills Seperate by ";" -->
+		<set name="doors" val="24190001;24190002;24190003;24190004" /> <!-- Close doors -->
+		<allows>
+			<set name="removeBuffEnter" val="true" /> <!-- Remove buffs Enter Event. -->
+			<set name="removeBuffExit" val="true" /> <!-- Remove buffs Exit Event. -->
+			<set name="resetReuseSkillsEnter" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="resetReuseSkillsExit" val="false" /> <!-- Reset reuse buffs Enter Event. -->
+			<set name="summons" val="true" /> <!-- Allow summon's in Tournament, if false unspawn. -->
+			<set name="communityBuffer" val="true" /> <!-- Open buffer opens before the start -->
+			<set name="observer" val="true" /> <!-- Allow observers to see the match (In development future) -->
+			<set name="potion" val="false" /> <!-- Allow Potion use while in battle -->
+			<set name="scroll" val="false" /> <!-- Allow scroll of players -->
+			<set name="resurrection" val="false" /> <!-- Allow resurrection of players -->
+			<set name="escape" val="false" /> <!-- Allow escape of players -->
+			<set name="itemSummon" val="false" /> <!-- Allow itemsummon of players -->
+			<set name="canTeamTarget" val="true" /> <!-- Allow team target -->
+		</allows>
+		<!-- Have 4 variation for winner/looser/tie
+		(1: ItemId,Count) (2: ItemId,Count,Chance) (3: ItemId,CountMin,CountMax,Chance) (4: ItemId,CountMin,CountMax,Chance,EnchantLevel) -->
+		<rewards>
+			<!-- Tournament match reward winner -->
+			<set name="winner" val="57,100" />
+			<!-- Tournament match reward looser -->
+			<set name="looser" val="57,10" />
+			<!-- Tournament match reward tie -->
+			<set name="tie" val="57,50" />
+		</rewards>
+		<locations>
+			<!-- Team Blue Locs -->
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<set name="teamBlueLoc" val="150396,46726,-3408" />
+			<!-- Team Red Locs -->
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<set name="teamRedLoc" val="148532,46726,-3408" />
+			<!-- Observer Locs -->
+			<set name="teamObserverLoc" val="149480,47260,-3408" />
+		</locations>
+	</tournament>
+
+</list>

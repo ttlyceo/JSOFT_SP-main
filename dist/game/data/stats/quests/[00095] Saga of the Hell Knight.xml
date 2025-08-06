@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="95" nameEn="Saga of the Hell Knight" nameRu="Сага Рыцаря Ада">
+		<expirience>
+			<rewardExp val="2299404" rateable="true" />
+			<rewardSp val="0" rateable="false" />
+		</expirience>
+		<droplist>
+			<npc id="21646">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+			<npc id="21647">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+			<npc id="21648">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+			<npc id="21649">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+			<npc id="21650">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+			<npc id="21651">
+				<item id="7510" min="1" chance="100" rateable="true" /> <!--Halisha's Mark-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="5000000" rateable="true" /> <!--Adena-->
+			<item id="6622" min="1" rateable="true" /> <!--Giant's Codex-->
+		</rewardlist>
+	</quest>
+</list>

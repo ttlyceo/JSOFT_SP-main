@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="237" nameEn="Winds of Change" nameRu="От нейтральности к предательству">
+		<level min="82" max="85" />
+		<expirience>
+			<rewardExp val="892773" rateable="true" />
+			<rewardSp val="60012" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<variant id="1">
+				<item id="57" min="213876" rateable="true" /> <!--Adena-->
+				<item id="14865" min="1" rateable="false" /> <!--Certificate of Support-->
+			</variant>
+			<variant id="2">
+				<item id="57" min="213876" rateable="true" /> <!--Adena-->
+				<item id="14866" min="1" rateable="false" /> <!--Certificate of Support-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

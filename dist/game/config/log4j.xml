@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "../data/xsd/dtd/log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="INFO" />
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%p][%d{HH:mm:ss}] - %m%n" />
+		</layout>
+	</appender>
+	<appender name="WARN" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="WARN" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="File" value="log/warnings.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %p:%m%n" />
+		</layout>
+	</appender>
+	<appender name="ERROR" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="ERROR" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="File" value="log/errors.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %p:%m%n" />
+		</layout>
+	</appender>
+	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="INFO" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="File" value="log/java.log" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %c{1}: %m%n" />
+		</layout>
+	</appender>
+	<appender name="GAME" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/game.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="AUTOFARM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/autofarm.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATALL" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatAll.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATALLIANCE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatAlliance.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATBATTLEFIELD" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatBattlefield.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATCLAN" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatClan.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATHERO" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatHero.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATMPCCROOM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatMpccRoom.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATPARTY" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatParty.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATPARTYMATCHROOM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatPartyMatchRoom.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATPARTYROOMALL" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatPartyRoomAll.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATPARTYROOMCOMMANDER" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatPartyRoomCommander.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATPETITION" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatPetition.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATSHOUT" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatShout.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATTELL" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatTell.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATTRADE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatTrade.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="CHATFRIEND" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/chat/chatFriend.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="ITEM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/item.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="DAMAGE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/damage.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="ENCHANTSKILL" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/enchantSkills.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="ENCHANTITEM" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/game/enchantItems.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="[%d{dd.MM.yy HH:mm:ss}] %m%n" />
+		</layout>
+	</appender>
+	<appender name="FILEASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="FILE" />
+	</appender>
+	<appender name="GAMEASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="GAME" />
+	</appender>
+	<appender name="AUTOFARMASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="AUTOFARM" />
+	</appender>
+	<appender name="CHATALLASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATALL" />
+	</appender>
+	<appender name="CHATALLIANCEASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATALLIANCE" />
+	</appender>
+	<appender name="CHATBATTLEFIELDASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATBATTLEFIELD" />
+	</appender>
+	<appender name="CHATCLANASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATCLAN" />
+	</appender>
+	<appender name="CHATHEROASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATHERO" />
+	</appender>
+	<appender name="CHATMPCCROOMASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATMPCCROOM" />
+	</appender>
+	<appender name="CHATPARTYASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATPARTY" />
+	</appender>
+	<appender name="CHATPARTYMATCHROOMASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATPARTYMATCHROOM" />
+	</appender>
+	<appender name="CHATPARTYROOMALLASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATPARTYROOMALL" />
+	</appender>
+	<appender name="CHATPARTYROOMCOMMANDERASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATPARTYROOMCOMMANDER" />
+	</appender>
+	<appender name="CHATPETITIONASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATPETITION" />
+	</appender>
+	<appender name="CHATSHOUTASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATSHOUT" />
+	</appender>
+	<appender name="CHATTELLASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATTELL" />
+	</appender>
+	<appender name="CHATTRADEASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATTRADE" />
+	</appender>
+	<appender name="CHATFRIENDASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="256" />
+		<appender-ref ref="CHATFRIEND" />
+	</appender>
+	<appender name="ITEMASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="ITEM" />
+	</appender>
+	<appender name="DAMAGEASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="DAMAGE" />
+	</appender>
+	<appender name="ENCHANTSKILLASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="ENCHANTSKILL" />
+	</appender>
+	<appender name="ENCHANTITEMASYNC" class="org.apache.log4j.AsyncAppender">
+		<param name="Blocking" value="false" />
+		<param name="BufferSize" value="512" />
+		<appender-ref ref="ENCHANTITEM" />
+	</appender>
+	<logger name="file" additivity="false">
+		<appender-ref ref="FILEASYNC" />
+	</logger>
+	<logger name="game" additivity="false">
+		<appender-ref ref="GAMEASYNC" />
+	</logger>
+	<logger name="autofarm" additivity="false">
+		<appender-ref ref="AUTOFARMASYNC" />
+	</logger>
+	<logger name="chatAll" additivity="false">
+		<appender-ref ref="CHATALLASYNC" />
+	</logger>
+	<logger name="chatAlliance" additivity="false">
+		<appender-ref ref="CHATALLIANCEASYNC" />
+	</logger>
+	<logger name="chatBattlefield" additivity="false">
+		<appender-ref ref="CHATBATTLEFIELDASYNC" />
+	</logger>
+	<logger name="chatClan" additivity="false">
+		<appender-ref ref="CHATCLANASYNC" />
+	</logger>
+	<logger name="chatHero" additivity="false">
+		<appender-ref ref="CHATHEROASYNC" />
+	</logger>
+	<logger name="chatMpccRoom" additivity="false">
+		<appender-ref ref="CHATMPCCROOMASYNC" />
+	</logger>
+	<logger name="chatParty" additivity="false">
+		<appender-ref ref="CHATPARTYASYNC" />
+	</logger>
+	<logger name="chatPartyMatchRoom" additivity="false">
+		<appender-ref ref="CHATPARTYMATCHROOMASYNC" />
+	</logger>
+	<logger name="chatPartyRoomAll" additivity="false">
+		<appender-ref ref="CHATPARTYROOMALLASYNC" />
+	</logger>
+	<logger name="chatPartyRoomCommander" additivity="false">
+		<appender-ref ref="CHATPARTYROOMCOMMANDERASYNC" />
+	</logger>
+	<logger name="chatPetition" additivity="false">
+		<appender-ref ref="CHATPETITIONASYNC" />
+	</logger>
+	<logger name="chatShout" additivity="false">
+		<appender-ref ref="CHATSHOUTASYNC" />
+	</logger>
+	<logger name="chatTell" additivity="false">
+		<appender-ref ref="CHATTELLASYNC" />
+	</logger>
+	<logger name="chatTrade" additivity="false">
+		<appender-ref ref="CHATTRADEASYNC" />
+	</logger>
+	<logger name="chatFriend" additivity="false">
+		<appender-ref ref="CHATFRIENDASYNC" />
+	</logger>
+	<logger name="item" additivity="false">
+		<appender-ref ref="ITEMASYNC" />
+	</logger>
+	<logger name="damage" additivity="false">
+		<appender-ref ref="DAMAGEASYNC" />
+	</logger>
+	<logger name="enchantSkill" additivity="false">
+		<appender-ref ref="ENCHANTSKILLASYNC" />
+	</logger>
+	<logger name="enchantItem" additivity="false">
+		<appender-ref ref="ENCHANTITEMASYNC" />
+	</logger>
+	<logger name="org.hibernate">
+		<level value="WARN" />
+	</logger>
+	<root>
+		<level value="info" />
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+		<appender-ref ref="WARN" />
+		<appender-ref ref="ERROR" />
+	</root>
+</log4j:configuration>

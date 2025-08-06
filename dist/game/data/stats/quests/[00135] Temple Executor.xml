@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="135" nameEn="Temple Executor" nameRu="Палач Храма">
+		<level min="35" max="85" />
+		<expirience>
+			<rewardExp val="30000" rateable="true" />
+			<rewardSp val="2000" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20781">
+				<item id="10328" min="1" chance="100" rateable="true" /> <!--Stolen Cargo-->
+				<item id="10329" min="1" chance="100" rateable="true" /> <!--Hate Crystal-->
+				<item id="10330" min="1" chance="100" rateable="true" /> <!--Old Treasure Map-->
+			</npc>
+			<npc id="21104">
+				<item id="10328" min="1" chance="100" rateable="true" /> <!--Stolen Cargo-->
+				<item id="10329" min="1" chance="100" rateable="true" /> <!--Hate Crystal-->
+				<item id="10330" min="1" chance="100" rateable="true" /> <!--Old Treasure Map-->
+			</npc>
+			<npc id="21105">
+				<item id="10328" min="1" chance="100" rateable="true" /> <!--Stolen Cargo-->
+				<item id="10329" min="1" chance="100" rateable="true" /> <!--Hate Crystal-->
+				<item id="10330" min="1" chance="100" rateable="true" /> <!--Old Treasure Map-->
+			</npc>
+			<npc id="21106">
+				<item id="10328" min="1" chance="100" rateable="true" /> <!--Stolen Cargo-->
+				<item id="10329" min="1" chance="100" rateable="true" /> <!--Hate Crystal-->
+				<item id="10330" min="1" chance="100" rateable="true" /> <!--Old Treasure Map-->
+			</npc>
+			<npc id="21107">
+				<item id="10328" min="1" chance="100" rateable="true" /> <!--Stolen Cargo-->
+				<item id="10329" min="1" chance="100" rateable="true" /> <!--Hate Crystal-->
+				<item id="10330" min="1" chance="100" rateable="true" /> <!--Old Treasure Map-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="16924" rateable="true" /> <!--Adena-->
+			<item id="10334" min="1" rateable="false" /> <!--Badge - Temple Executor-->
+		</rewardlist>
+	</quest>
+</list>

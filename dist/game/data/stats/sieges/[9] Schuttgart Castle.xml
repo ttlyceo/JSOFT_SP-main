@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/sieges.xsd">
+	<castle id="9" nameEn="Schuttgart" nameRu="Шуттгарт" enableSiege="true">
+		<set name="siegeDate" value="0 20 * * 7" /> 		<!--Siege date-->
+		<set name="siegeTime" value="120" />			<!--Siege time-->
+		<set name="siegeCloseChangeData" value="1440" />	<!--Time in minutes before siege change date will close-->
+		<set name="siegeCloseRegistration" value="720" />	<!--Time in minutes before siege start registration will close-->
+		<set name="maxFlags" value="1" />			<!--Attackers flags limit-->
+		<set name="siegeClanLevel" value="5" />			<!--Attackers minimum clan level-->
+		<set name="attackerClans" value="500" />		<!--Attacker clans limit-->
+		<set name="defenderClans" value="500" />		<!--Defender clans limit-->
+		<set name="siegeLimitPlayers" value="0" />		<!--Check siege players by HWID or IP by config-->
+		<set name="attackSameSiegeSide" value="true" />		<!--Allow attack other clans participating in attack or defence castle-->
+		<set name="mercenariesLimit" value="400" />		<!--Mercenaries limit for summon-->
+		<set name="correctSiegeHoursTime" value="16,20" />	<!--Сorrect siege time for castle lord-->
+		<flameTowers> <!--Flame towers spawn-->
+			<npc id="13004" loc="78233 -151037 120 0" hp="10000" />
+			<npc id="13004" loc="76872 -151043 120 0" hp="10000" />
+		</flameTowers>
+		<controlTowers> <!--Control towers spawn-->
+			<npc id="13002" loc="80334 -152898 -8 0" hp="10000" />
+			<npc id="13002" loc="74775 -152928 -8 0" hp="10000" />
+			<npc id="13002" loc="77547 -153246 112 0" hp="10000" />
+		</controlTowers>
+		<params> <!--Price for castle functions-->
+			<!--Teleport functions-->
+			<set name="teleportFunctionTime" value="7" /> <!--Prices per days-->
+			<set name="teleportPriceLvl1" value="7000" />
+			<set name="teleportPriceLvl2" value="14000" />
+			<!--Buff functions-->
+			<set name="supportFunctionTime" value="1" /> <!--Prices per days-->
+			<set name="supportPriceLvl1" value="7000" />
+			<set name="supportPriceLvl2" value="21000" />
+			<set name="supportPriceLvl3" value="37000" />
+			<set name="supportPriceLvl4" value="52000" />
+			<!--Mp Regen functions-->
+			<set name="mpRegenFunctionTime" value="1" /> <!--Prices per days-->
+			<set name="mpRegenPriceLvl1" value="2000" />
+			<set name="mpRegenPriceLvl2" value="6500" />
+			<set name="mpRegenPriceLvl3" value="13750" />
+			<set name="mpRegenPriceLvl4" value="20000" />
+			<!--Hp Regen functions-->
+			<set name="hpRegenFunctionTime" value="1" /> <!--Prices per days-->
+			<set name="hpRegenPriceLvl1" value="1000" />
+			<set name="hpRegenPriceLvl2" value="1500" />
+			<set name="hpRegenPriceLvl3" value="2250" />
+			<set name="hpRegenPriceLvl4" value="3270" />
+			<set name="hpRegenPriceLvl5" value="5166" />
+			<!--Exp Regen functions-->
+			<set name="expRegenFunctionTime" value="1" /> <!--Prices per days-->
+			<set name="expRegenPriceLvl1" value="9000" />
+			<set name="expRegenPriceLvl2" value="15000" />
+			<set name="expRegenPriceLvl3" value="21000" />
+			<set name="expRegenPriceLvl4" value="30000" />
+		</params>
+		<pvp allowReward="false" allowForParty="false"> <!--Custom reward for kill players at siege-->
+			<item id="57" count="10000" chance="100" />
+			<item id="4037" count="5" chance="50" />
+		</pvp>
+		<capture allowReward="true" onlyForLeader="true"> <!--Reward for capture castle-->
+			<item id="9911" count="1" chance="100" /> <!--Blood Alliance-->
+		</capture>
+		<defence allowReward="true" onlyForLeader="true"> <!--Reward for defence castle-->
+			<item id="9911" count="1" chance="100" /> <!--Blood Alliance-->
+		</defence>
+	</castle>
+</list>

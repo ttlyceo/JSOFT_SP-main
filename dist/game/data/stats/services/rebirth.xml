@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<rebirth id="1" sp="100000" level="82">
+		<requestItems>
+			<item id="57" min="10000" />
+			<item id="4037" min="10" />
+			<item id="-300" min="500" />
+			<item id="-200" min="200" />
+			<item id="-100" min="100" />
+			<item id="5573" min="120" />
+		</requestItems>
+		<rewardItems>
+			<item id="57" min="1000" />
+			<item id="4037" min="1" />
+		</rewardItems>
+	</rebirth>
+	<rebirth id="2" sp="200000" level="83">
+		<requestItems>
+			<item id="57" min="20000" />
+			<item id="4037" min="20" />
+			<item id="-300" min="1000" />
+			<item id="-200" min="400" />
+			<item id="-100" min="200" />
+		</requestItems>
+		<rewardItems>
+			<item id="57" min="2000" />
+			<item id="4037" min="2" />
+		</rewardItems>
+	</rebirth>
+	<rebirth id="3" sp="300000" level="84">
+		<requestItems>
+			<item id="57" min="30000" />
+			<item id="4037" min="30" />
+			<item id="-300" min="1500" />
+			<item id="-200" min="600" />
+			<item id="-100" min="300" />
+		</requestItems>
+		<rewardItems>
+			<item id="57" min="3000" />
+			<item id="4037" min="3" />
+		</rewardItems>
+	</rebirth>
+	<skillList>
+		<skill id="1539" level="1" exp="1" sp="100" minReberth="0">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1033" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1257" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1059" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1268" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1189" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1303" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1087" level="1" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1087" level="2" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+		<skill id="1087" level="3" exp="1" sp="100" minReberth="1">
+			<requestItems>
+				<item id="57" min="30000" />
+				<item id="4037" min="30" />
+			</requestItems>
+		</skill>
+	</skillList>
+</list>

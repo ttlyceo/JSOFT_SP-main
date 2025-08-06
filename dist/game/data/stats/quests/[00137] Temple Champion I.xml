@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="137" nameEn="Temple Champion I" nameRu="Воитель Храма - 1">
+		<level min="35" max="85" />
+		<expirience>
+			<rewardExp val="219975" rateable="true" />
+			<rewardSp val="13047" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20083">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+			<npc id="20144">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+			<npc id="20199">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+			<npc id="20200">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+			<npc id="20201">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+			<npc id="20202">
+				<item id="10340" min="1" chance="100" rateable="true" /> <!--Report Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="69146" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

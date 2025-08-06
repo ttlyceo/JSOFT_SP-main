@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="309" nameEn="For a Good Cause" nameRu="По уважительной причине">
+		<level min="82" max="85" />
+		<droplist>
+			<npc id="22650">
+				<item id="14873" min="1" chance="100" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22651">
+				<item id="14873" min="1" chance="100" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22652">
+				<item id="14873" min="1" chance="100" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22653">
+				<item id="14873" min="1" chance="100" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22654">
+				<item id="14873" min="1" chance="100" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22655">
+				<item id="14874" min="1" chance="100" rateable="true" /> <!--Fallen Mucrokian Hide-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="15777" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Circlet (60%)-->
+				<item id="15780" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Tunic (60%)-->
+				<item id="15783" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Stockings (60%)-->
+				<item id="15786" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Gloves (60%)-->
+				<item id="15789" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Shoes (60%)-->
+				<item id="15790" min="1" rateable="false" /> <!--Recipe - Sealed Moirai Sigil (60%)-->
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="15647" min="3" max="9" rateable="true" /> <!--Sealed Moirai Circlet Piece-->
+				<item id="15650" min="3" max="9" rateable="true" /> <!--Sealed Moirai Tunic Piece-->
+				<item id="15653" min="3" max="9" rateable="true" /> <!--Sealed Moirai Stockings Piece-->
+				<item id="15656" min="3" max="9" rateable="true" /> <!--Sealed Moirai Gloves Piece-->
+				<item id="15659" min="3" max="9" rateable="true" /> <!--Sealed Moirai Shoes Piece-->
+				<item id="15692" min="3" max="9" rateable="true" /> <!--Sealed Moirai Sigil Piece-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

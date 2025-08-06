@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/reflection.xsd">
+	<!-- Town of Schuttgart: NPC Pathfinder (Level 75) -->
+	<instance id="56" name="Rim Kamaloka (Level 75)" maxChannels="10" collapseIfEmpty="10" timelimit="30" dispelBuffs="false">
+		<level min="70" max="80" />
+		<party min="1" max="1" />
+		<allowSummon val="false" />
+		<teleport x="48137" y="-219716" z="-8752" />
+		<reenter setUponEntry="true" sharedReuseGroup="2">
+			<reset hour="6" minute="30" />
+		</reenter>
+		<add_parameters>
+			<!-- Farm Time -->
+			<set name="reflectTime" value="20" />
+			<!-- Points by Rank -->
+			<set name="rankLvl1" value="500" />
+			<set name="rankLvl2" value="2500" />
+			<set name="rankLvl3" value="4500" />
+			<set name="rankLvl4" value="5500" />
+			<set name="rankLvl5" value="7000" />
+			<!-- Rewards by Rank -->
+			<set name="rewardLvl0" value="13002-8" />
+			<set name="rewardLvl1" value="13002-8;10860-1" />
+			<set name="rewardLvl2" value="13002-8;10861-1" />
+			<set name="rewardLvl3" value="13002-8;10862-1" />
+			<set name="rewardLvl4" value="13002-8;10863-1" />
+			<set name="rewardLvl5" value="13002-8;10864-1" />
+			<set name="rewardLvl6" value="13002-10;10865-1" />
+		</add_parameters>
+		<spawns>
+			<!-- Sword Kanabion -->
+			<spawn mobId="22482" count="6" respawn="30" type="loc">
+				<coords loc="48152 -218792 -8752 -8752"/>
+				<coords loc="49896 -218792 -8752 -8752"/>
+				<coords loc="49896 -220696 -8752 -8752"/>
+				<coords loc="48152 -220696 -8752 -8752"/>
+			</spawn>
+		</spawns>
+	</instance>
+</list>

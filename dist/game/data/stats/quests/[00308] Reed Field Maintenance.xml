@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="308" nameEn="Reed Field Maintenance" nameRu="Эксплуатация полей">
+		<level min="82" max="85" />
+		<droplist>
+			<npc id="22650">
+				<item id="14871" min="1" chance="25" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22651">
+				<item id="14871" min="1" chance="25" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22652">
+				<item id="14871" min="1" chance="25" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22653">
+				<item id="14871" min="1" chance="25" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22654">
+				<item id="14871" min="1" chance="15" rateable="true" /> <!--Mucrokian Hide-->
+			</npc>
+			<npc id="22655">
+				<item id="14872" min="1" chance="25" rateable="true" /> <!--Awakened Mucrokian Hide-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="9985" min="1" rateable="false" /><!--Recipe - Sealed Dynasty Earrings (70%)-->
+			</variant>
+			<variant id="2">
+				<item id="9986" min="1" rateable="false" /><!--Recipe - Sealed Dynasty Necklace (70%)-->
+			</variant>
+			<variant id="3">
+				<item id="9987" min="1" rateable="false" /><!--Recipe - Sealed Dynasty Ring (70%)-->
+			</variant>
+			<variant id="4">
+				<item id="10115" min="1" rateable="false" /><!--Recipe: Sealed Dynasty Sigil (60%)-->
+			</variant>
+			<variant id="5"><!--Given one random item-->
+				<item id="15777" min="1" rateable="false" /><!--Recipe - Sealed Moirai Circlet (60%)-->
+				<item id="15780" min="1" rateable="false" /><!--Recipe - Sealed Moirai Tunic (60%)-->
+				<item id="15783" min="1" rateable="false" /><!--Recipe - Sealed Moirai Stockings (60%)-->
+				<item id="15786" min="1" rateable="false" /><!--Recipe - Sealed Moirai Gloves (60%)-->
+				<item id="15789" min="1" rateable="false" /><!--Recipe - Sealed Moirai Shoes (60%)-->
+				<item id="15790" min="1" rateable="false" /><!--Recipe - Sealed Moirai Sigil (60%)-->
+				<item id="15814" min="1" rateable="false" /><!--Recipe - Sealed Moirai Necklace (70%)-->
+				<item id="15813" min="1" rateable="false" /><!--Recipe - Sealed Moirai Earring (70%)-->
+				<item id="15812" min="1" rateable="false" /><!--Recipe - Sealed Moirai Ring (70%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

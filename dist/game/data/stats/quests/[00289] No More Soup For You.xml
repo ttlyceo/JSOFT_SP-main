@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="289" nameEn="No More Soup For You" nameRu="Все вкусное - мое">
+		<level min="82" max="85" />
+		<droplist>
+			<npc id="18908">
+				<item id="15712" min="1" max="5" chance="100" rateable="true" /> <!--Full Barrel of Soup-->
+			</npc>
+			<npc id="22779">
+				<item id="15712" min="1" max="5" chance="100" rateable="true" /> <!--Full Barrel of Soup-->
+			</npc>
+			<npc id="22786">
+				<item id="15712" min="1" max="5" chance="100" rateable="true" /> <!--Full Barrel of Soup-->
+			</npc>
+			<npc id="22787">
+				<item id="15712" min="1" max="5" chance="100" rateable="true" /> <!--Full Barrel of Soup-->
+			</npc>
+			<npc id="22788">
+				<item id="15712" min="1" max="5" chance="100" rateable="true" /> <!--Full Barrel of Soup-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="10377" min="1" rateable="true" /> <!--Recipe - Icarus Trident (60%)-->
+				<item id="10401" min="1" max="6" rateable="true" /> <!--Icarus Trident Piece-->
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="15812" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Ring (70%)-->
+				<item id="15813" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Earring (70%)-->
+				<item id="15814" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Necklace (70%)-->
+				<item id="15791" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Shield (60%)-->
+				<item id="15787" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Boots (60%)-->
+				<item id="15784" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Gauntlet (60%)-->
+				<item id="15781" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Gaiter (60%)-->
+				<item id="15778" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Breastplate (60%)-->
+				<item id="15775" min="1" rateable="true" /> <!--Recipe - Sealed Moirai Helmet (60%)-->
+				<item id="15774" min="1" max="5" rateable="true" /> <!--Sealed Moirai Necklace Gem-->
+				<item id="15773" min="1" max="5" rateable="true" /> <!--Sealed Moirai Earring Gem-->
+				<item id="15772" min="1" max="5" rateable="true" /> <!--Sealed Moirai Ring Gem-->
+				<item id="15693" min="1" max="5" rateable="true" /> <!--Sealed Moirai Shield Piece-->
+				<item id="15657" min="1" max="5" rateable="true" /> <!--Sealed Moirai Boots Piece-->
+				<item id="15654" min="1" max="5" rateable="true" /> <!--Sealed Moirai Gauntlet Piece-->
+				<item id="15651" min="1" max="5" rateable="true" /> <!--Sealed Moirai Gaiter Piece-->
+				<item id="15648" min="1" max="5" rateable="true" /> <!--Sealed Moirai Breastplate Piece-->
+				<item id="15645" min="1" max="5" rateable="true" /> <!--Sealed Moirai Helmet Piece-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

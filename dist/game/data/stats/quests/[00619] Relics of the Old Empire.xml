@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="619" nameEn="Relics of the Old Empire" nameRu="Реликвии Древней Империи">
+		<level min="74" max="85" />
+		<droplist>
+			<npc id="18212">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18213">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18214">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18215">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18216">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18217">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18218">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18219">
+				<item id="7254" min="3" max="4" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18120">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18121">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18122">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18123">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18124">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18125">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18126">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18127">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18128">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18129">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18130">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18131">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18132">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18133">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18134">
+				<item id="7254" min="1" chance="90" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18135">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18136">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18137">
+				<item id="7254" min="1" chance="89" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18138">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18139">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18140">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18141">
+				<item id="7254" min="1" chance="76" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18142">
+				<item id="7254" min="1" chance="76" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18143">
+				<item id="7254" min="1" chance="76" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18144">
+				<item id="7254" min="1" chance="76" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18145">
+				<item id="7254" min="1" chance="65" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18146">
+				<item id="7254" min="1" chance="66" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18147">
+				<item id="7254" min="1" chance="62" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18148">
+				<item id="7254" min="1" chance="72" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18149">
+				<item id="7254" min="1" chance="63" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18166">
+				<item id="7254" min="1" chance="92" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18167">
+				<item id="7254" min="1" chance="92" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18168">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18169">
+				<item id="7254" min="1" chance="90" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18170">
+				<item id="7254" min="1" chance="90" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18171">
+				<item id="7254" min="1" chance="94" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18172">
+				<item id="7254" min="1" chance="89" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18173">
+				<item id="7254" min="1" chance="99" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18174">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18175">
+				<item id="7254" min="1" chance="99" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18176">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18177">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18178">
+				<item id="7254" min="1" chance="99" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18179">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18180">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18181">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18182">
+				<item id="7254" min="1" chance="99" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18183">
+				<item id="7254" min="1" chance="93" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18184">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18185">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18186">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18187">
+				<item id="7254" min="1" chance="90" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18188">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18189">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18190">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18191">
+				<item id="7254" min="1" chance="89" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18192">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18193">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18194">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18195">
+				<item id="7254" min="1" chance="91" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18220">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18221">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18222">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18223">
+				<item id="7254" min="1" chance="90" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18224">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18225">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18226">
+				<item id="7254" min="1" chance="89" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18227">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18228">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18229">
+				<item id="7254" min="1" chance="100" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="18230">
+				<item id="7254" min="1" chance="49" rateable="true" /> <!--Broken Relic Part-->
+			</npc>
+			<npc id="21396">
+				<item id="7254" min="1" max="2" chance="51" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21397">
+				<item id="7254" min="1" max="2" chance="50" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21398">
+				<item id="7254" min="1" max="2" chance="95" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21399">
+				<item id="7254" min="1" max="2" chance="84" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21400">
+				<item id="7254" min="1" max="2" chance="76" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21401">
+				<item id="7254" min="1" max="2" chance="67" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21402">
+				<item id="7254" min="1" max="2" chance="69" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21403">
+				<item id="7254" min="1" max="2" chance="80" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21404">
+				<item id="7254" min="1" max="2" chance="90" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21405">
+				<item id="7254" min="1" max="2" chance="64" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21406">
+				<item id="7254" min="1" max="2" chance="87" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21407">
+				<item id="7254" min="1" max="2" chance="56" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21408">
+				<item id="7254" min="1" max="2" chance="82" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21409">
+				<item id="7254" min="1" max="2" chance="92" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21410">
+				<item id="7254" min="1" max="2" chance="81" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21411">
+				<item id="7254" min="1" max="2" chance="66" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21412">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21413">
+				<item id="7254" min="1" max="2" chance="81" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21414">
+				<item id="7254" min="1" max="2" chance="79" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21415">
+				<item id="7254" min="1" max="2" chance="80" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21416">
+				<item id="7254" min="1" max="2" chance="82" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21417">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21418">
+				<item id="7254" min="1" max="2" chance="66" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21419">
+				<item id="7254" min="1" max="2" chance="67" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21420">
+				<item id="7254" min="1" max="2" chance="82" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21421">
+				<item id="7254" min="1" max="2" chance="77" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21422">
+				<item id="7254" min="1" max="2" chance="88" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21423">
+				<item id="7254" min="1" max="2" chance="94" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21424">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21425">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21426">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21427">
+				<item id="7254" min="1" max="2" chance="74" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21428">
+				<item id="7254" min="1" max="2" chance="76" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21429">
+				<item id="7254" min="1" max="2" chance="80" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21430">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21431">
+				<item id="7254" min="1" max="2" chance="94" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21432">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21433">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21434">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21435">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21436">
+				<item id="7254" min="1" max="2" chance="100" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21437">
+				<item id="7254" min="1" max="2" chance="69" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21798">
+				<item id="7254" min="1" max="2" chance="33" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21799">
+				<item id="7254" min="1" max="2" chance="61" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+			<npc id="21800">
+				<item id="7254" min="1" max="2" chance="31" rateable="true" /> <!--Broken Relic Part-->
+				<item id="7075" min="1" chance="1" rateable="true" /> <!--Entrance Pass to the Sepulcher-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Random Reward-->
+				<item id="6881" min="1" rateable="false" /> <!--Recipe: Forgotten Blade (60%)-->
+				<item id="6883" min="1" rateable="false" /> <!--Recipe: Basalt Battlehammer (60%)-->
+				<item id="6885" min="1" rateable="false" /> <!--Recipe: Imperial Staff (60%)-->
+				<item id="6887" min="1" rateable="false" /> <!--Recipe: Angel Slayer (60%)-->
+				<item id="6891" min="1" rateable="false" /> <!--Recipe: Dragon Hunter Axe (60%)-->
+				<item id="6893" min="1" rateable="false" /> <!--Recipe: Saint Spear (60%)-->
+				<item id="6895" min="1" rateable="false" /> <!--Recipe: Demon Splinter (60%)-->
+				<item id="6897" min="1" rateable="false" /> <!--Recipe: Heavens Divider (60%)-->
+				<item id="6899" min="1" rateable="false" /> <!--Recipe: Arcana Mace (60%)-->
+				<item id="7580" min="1" rateable="false" /> <!--Recipe: Draconic Bow (60%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<group id="1" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Bag of Luck 1 Group" nameRu="Мешок Удачи 1 группа" groupId="1">
+		<recipe id="1" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи" nameRu="Мешок Удачи" chance="60">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="57" min="2000000000" />
+				<item id="1881" min="30" />
+				<item id="1884" min="30" />
+				<item id="1885" min="30" />
+				<item id="1894" min="30" />
+				<item id="4044" min="30" />
+				<item id="4043" min="30" />
+				<item id="4042" min="30" />
+				<item id="5549" min="30" />
+				<item id="1877" min="30" />
+				<item id="1890" min="30" />
+				<item id="1888" min="30" />
+				<item id="5550" min="30" />
+				<item id="4041" min="30" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="2" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи" nameRu="Мешок Удачи" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="57" min="2000000000" />
+				<item id="1881" min="150" />
+				<item id="1884" min="150" />
+				<item id="1885" min="150" />
+				<item id="1894" min="150" />
+				<item id="4044" min="150" />
+				<item id="4043" min="150" />
+				<item id="4042" min="150" />
+				<item id="5549" min="150" />
+				<item id="1877" min="150" />
+				<item id="1890" min="150" />
+				<item id="1888" min="150" />
+				<item id="5550" min="150" />
+				<item id="4041" min="150" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="3" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи" nameRu="Мешок Удачи" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+	</group>
+	<group id="2" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Bag of Luck 2 Group" nameRu="Мешок Удачи 2 группа" groupId="1">
+		<recipe id="4" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="60">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="57" min="2000000000" />
+				<item id="1881" min="30" />
+				<item id="1884" min="30" />
+				<item id="1885" min="30" />
+				<item id="1894" min="30" />
+				<item id="4044" min="30" />
+				<item id="4043" min="30" />
+				<item id="4042" min="30" />
+				<item id="5549" min="30" />
+				<item id="1877" min="30" />
+				<item id="1890" min="30" />
+				<item id="1888" min="30" />
+				<item id="5550" min="30" />
+				<item id="4041" min="30" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="5" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="57" min="2000000000" />
+				<item id="1881" min="150" />
+				<item id="1884" min="150" />
+				<item id="1885" min="150" />
+				<item id="1894" min="150" />
+				<item id="4044" min="150" />
+				<item id="4043" min="150" />
+				<item id="4042" min="150" />
+				<item id="5549" min="150" />
+				<item id="1877" min="150" />
+				<item id="1890" min="150" />
+				<item id="1888" min="150" />
+				<item id="5550" min="150" />
+				<item id="4041" min="150" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="6" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="7" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="8" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="9" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="10" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="11" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="12" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="13" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="14" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="15" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="16" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="17" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="18" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="19" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="20" icon="BranchSys.icon.br_lucky_bag_i00" nameEn="Мешок Удачи 2" nameRu="Мешок Удачи 2" chance="100">
+			<description>
+				<descrEn value="Мешок Удачи" />
+				<descrRu value="Мешок Удачи" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="20081" min="1" />
+			</rewardItems>
+		</recipe>
+	</group>
+	<group id="3" icon="icon.weapon_incessantcore_sword_i00" nameEn="Eternal Core" nameRu="Меч Неиссякаемой" groupId="2">
+		<recipe id="21" icon="icon.weapon_incessantcore_sword_i01" nameEn="Eternal Core" nameRu="Меч Неиссякаемой Сущности" chance="100">
+			<description>
+				<descrEn value="Focus" />
+				<descrRu value="Фокусировка" />
+			</description>
+			<requestItems>
+				<item id="4037" min="1000" />
+			</requestItems>
+			<rewardItems>
+				<item id="15871" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="22" icon="icon.weapon_incessantcore_sword_i01" nameEn="Eternal Core" nameRu="Меч Неиссякаемой Сущности" chance="60">
+			<description>
+				<descrEn value="Focus" />
+				<descrRu value="Фокусировка" />
+			</description>
+			<requestItems>
+				<item id="4037" min="500" />
+			</requestItems>
+			<rewardItems>
+				<item id="15871" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="23" icon="icon.weapon_incessantcore_sword_i01" nameEn="Eternal Core" nameRu="Меч Неиссякаемой Сущности" chance="40">
+			<description>
+				<descrEn value="Focus" />
+				<descrRu value="Фокусировка" />
+			</description>
+			<requestItems>
+				<item id="4037" min="200" />
+			</requestItems>
+			<rewardItems>
+				<item id="15871" min="1" />
+			</rewardItems>
+		</recipe>
+	</group>
+	<group id="4" icon="icon.weapon_incessantcore_sword_i00" nameEn="Eternal Core" nameRu="Меч Неиссякаемой Сущности" groupId="2">
+		<recipe id="26" icon="icon.weapon_incessantcore_sword_i01" nameEn="Eternal Core" nameRu="Меч Неиссякаемой Сущности" chance="100" isRandomCraft="true" saveEquipStats="true">
+			<description>
+				<descrEn value="Exchange" />
+				<descrRu value="Обмен" />
+			</description>
+			<requestItems>
+				<item id="15544" min="1" />
+			</requestItems>
+			<rewardItems>
+				<item id="15871" min="1" chance="20" />
+				<item id="15872" min="1" chance="50" />
+				<item id="15873" min="1" chance="30" />
+			</rewardItems>
+			<rewardSkills>
+				<skill id="1500" level="1" />
+				<skill id="1501" level="1" />
+				<skill id="1502" level="1" />
+			</rewardSkills>
+		</recipe>
+	</group>
+	<group id="5" icon="icon.armor_t96_u_i01" nameEn="Vesper Noble Armor" nameRu="Доспех Венеры" groupId="3">
+		<recipe id="24" icon="icon.armor_t96_u_i01" nameEn="Vesper Noble Armor" nameRu="Доспех Венеры" chance="100">
+			<description>
+				<descrEn value="Robe" />
+				<descrRu value="Магический" />
+			</description>
+			<requestItems>
+				<item id="4037" min="2000" />
+			</requestItems>
+			<rewardItems>
+				<item id="13142" min="1" />
+				<item id="13437" min="1" />
+				<item id="13454" min="1" />
+				<item id="13455" min="1" />
+				<item id="13456" min="1" />
+				<item id="12813" min="1" />
+			</rewardItems>
+		</recipe>
+		<recipe id="25" icon="icon.armor_t96_u_i01" nameEn="Found Vesper Armor Set" nameRu="Редкий Доспех Венеры" chance="20" saveEnchant="true" saveAugment="true" saveAtt="true">
+			<description>
+				<descrEn value="Exchange" />
+				<descrRu value="Обмен" />
+			</description>
+			<requestItems>
+				<item id="13142" min="1" takeItem="false" />
+				<item id="13437" min="1" takeItem="false" />
+				<item id="13454" min="1" takeItem="false" />
+				<item id="13455" min="1" takeItem="false" />
+				<item id="13456" min="1" takeItem="false" />
+				<item id="12813" min="1" takeItem="false" />
+			</requestItems>
+			<rewardItems>
+				<item id="16839" min="1" />
+				<item id="13437" min="1" />
+				<item id="16845" min="1" />
+				<item id="16848" min="1" />
+				<item id="16851" min="1" />
+				<item id="16322" min="1" />
+			</rewardItems>
+		</recipe>
+	</group>
+</list>
+
+
+

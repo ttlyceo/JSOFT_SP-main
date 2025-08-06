@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="64" nameEn="Certified Berserker" nameRu="Путь Берсеркера">
+		<level min="39" max="85" />
+		<expirience>
+			<rewardExp val="349006" rateable="true" />
+			<rewardSp val="23948" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20202">
+				<item id="9756" min="1" chance="20" rateable="false" /> <!--Report - East-->
+			</npc>
+			<npc id="20234">
+				<item id="9757" min="1" chance="20" rateable="false" /> <!--Report - North-->
+			</npc>
+			<npc id="20267">
+				<item id="9754" min="1" chance="100" rateable="true" /> <!--Breka Orc Head-->
+			</npc>
+			<npc id="20268">
+				<item id="9754" min="1" chance="100" rateable="true" /> <!--Breka Orc Head-->
+			</npc>
+			<npc id="20269">
+				<item id="9754" min="1" chance="100" rateable="true" /> <!--Breka Orc Head-->
+			</npc>
+			<npc id="20270">
+				<item id="9754" min="1" chance="100" rateable="true" /> <!--Breka Orc Head-->
+			</npc>
+			<npc id="20271">
+				<item id="9754" min="1" chance="100" rateable="true" /> <!--Breka Orc Head-->
+			</npc>
+			<npc id="20551">
+				<item id="9755" min="1" chance="20" rateable="false" /> <!--Message Plate-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="63104" rateable="true" /> <!--Adena-->
+			<item id="9760" min="1" rateable="false" /> <!--Orkurus' Recommendation-->
+		</rewardlist>
+	</quest>
+</list>

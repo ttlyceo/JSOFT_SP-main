@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<vip level="0" needPoints="0">
+		<set expRate="1.0" />
+		<set spRate="1.0" />
+		<set adenaRate="1.0" />
+		<set dropRate="1.0" />
+		<set dropRaidRate="1.0" />
+		<set spoilRate="1.0" />
+		<set epRate="1.0" />
+		<set enchantRate="0" />
+		<daily itemId="4037" amount="1" />
+		<daily itemId="57" amount="1000" />
+	</vip>
+	<vip level="1" needPoints="1000">
+		<set expRate="1.15" />
+		<set spRate="1.15" />
+		<set adenaRate="1.15" />
+		<set dropRate="1.15" />
+		<set dropRaidRate="1.15" />
+		<set spoilRate="1.15" />
+		<set epRate="1.15" />
+		<set enchantRate="0" />
+		<daily itemId="4037" amount="10" />
+		<daily itemId="57" amount="1000000" />
+		<requestItems itemId="4037" amount="100" />
+		<requestItems itemId="57" amount="10000000" />
+	</vip>
+	<vip level="2" needPoints="2000">
+		<set expRate="1.25" />
+		<set spRate="1.25" />
+		<set adenaRate="1.25" />
+		<set dropRate="1.25" />
+		<set dropRaidRate="1.25" />
+		<set spoilRate="1.25" />
+		<set epRate="1.25" />
+		<set enchantRate="0" />
+		<daily itemId="4037" amount="20" />
+		<daily itemId="57" amount="2000000" />
+		<requestItems itemId="4037" amount="200" />
+		<requestItems itemId="57" amount="20000000" />
+	</vip>
+	<vip level="3" needPoints="3000">
+		<set expRate="1.35" />
+		<set spRate="1.35" />
+		<set adenaRate="1.35" />
+		<set dropRate="1.35" />
+		<set dropRaidRate="1.35" />
+		<set spoilRate="1.35" />
+		<set epRate="1.35" />
+		<set enchantRate="0" />
+		<daily itemId="4037" amount="30" />
+		<daily itemId="57" amount="3000000" />
+		<requestItems itemId="4037" amount="300" />
+		<requestItems itemId="57" amount="30000000" />
+	</vip>
+	<vip level="4" needPoints="4000">
+		<set expRate="1.45" />
+		<set spRate="1.45" />
+		<set adenaRate="1.45" />
+		<set dropRate="1.45" />
+		<set dropRaidRate="1.45" />
+		<set spoilRate="1.45" />
+		<set epRate="1.45" />
+		<set enchantRate="0" />
+		<daily itemId="4037" amount="40" />
+		<daily itemId="57" amount="4000000" />
+		<requestItems itemId="4037" amount="400" />
+		<requestItems itemId="57" amount="40000000" />
+	</vip>
+	<vip level="5" needPoints="5000">
+		<set expRate="1.55" />
+		<set spRate="1.55" />
+		<set adenaRate="1.55" />
+		<set dropRate="1.55" />
+		<set dropRaidRate="1.55" />
+		<set spoilRate="1.55" />
+		<set epRate="1.55" />
+		<set enchantRate="1" />
+		<daily itemId="4037" amount="50" />
+		<daily itemId="57" amount="5000000" />
+		<requestItems itemId="4037" amount="500" />
+		<requestItems itemId="57" amount="50000000" />
+	</vip>
+	<vip level="6" needPoints="6000">
+		<set expRate="1.65" />
+		<set spRate="1.65" />
+		<set adenaRate="1.65" />
+		<set dropRate="1.65" />
+		<set dropRaidRate="1.65" />
+		<set spoilRate="1.65" />
+		<set epRate="1.65" />
+		<set enchantRate="1" />
+		<daily itemId="4037" amount="50" />
+		<daily itemId="57" amount="6000000" />
+		<requestItems itemId="4037" amount="600" />
+		<requestItems itemId="57" amount="60000000" />
+	</vip>
+	<vip level="7" needPoints="7000">
+		<set expRate="1.75" />
+		<set spRate="1.75" />
+		<set adenaRate="1.75" />
+		<set dropRate="1.75" />
+		<set dropRaidRate="1.75" />
+		<set spoilRate="1.75" />
+		<set epRate="1.75" />
+		<set enchantRate="2" />
+		<daily itemId="4037" amount="50" />
+		<daily itemId="57" amount="7000000" />
+		<requestItems itemId="4037" amount="700" />
+		<requestItems itemId="57" amount="70000000" />
+	</vip>
+	<vip level="8" needPoints="8000">
+		<set expRate="1.85" />
+		<set spRate="1.85" />
+		<set adenaRate="1.85" />
+		<set dropRate="1.85" />
+		<set dropRaidRate="1.85" />
+		<set spoilRate="1.85" />
+		<set epRate="1.85" />
+		<set enchantRate="2" />
+		<daily itemId="4037" amount="50" />
+		<daily itemId="57" amount="8000000" />
+		<requestItems itemId="4037" amount="800" />
+		<requestItems itemId="57" amount="80000000" />
+	</vip>
+	<vip level="9" needPoints="9000">
+		<set expRate="1.95" />
+		<set spRate="1.95" />
+		<set adenaRate="1.95" />
+		<set dropRate="1.95" />
+		<set dropRaidRate="1.95" />
+		<set spoilRate="1.95" />
+		<set epRate="1.95" />
+		<set enchantRate="3" />
+		<daily itemId="4037" amount="50" />
+		<daily itemId="57" amount="9000000" />
+		<requestItems itemId="4037" amount="900" />
+		<requestItems itemId="57" amount="90000000" />
+	</vip>
+	<vip level="10" needPoints="10000">
+		<set expRate="2.05" />
+		<set spRate="2.05" />
+		<set adenaRate="2.05" />
+		<set dropRate="2.05" />
+		<set dropRaidRate="2.05" />
+		<set spoilRate="2.05" />
+		<set epRate="2.05" />
+		<set enchantRate="4" />
+		<daily itemId="4037" amount="60" />
+		<daily itemId="57" amount="10000000" />
+		<requestItems itemId="4037" amount="1000" />
+		<requestItems itemId="57" amount="100000000" />
+	</vip>
+	<npc id="21369" points="14" />
+	<npc id="21370" points="7" />
+	<npc id="21352" points="2" />
+	<npc id="21352" points="2" />
+	<npc id="21351" points="4" />
+	<npc id="21350" points="3" />
+	<npc id="21353" points="10" />
+	<npc id="21356" points="12" />
+	<npc id="21355" points="15" />
+	<npc id="21354" points="13" />
+</list>

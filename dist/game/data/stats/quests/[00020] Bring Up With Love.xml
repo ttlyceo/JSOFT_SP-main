@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="20" nameEn="Bring Up With Love" nameRu="Нежная забота">
+		<level min="82" max="85" />
+		<rewardlist>
+			<item id="9553" min="1" rateable="true" /> <!--Water Crystal-->
+		</rewardlist>
+	</quest>
+</list>

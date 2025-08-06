@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/teleports.xsd">
+	<teleport id="1" loc="-12787 122779 -3112" price="10000" itemId="57" />
+	<teleport id="2" loc="-12787 122779 -3112" price="9200" itemId="57" />
+	<teleport id="3" loc="46951 51550 -2976" price="9200" itemId="57" />
+	<teleport id="4" loc="9709 15566 -4568" price="10000" itemId="57" />
+	<teleport id="5" loc="-80684 149770 -3040" price="7300" itemId="57" />
+	<teleport id="6" loc="15472 142880 -2688" price="3400" itemId="57" />
+	<teleport id="7" loc="-45158 -112583 -240" price="26000" itemId="57" />
+	<teleport id="8" loc="115120 -178224 -880" price="38000" itemId="57" />
+	<teleport id="9" loc="-84141 244623 -3728" price="9400" itemId="57" />
+	<teleport id="10" loc="46951 51550 -2976" price="16000" itemId="57" />
+	<teleport id="11" loc="9709 15566 -4568" price="16000" itemId="57" />
+	<teleport id="12" loc="-12787 122779 -3112" price="7300" itemId="57" />
+	<teleport id="13" loc="-16526 208032 -3664" price="3400" itemId="57" />
+	<teleport id="15" loc="-80684 149770 -3040" price="18000" itemId="57" />
+	<teleport id="16" loc="-12787 122779 -3112" price="32000" itemId="57" />
+	<teleport id="17" loc="169008 -208272 -3504" price="2400" itemId="57" />
+	<teleport id="18" loc="-12787 122779 -3112" price="3400" itemId="57" />
+	<teleport id="19" loc="83551 147945 -3400" price="6800" itemId="57" />
+	<teleport id="22" loc="17253 114232 -3440" />
+	<teleport id="23" loc="17776 108288 -9056" />
+	<teleport id="24" loc="17781 113999 -11672" />
+	<teleport id="25" loc="15472 142880 -2688" price="6800" itemId="57" />
+	<teleport id="26" loc="82956 53162 -1495" price="9400" itemId="57" />
+	<teleport id="28" loc="105918 109759 -3192" price="4400" itemId="57" />
+	<teleport id="29" loc="-112899 234942 -3688" />
+	<teleport id="30" loc="48586 248459 -6160" />
+	<teleport id="31" loc="84915 15969 -4294" />
+	<teleport id="32" loc="85399 16197 -3679" />
+	<teleport id="33" loc="85399 16197 -2809" />
+	<teleport id="34" loc="85399 16197 -2293" />
+	<teleport id="35" loc="85399 16197 -1776" />
+	<teleport id="36" loc="82956 53162 -1495" price="3700" itemId="57" />
+	<teleport id="37" loc="116819 76994 -2714" price="6800" itemId="57" />
+	<teleport id="38" loc="146331 25762 -2018" price="6200" itemId="57" />
+	<teleport id="40" loc="82971 53207 -1470" price="6900" itemId="57" />
+	<teleport id="41" loc="117088 76931 -2688" price="5900" itemId="57" />
+	<teleport id="43" loc="82971 53207 -1488" price="4100" itemId="57" />
+	<teleport id="45" loc="105918 109759 -3192" price="3400" itemId="57" />
+	<teleport id="46" loc="146783 25808 -2008" price="5900" itemId="57" />
+	<teleport id="47" loc="83551 147945 -3400" price="9400" itemId="57" />
+	<teleport id="48" loc="85391 16228 -3672" price="3700" itemId="57" />
+	<teleport id="49" loc="117088 76931 -2688" price="4100" itemId="57" />
+	<teleport id="50" loc="105918 109759 -3192" price="6100" itemId="57" />
+	<teleport id="51" loc="146783 25808 -2008" price="6900" itemId="57" />
+	<teleport id="52" loc="83551 147945 -3400" price="4400" itemId="57" />
+	<teleport id="53" loc="82971 53207 -1488" price="6100" itemId="57" />
+	<teleport id="54" loc="117088 76931 -2688" price="3400" itemId="57" />
+	<teleport id="55" loc="17719 115590 -6584" />
+	<teleport id="56" loc="17691 111726 -6583" />
+	<teleport id="57" loc="17719 115590 -6584" />
+	<teleport id="58" loc="17731 119465 -9067" />
+	<teleport id="59" loc="83551 147945 -3400" price="7600" itemId="57" />
+	<teleport id="60" loc="47938 186864 -3480" price="7100" itemId="57" />
+	<teleport id="63" loc="83551 147942 -3400" price="6300" itemId="57" />
+	<teleport id="65" loc="15472 142880 -2688" price="12000" itemId="57" />
+	<teleport id="66" loc="87691 162835 -3563" price="12000" itemId="57" />
+	<teleport id="67" loc="82192 226128 -3664" price="5900" itemId="57" /> 
+	<teleport id="68" loc="115583 192261 -3488" price="2100" itemId="57" />
+	<teleport id="70" loc="111455 219400 -3544" price="7600" itemId="57" />
+	<teleport id="76" loc="146440 46723 -3432" price="2000" itemId="57" />
+	<teleport id="81" loc="155310 -16339 -3320" price="6800" itemId="57" />
+	<teleport id="84" loc="168217 37990 -4072" price="1900" itemId="57" />
+	<teleport id="85" loc="111455 219400 -3544" price="12000" itemId="57" />
+	<teleport id="86" loc="47382 111278 -2104" price="1700" itemId="57" />
+	<teleport id="87" loc="34475 188095 -2976" price="2900" itemId="57" />
+	<teleport id="88" loc="-28327 155125 -3496" price="1400" itemId="57" />
+	<teleport id="90" loc="-49853 147089 -2784" price="1200" itemId="57" />
+	<teleport id="91" loc="-63736 101522 -3552" price="1400" itemId="57" />
+	<teleport id="92" loc="-44763 203497 -3592" price="1800" itemId="57" />
+	<teleport id="93" loc="-10983 -117484 -2464" price="960" itemId="57" />
+	<teleport id="94" loc="-4190 -80040 -2696" price="2000" itemId="57" />
+	<teleport id="96" loc="8652 -139941 -1144" price="1600" itemId="57" />
+	<teleport id="97" loc="87252 85514 -3056" price="3900" itemId="57" />
+	<teleport id="98" loc="64328 26803 -3768" price="2500" itemId="57" />
+	<teleport id="99" loc="104426 33746 -3800" price="3600" itemId="57" />
+	<teleport id="100" loc="124904 61992 -3920" price="1300" itemId="57" />
+	<teleport id="101" loc="142065 81300 -3000" price="2000" itemId="57" />
+	<teleport id="107" loc="111455 219400 -3544" price="8500" itemId="57" />
+	<teleport id="108" loc="43835 -47749 -792" price="10000" itemId="57" />
+	<teleport id="109" loc="125740 -40864 -3736" price="4200" itemId="57" />
+	<teleport id="110" loc="146990 -67128 -3640" price="1800" itemId="57" />
+	<teleport id="119" loc="148024 -55281 -2728" price="10000" itemId="57" />
+	<teleport id="120" loc="83551 147945 -3400" price="59000" itemId="57" />
+	<teleport id="121" loc="146783 25808 -2008" price="37000" itemId="57" />
+	<teleport id="122" loc="38316 -48216 -1152" price="150" itemId="57" />
+	<teleport id="123" loc="38303 -48040 896" price="150" itemId="57" />
+	<teleport id="124" loc="52107 -54328 -3152" price="1200" itemId="57" />
+	<teleport id="125" loc="69340 -50203 -3288" price="3000" itemId="57" />
+	<teleport id="126" loc="89513 -44800 -2136" price="9100" itemId="57" />
+	<teleport id="132" loc="146783 25808 -2008" price="8100" itemId="57" />
+	<teleport id="134" loc="43835 -47749 -792" price="37000" itemId="57" />
+	<teleport id="135" loc="148024 -55281 -2728" price="8100" itemId="57" />
+	<teleport id="136" loc="47938 186864 -3480" price="5200" itemId="57" />
+	<teleport id="137" loc="178591 -184615 -360" price="12000" itemId="57" />
+	<teleport id="201" loc="115168 16022 -5100" price="100000" itemId="57" />
+	<teleport id="202" loc="114649 18587 -3609" price="150000" itemId="57" />
+	<teleport id="203" loc="117918 16039 -2127" price="200000" itemId="57" />
+	<teleport id="204" loc="114622 12946 -645" price="250000" itemId="57" />
+	<teleport id="205" loc="112209 16078 928" price="300000" itemId="57" />
+	<teleport id="206" loc="112376 16099 1947" price="350000" itemId="57" />
+	<teleport id="207" loc="114448 16175 2994" price="400000" itemId="57" />
+	<teleport id="208" loc="111063 16118 3967" price="450000" itemId="57" />
+	<teleport id="209" loc="117147 18415 4977" price="500000" itemId="57" />
+	<teleport id="210" loc="118374 15973 5987" price="550000" itemId="57" />
+	<teleport id="211" loc="112209 16078 7028" price="600000" itemId="57" />
+	<teleport id="212" loc="114809 18711 7996" price="650000" itemId="57" />
+	<teleport id="213" loc="115178 16989 9007" price="700000" itemId="57" />
+	<teleport id="214" loc="112714 14111 10077" price="800000" itemId="57" />
+	<teleport id="215" loc="113098 14532 10077" price="900000" itemId="57" />
+	<teleport id="250" loc="-53174 -250275 -7911" />
+	<teleport id="251" loc="42514 143917 -5385" />
+	<teleport id="252" loc="46217 170290 -4983" />
+	<teleport id="253" loc="45770 170299 -4985" />
+	<teleport id="254" loc="-20230 -250780 -8168" />
+	<teleport id="255" loc="77225 78362 -5119" />
+	<teleport id="256" loc="140404 79678 -5431" />
+	<teleport id="257" loc="139965 79678 -5433" />
+	<teleport id="258" loc="-19500 13508 -4905" />
+	<teleport id="259" loc="-19931 13502 -4905" />
+	<teleport id="260" loc="12521 -248481 -9585" />
+	<teleport id="261" loc="113429 84540 -6545" />
+	<teleport id="262" loc="-41570 209785 -5089" />
+	<teleport id="263" loc="-41567 209292 -5091" />
+	<teleport id="264" loc="45251 123890 -5415" />
+	<teleport id="265" loc="45250 124366 -5417" />
+	<teleport id="266" loc="111273 174015 -5417" />
+	<teleport id="267" loc="110818 174010 -5443" />
+	<teleport id="268" loc="-21726 77385 -5177" />
+	<teleport id="269" loc="-22197 77369 -5177" />
+	<teleport id="270" loc="-52254 79103 -4743" />
+	<teleport id="271" loc="-52716 79106 -4745" />
+	<teleport id="272" loc="118308 132800 -4833" />
+	<teleport id="273" loc="117793 132810 -4835" />
+	<teleport id="274" loc="83000 209213 -5443" />
+	<teleport id="275" loc="82608 209225 -5443" />
+	<teleport id="276" loc="172251 -17605 -4903" />
+	<teleport id="277" loc="171902 -17595 -4905" />
+	<teleport id="350" loc="22967 157715 -2954" />
+	<teleport id="351" loc="22090 159871 -2711" />
+	<teleport id="352" loc="22448 155798 -2958" />
+	<teleport id="353" loc="22592 161530 -2775" />
+	<teleport id="354" loc="22967 157715 -2954" />
+	<teleport id="355" loc="22448 155798 -2958" />
+	<teleport id="356" loc="22592 161530 -2775" />
+	<teleport id="357" loc="22090 159871 -2711" />
+	<teleport id="358" loc="22448 155798 -2958" />
+	<teleport id="359" loc="22592 161530 -2775" />
+	<teleport id="360" loc="22967 157715 -2954" />
+	<teleport id="361" loc="22090 159871 -2711" />
+	<teleport id="362" loc="113892 144175 -2714" />
+	<teleport id="363" loc="115984 145073 -2584" />
+	<teleport id="364" loc="112016 144682 -2833" />
+	<teleport id="365" loc="117619 144564 -2648" />
+	<teleport id="366" loc="113892 144175 -2714" />
+	<teleport id="367" loc="112016 144682 -2833" />
+	<teleport id="368" loc="117619 144564 -2648" />
+	<teleport id="369" loc="115984 145073 -2584" />
+	<teleport id="370" loc="112016 144682 -2833" />
+	<teleport id="371" loc="117619 144564 -2648" />
+	<teleport id="372" loc="113892 144175 -2714" />
+	<teleport id="373" loc="115984 145073 -2584" />
+	<teleport id="374" loc="79956 36351 -2532" />
+	<teleport id="375" loc="82113 37217 -2311" />
+	<teleport id="376" loc="78079 36809 -2566" />
+	<teleport id="377" loc="83710 36713 -2375" />
+	<teleport id="378" loc="79956 36351 -2532" />
+	<teleport id="379" loc="78079 36809 -2566" />
+	<teleport id="380" loc="83710 36713 -2375" />
+	<teleport id="381" loc="82113 37217 -2311" />
+	<teleport id="382" loc="78079 36809 -2566" />
+	<teleport id="383" loc="83710 36713 -2375" />
+	<teleport id="384" loc="79956 36351 -2532" />
+	<teleport id="385" loc="82113 37217 -2311" />
+	<teleport id="386" loc="-18941 112085 -2762" />
+	<teleport id="387" loc="-18129 109898 -2517" />
+	<teleport id="388" loc="-18484 113897 -2772" />
+	<teleport id="389" loc="-18592 108271 -2581" />
+	<teleport id="390" loc="-18941 112085 -2762" />
+	<teleport id="391" loc="-18484 113897 -2772" />
+	<teleport id="392" loc="-18592 108271 -2581" />
+	<teleport id="393" loc="-18129 109898 -2517" />
+	<teleport id="394" loc="-18484 113897 -2772" />
+	<teleport id="395" loc="-18592 108271 -2581" />
+	<teleport id="396" loc="-18941 112085 -2762" />
+	<teleport id="397" loc="-18129 109898 -2517" />
+	<teleport id="398" loc="147723 7916 -475" />
+	<teleport id="399" loc="148580 4578 -408" />
+	<teleport id="400" loc="147582 8753 -496" />
+	<teleport id="401" loc="147520 6107 -409" />
+	<teleport id="402" loc="1147499 2544 -473" />
+	<teleport id="403" loc="147723 7916 -475" />
+	<teleport id="404" loc="147582 8753 -496" />
+	<teleport id="405" loc="147520 6107 -409" />
+	<teleport id="406" loc="147499 2544 -473" />
+	<teleport id="407" loc="148580 4578 -408" />
+	<teleport id="408" loc="147582 8753 -496" />
+	<teleport id="409" loc="147520 6107 -409" />
+	<teleport id="410" loc="147499 2544 -473" />
+	<teleport id="411" loc="147723 7916 -475" />
+	<teleport id="412" loc="148580 4578 -408" />
+	<teleport id="413" loc="147520 6107 -409" />
+	<teleport id="414" loc="147499 2544 -473" />
+	<teleport id="415" loc="147723 7916 -475" />
+	<teleport id="416" loc="148580 4578 -408" />
+	<teleport id="417" loc="147582 8753 -496" />
+	<teleport id="418" loc="139714 -177456 -1536" price="690" itemId="57" />
+	<teleport id="419" loc="171946 -173352 3440" price="11000" itemId="57" />
+	<teleport id="450" loc="185065 -12612 -5104" />
+	<teleport id="451" loc="185060 -9622 -5104" />
+	<teleport id="452" loc="183225 -11911 -4897" />
+	<teleport id="464" loc="-22224 14168 -3232" price="890" itemId="57" />
+	<teleport id="465" loc="-61095 75104 -3352" price="3600" itemId="57" />
+	<teleport id="466" loc="-21966 40544 -3192" price="1100" itemId="57" />
+	<teleport id="467" loc="-10612 75881 -3592" price="1700" itemId="57" />
+	<teleport id="468" loc="21362 51122 -3688" price="710" itemId="57" />
+	<teleport id="470" loc="29294 74968 -3776" price="820" itemId="57" />
+	<teleport id="471" loc="9340 -112509 -2536" price="1500" itemId="57" />
+	<teleport id="500" loc="-14393 123671 -3144" />
+	<teleport id="501" loc="-11817 123652 -3079" />
+	<teleport id="502" loc="-16796 124108 -3127" />
+	<teleport id="503" loc="-14207 126547 -3151" />
+	<teleport id="504" loc="-14591 121024 -2990" />
+	<teleport id="505" loc="-41248 122848 -2912" price="500" itemId="57" />
+	<teleport id="506" loc="-19120 136816 -3762" price="500" itemId="57" />
+	<teleport id="507" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="508" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="509" loc="-82445 150788 -3129" />
+	<teleport id="510" loc="-83331 148563 -3148" />
+	<teleport id="511" loc="-78405 152723 -3181" />
+	<teleport id="512" loc="-77460 155995 -3194" />
+	<teleport id="513" loc="-85138 152749 -3160" />
+	<teleport id="514" loc="-75437 168800 -3632" price="500" itemId="57" />
+	<teleport id="515" loc="-63736 101522 -3552" price="500" itemId="57" />
+	<teleport id="516" loc="-88539 83389 -2864" price="500" itemId="57" />
+	<teleport id="517" loc="-49853 147089 -2784" price="500" itemId="57" />
+	<teleport id="518" loc="-16526 208032 -3664" price="500" itemId="57" />
+	<teleport id="519" loc="19025 145245 -3107" />
+	<teleport id="520" loc="21511 145866 -3153" />
+	<teleport id="521" loc="18891 142365 -3051" />
+	<teleport id="522" loc="17394 147593 -3129" />
+	<teleport id="523" loc="16582 144130 -2960" />
+	<teleport id="524" loc="5106 126916 -3664" price="500" itemId="57" />
+	<teleport id="525" loc="47382 111278 -2104" price="500" itemId="57" />
+	<teleport id="526" loc="630 179184 -3720" price="500" itemId="57" />
+	<teleport id="527" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="528" loc="17430 170103 -3506" price="500" itemId="57" />
+	<teleport id="529" loc="147450 28081 -2294" />
+	<teleport id="530" loc="151950 25094 -2172" />
+	<teleport id="531" loc="142593 26344 -2425" />
+	<teleport id="532" loc="147503 32299 -2501" />
+	<teleport id="533" loc="147465 20737 -2130" />
+	<teleport id="534" loc="106517 -2871 -3454" price="500" itemId="57" />
+	<teleport id="535" loc="124904 61992 -3973" price="500" itemId="57" />
+	<teleport id="536" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="537" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="538" loc="142065 81300 -3000" price="500" itemId="57" />
+	<teleport id="539" loc="166182 91560 -3168" price="500" itemId="57" />
+	<teleport id="540" loc="181726 -7524 -3464" price="500" itemId="57" />
+	<teleport id="541" loc="168779 -18790 -3184" price="500" itemId="57" />
+	<teleport id="542" loc="184742 19745 -3168" price="500" itemId="57" />
+	<teleport id="543" loc="168217 37990 -4072" price="500" itemId="57" />
+	<teleport id="544" loc="114649 11115 -5120" price="500" itemId="57" />
+	<teleport id="545" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="546" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="547" loc="81749 149171 -3464" />
+	<teleport id="548" loc="81525 143821 -3528" />
+	<teleport id="549" loc="88342 147329 -3400" />
+	<teleport id="550" loc="81548 152633 -3528" />
+	<teleport id="551" loc="77305 148636 -3592" />
+	<teleport id="552" loc="85546 131328 -3672" price="500" itemId="57" />
+	<teleport id="553" loc="43408 206881 -3752" price="500" itemId="57" />
+	<teleport id="554" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="555" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="556" loc="147728 -56331 -2776" />
+	<teleport id="557" loc="147731 -58930 -2976" />
+	<teleport id="558" loc="150561 -57489 -2976" />
+	<teleport id="559" loc="144866 -57464 -2976" />
+	<teleport id="560" loc="125740 -40864 -3736" price="500" itemId="57" />
+	<teleport id="561" loc="146990 -67128 -3640" price="500" itemId="57" />
+	<teleport id="562" loc="169018 -116303 -2432" price="500" itemId="57" />
+	<teleport id="563" loc="165054 -47861 -3560" price="500" itemId="57" />
+	<teleport id="564" loc="144880 -113468 -2560" price="500" itemId="57" />
+	<teleport id="565" loc="43889 -49101 -792" />
+	<teleport id="566" loc="43307 -46563 -816" />
+	<teleport id="567" loc="40909 -52670 -896" />
+	<teleport id="568" loc="52107 -54328 -3158" price="500" itemId="57" />
+	<teleport id="569" loc="43805 -88010 -2780" price="500" itemId="57" />
+	<teleport id="570" loc="69340 -50203 -3314" price="500" itemId="57" />
+	<teleport id="571" loc="65307 -71445 -3696" price="500" itemId="57" />
+	<teleport id="572" loc="106414 -87799 -2949" price="500" itemId="57" />
+	<teleport id="573" loc="76911 -55295 -5824" price="500" itemId="57" />
+	<teleport id="574" loc="87379 -142322 -1336" />
+	<teleport id="575" loc="84753 -141051 -1536" />
+	<teleport id="576" loc="87347 -139802 -1536" />
+	<teleport id="577" loc="89959 -141034 -1536" />
+	<teleport id="578" loc="47692 -115745 -3744" price="500" itemId="57" />
+	<teleport id="579" loc="111965 -154172 -1528" price="500" itemId="57" />
+	<teleport id="580" loc="68693 -110438 -1946" price="500" itemId="57" />
+	<teleport id="581" loc="113903 -108752 -860" price="500" itemId="57" />
+	<teleport id="1001" loc="-99586 237637 -3568" price="470" itemId="57" />
+	<teleport id="1002" loc="-106696 214691 -3424" price="1000" itemId="57" />
+	<teleport id="1003" loc="-112367 234703 -3688" price="830" itemId="57" />
+	<teleport id="1004" loc="-111728 244330 -3448" price="770" itemId="57" />
+	<teleport id="1005" loc="9709 15566 -4568" price="24000" itemId="57" />
+	<teleport id="1006" loc="115120 -178224 -880" price="46000" itemId="57" />
+	<teleport id="1007" loc="46951 51550 -2976" price="23000" itemId="57" />
+	<teleport id="1008" loc="-45158 -112583 -240" price="35000" itemId="57" />
+	<teleport id="1009" loc="115120 -178224 -880" price="22000" itemId="57" />
+	<teleport id="1010" loc="-84141 244623 -3728" price="24000" itemId="57" />
+	<teleport id="1012" loc="-45158 -112583 -240" price="13000" itemId="57" />
+	<teleport id="1013" loc="-10612 75881 -3592" price="1700" itemId="57" />
+	<teleport id="1014" loc="115120 -178224 -880" price="23000" itemId="57" />
+	<teleport id="1015" loc="-84141 244623 -3728" price="23000" itemId="57" />
+	<teleport id="1016" loc="-45158 -112583 -240" price="18000" itemId="57" />
+	<teleport id="1017" loc="9709 15566 -4568" price="22000" itemId="57" />
+	<teleport id="1018" loc="46951 51550 -2976" price="23000" itemId="57" />
+	<teleport id="1019" loc="-84141 244623 -3728" price="46000" itemId="57" />
+	<teleport id="1020" loc="87126 -143520 -1288" price="4400" itemId="57" />
+	<teleport id="1021" loc="-45158 -112583 -240" price="17000" itemId="57" />
+	<teleport id="1022" loc="136910 -205082 -3664" price="970" itemId="57" />
+	<teleport id="1023" loc="-12787 122779 -3112" price="23000" itemId="57" />
+	<teleport id="1024" loc="87126 -143520 -1288" price="13000" itemId="57" />
+	<teleport id="1025" loc="9709 15566 -4568" price="13000" itemId="57" />
+	<teleport id="1026" loc="115120 -178224 -880" price="17000" itemId="57" />
+	<teleport id="1027" loc="-84141 244623 -3728" price="35000" itemId="57" />
+	<teleport id="1028" loc="46951 51550 -2976" price="18000" itemId="57" />
+	<teleport id="1033" loc="-45158 -112583 -240" price="23000" itemId="57" />
+	<teleport id="1029" loc="-75437 168800 -3632" price="550" itemId="57" />
+	<teleport id="1030" loc="-53001 191425 -3568" price="2000" itemId="57" />
+	<teleport id="1031" loc="-9959 176184 -4160" price="2100" itemId="57" />
+	<teleport id="1032" loc="-42256 198333 -2800" price="3700" itemId="57" />
+	<teleport id="1034" loc="115120 -178224 -880" price="32000" itemId="57" />
+	<teleport id="1035" loc="87126 -143520 -1288" price="85000" itemId="57" />
+	<teleport id="1036" loc="111455 219400 -3544" price="47000" itemId="57" />
+	<teleport id="1037" loc="146783 25808 -2008" price="56000" itemId="57" />
+	<teleport id="1038" loc="82971 53207 -1488" price="35000" itemId="57" />
+	<teleport id="1039" loc="148024 -55281 -2728" price="71000" itemId="57" />
+	<teleport id="1040" loc="83551 147945 -3400" price="29000" itemId="57" />
+	<teleport id="1041" loc="43835 -47749 -792" price="53000" itemId="57" />
+	<teleport id="1042" loc="-41248 122848 -2904" price="790" itemId="57" />
+	<teleport id="1043" loc="-19120 136816 -3752" price="610" itemId="57" />
+	<teleport id="1044" loc="-89763 105359 -3576" price="1800" itemId="57" />
+	<teleport id="1046" loc="148024 -55281 -2728" price="71000" itemId="57" />
+	<teleport id="1047" loc="43835 -47749 -792" price="57000" itemId="57" />
+	<teleport id="1048" loc="87126 -143520 -1288" price="88000" itemId="57" />
+	<teleport id="1049" loc="146783 25808 -2008" price="52000" itemId="57" />
+	<teleport id="1050" loc="82971 53207 -1488" price="33000" itemId="57" />
+	<teleport id="1051" loc="5106 126916 -3664" price="760" itemId="57" />
+	<teleport id="1052" loc="17225 114173 -3440" price="2300" itemId="57" />
+	<teleport id="1053" loc="630 179184 -3720" price="1500" itemId="57" />
+	<teleport id="1054" loc="60374 164301 -2856" price="3900" itemId="57" />
+	<teleport id="1055" loc="-12787 122779 -3112" price="29000" itemId="57" />
+	<teleport id="1056" loc="148024 -55281 -2728" price="63000" itemId="57" />
+	<teleport id="1057" loc="43835 -47749 -792" price="59000" itemId="57" />
+	<teleport id="1058" loc="87126 -143520 -1288" price="87000" itemId="57" />
+	<teleport id="1059" loc="146783 25808 -2008" price="13000" itemId="57" />
+	<teleport id="1061" loc="43408 206881 -3752" price="5700" itemId="57" />
+	<teleport id="1062" loc="85546 131328 -3672" price="1000" itemId="57" />
+	<teleport id="1063" loc="82971 53207 -1488" price="50000" itemId="57" />
+	<teleport id="1064" loc="146783 25808 -2008" price="59000" itemId="57" />
+	<teleport id="1065" loc="148024 -55281 -2728" price="83000" itemId="57" />
+	<teleport id="1066" loc="43835 -47749 -792" price="82000" itemId="57" />
+	<teleport id="1067" loc="87126 -143520 -1288" price="100000" itemId="57" />
+	<teleport id="1068" loc="-12787 122779 -3112" price="47000" itemId="57" />
+	<teleport id="1069" loc="84413 234334 -3656" price="2400" itemId="57" />
+	<teleport id="1070" loc="43835 -47749 -792" price="10000" itemId="57" />
+	<teleport id="1071" loc="148024 -55281 -2728" price="37000" itemId="57" />
+	<teleport id="1072" loc="111455 219400 -3544" price="50000" itemId="57" />
+	<teleport id="1073" loc="15472 142880 -2688" price="33000" itemId="57" />
+	<teleport id="1074" loc="87126 -143520 -1288" price="59000" itemId="57" />
+	<teleport id="1075" loc="-12787 122779 -3112" price="35000" itemId="57" />
+	<teleport id="1077" loc="91539 -12204 -2440" price="5200" itemId="57" />
+	<teleport id="1078" loc="83551 147945 -3400" price="13000" itemId="57" />
+	<teleport id="1079" loc="111455 219400 -3546" price="59000" itemId="57" />
+	<teleport id="1080" loc="87126 -143520 -1288" price="53000" itemId="57" />
+	<teleport id="1081" loc="15472 142880 -2688" price="52000" itemId="57" />
+	<teleport id="1082" loc="-12787 122779 -3112" price="56000" itemId="57" />
+	<teleport id="1083" loc="184742 19745 -3168" price="3000" itemId="57" />
+	<teleport id="1084" loc="142065 81300 -3000" price="4400" itemId="57" />
+	<teleport id="1085" loc="183543 -14974 -2776" price="6500" itemId="57" />
+	<teleport id="1086" loc="106517 -2871 -3416" price="5900" itemId="57" />
+	<teleport id="1087" loc="170838 55776 -5280" price="6100" itemId="57" />
+	<teleport id="1088" loc="114649 11115 -5120" price="4200" itemId="57" />
+	<teleport id="1089" loc="-12787 122779 -3112" price="71000" itemId="57" />
+	<teleport id="1090" loc="83551 147945 -3400" price="63000" itemId="57" />
+	<teleport id="1091" loc="15472 142880 -2688" price="71000" itemId="57" />
+	<teleport id="1092" loc="111455 219400 -3544" price="83000" itemId="57" />
+	<teleport id="1093" loc="87126 -143520 -1288" price="10000" itemId="57" />
+	<teleport id="1094" loc="82971 53207 -1488" price="37000" itemId="57" />
+	<teleport id="1095" loc="144880 -113468 -2560" price="9300" itemId="57" />
+	<teleport id="1096" loc="165054 -47861 -3560" price="2200" itemId="57" />
+	<teleport id="1097" loc="106414 -87799 -2920" price="10000" itemId="57" />
+	<teleport id="1098" loc="15472 142880 -2688" price="57000" itemId="57" />
+	<teleport id="1099" loc="-12787 122779 -3114" price="53000" itemId="57" />
+	<teleport id="1100" loc="111455 219400 -3544" price="82000" itemId="57" />
+	<teleport id="1101" loc="87126 -143520 -1288" price="10000" itemId="57" />
+	<teleport id="1102" loc="82971 53207 -1488" price="10000" itemId="57" />
+	<teleport id="1103" loc="53516 -82831 -2700" price="7200" itemId="57" />
+	<teleport id="1104" loc="65307 -71445 -3688" price="3800" itemId="57" />
+	<teleport id="1105" loc="106414 -87799 -2920" price="14000" itemId="57" />
+	<teleport id="1106" loc="43835 -47749 -792" price="10000" itemId="57" />
+	<teleport id="1107" loc="148024 -55281 -2728" price="10000" itemId="57" />
+	<teleport id="1108" loc="146783 25808 -2008" price="53000" itemId="57" />
+	<teleport id="1109" loc="82971 53207 -1488" price="59000" itemId="57" />
+	<teleport id="1110" loc="111455 219400 -3544" price="100000" itemId="57" />
+	<teleport id="1111" loc="83551 147945 -3400" price="87000" itemId="57" />
+	<teleport id="1112" loc="15472 142880 -2688" price="88000" itemId="57" />
+	<teleport id="1113" loc="-12787 122779 -3112" price="85000" itemId="57" />
+	<teleport id="1114" loc="-45158 -112583 -240" price="13000" itemId="57" />
+	<teleport id="1115" loc="115120 -178224 -880" price="4400" itemId="57" />
+	<teleport id="1116" loc="68693 -110438 -1904" price="7500" itemId="57" />
+	<teleport id="1117" loc="111965 -154172 -1528" price="1600" itemId="57" />
+	<teleport id="1118" loc="113903 -108752 -856" price="3500" itemId="57" />
+	<teleport id="1119" loc="47692 -115745 -3744" price="9600" itemId="57" />
+	<teleport id="1120" loc="91280 -117152 -3928" price="5300" itemId="57" />
+	<teleport id="1121" loc="-88539 83389 -2864" price="2600" itemId="57" />
+	<teleport id="1122" loc="146331 25762 -2018" price="26000" itemId="57" />
+	<teleport id="1123" loc="-84318 244579 -3730" price="20000" itemId="57" />
+	<teleport id="1124" loc="9745 15606 -4574" price="13000" itemId="57" />
+	<teleport id="1125" loc="46934 51467 -2977" price="16000" itemId="57" />
+	<teleport id="1126" loc="115113 -178212 -901" price="32000" itemId="57" />
+	<teleport id="1127" loc="-44836 -112524 -235" price="17000" itemId="57" />
+	<teleport id="1128" loc="-122410 73205 -2872" price="2600" itemId="57" />
+	<teleport id="1129" loc="-95540 52150 -2024" price="2200" itemId="57" />
+	<teleport id="1130" loc="-85928 37095 -2048" price="3200" itemId="57" />
+	<teleport id="1131" loc="-74016 51932 -3680" price="4300" itemId="57" />
+	<teleport id="1132" loc="-122410 73205 -2872" />
+	<teleport id="1133" loc="-95540 52150 -2024" />
+	<teleport id="1134" loc="-85928 37095 -2048" />
+	<teleport id="1135" loc="-117251 46771 360" />
+	<teleport id="1136" loc="-12672 122776 -3116" price="9300" itemId="57" />
+	<teleport id="1137" loc="146331 25762 -2018" price="22000" itemId="57" />
+	<teleport id="1138" loc="-117251 46771 360" price="4300" itemId="57" />
+	<teleport id="1139" loc="-12672 122776 -3116" price="12000" itemId="57" />
+	<teleport id="2001" loc="-18372 113315 -2760" />
+	<teleport id="2002" loc="-18395 112831 -2768" />
+	<teleport id="2003" loc="-18115 110679 -2528" />
+	<teleport id="2004" loc="-18123 110210 -2512" />
+	<teleport id="2005" loc="22315 156447 -2962" />
+	<teleport id="2006" loc="22315 156909 -2962" />
+	<teleport id="2007" loc="22073 159057 -2725" />
+	<teleport id="2008" loc="22073 159516 -2706" />
+	<teleport id="2009" loc="112568 144869 -2835" />
+	<teleport id="2010" loc="113123 144869 -2835" />
+	<teleport id="2011" loc="115209 145089 -2604" />
+	<teleport id="2012" loc="115727 145096 -2579" />
+	<teleport id="2013" loc="78618 36955 -2562" />
+	<teleport id="2014" loc="79211 36955 -2562" />
+	<teleport id="2015" loc="81285 37190 -2337" />
+	<teleport id="2016" loc="81789 37190 -2306" />
+	<teleport id="2017" loc="147455 8808 -495" />
+	<teleport id="2018" loc="147455 7966 -470" />
+	<teleport id="2019" loc="145616 4614 -436" />
+	<teleport id="2020" loc="146374 4599 -403" />
+	<teleport id="2021" loc="149283 4610 -432" />
+	<teleport id="2022" loc="148575 4607 -403" />
+	<teleport id="2023" loc="147456 6357 -407" />
+	<teleport id="2024" loc="147456 6058 -407" />
+	<teleport id="2025" loc="147458 2010 217" />
+	<teleport id="2026" loc="147458 2408 219" />
+	<teleport id="2027" loc="116263 245174 -1058" />
+	<teleport id="2028" loc="116263 245750 -1058" />
+	<teleport id="2029" loc="116021 247821 -826" />
+	<teleport id="2030" loc="116021 248272 -805" />
+	<teleport id="2031" loc="147459 -45221 -2084" />
+	<teleport id="2032" loc="147459 -45789 -2084" />
+	<teleport id="2033" loc="145514 -48241 -2383" />
+	<teleport id="2034" loc="146026 -48241 -2383" />
+	<teleport id="2035" loc="149430 -48245 -2383" />
+	<teleport id="2036" loc="148928 -48245 -2383" />
+	<teleport id="2037" loc="148748 -48951 -687" />
+	<teleport id="2038" loc="148736 -49201 -688" />
+	<teleport id="2039" loc="146177 -48942 -687" />
+	<teleport id="2040" loc="146181 -49209 -686" />
+	<teleport id="2041" loc="18788 -49149 -1240" />
+	<teleport id="2042" loc="17716 -49149 -1190" />
+	<teleport id="2043" loc="16037 -49149 -1060" />
+	<teleport id="2044" loc="15573 -49162 -1058" />
+	<teleport id="2045" loc="12858 -51332 -1089" />
+	<teleport id="2046" loc="12858 -50860 -1089" />
+	<teleport id="2047" loc="77544 -149250 -355" />
+	<teleport id="2048" loc="77544 -149869 -355" />
+	<teleport id="2049" loc="75577 -152303 -651" />
+	<teleport id="2050" loc="76091 -152303 -651" />
+	<teleport id="2051" loc="79519 -152303 -651" />
+	<teleport id="2052" loc="79009 -152303 -651" />
+	<teleport id="2053" loc="76260 -152991 1044" />
+	<teleport id="2054" loc="76267 -153275 1044" />
+	<teleport id="2055" loc="78843 -153008 1044" />
+	<teleport id="2056" loc="78832 -153271 1044" />
+	<teleport id="2057" loc="76328 -153336 1027" />
+	<teleport id="2058" loc="76280 -153000 1043" />
+	<teleport id="2059" loc="78808 -153304 1038" />
+	<teleport id="2060" loc="78840 -153048 1043" />
+	<teleport id="9000" loc="-87328 142266 -3640" price="1000" noobless="true" itemId="57" />
+	<teleport id="9001" loc="146440 46723 -3400" price="1000" noobless="true" itemId="57" />
+	<teleport id="9002" loc="73579 142709 -3768" price="1000" noobless="true" itemId="57" />
+	<teleport id="9010" loc="-54026 179504 -4650" price="1000" noobless="true" itemId="57" />
+	<teleport id="9011" loc="-47506 179572 -3669" price="1000" noobless="true" itemId="57" />
+	<teleport id="9020" loc="183985 61424 -3992" price="1000" noobless="true" itemId="57" />
+	<teleport id="9021" loc="135580 19467 -3424" price="1000" noobless="true" itemId="57" />
+	<teleport id="9022" loc="156898 11217 -4032" price="1000" noobless="true" itemId="57" />
+	<teleport id="9023" loc="110848 16154 -2120" price="1000" noobless="true" itemId="57" />
+	<teleport id="9024" loc="118404 15988 832" price="1000" noobless="true" itemId="57" />
+	<teleport id="9025" loc="115064 12181 2960" price="1000" noobless="true" itemId="57" />
+	<teleport id="9026" loc="118525 16455 5984" price="1000" noobless="true" itemId="57" />
+	<teleport id="9027" loc="115384 16820 9000" price="1000" noobless="true" itemId="57" />
+	<teleport id="9028" loc="114306 86573 -3112" price="1000" noobless="true" itemId="57" />
+	<teleport id="9029" loc="166182 91560 -3168" price="1000" noobless="true" itemId="57" />
+	<teleport id="9030" loc="166080 75574 -2992" price="1000" noobless="true" itemId="57" />
+	<teleport id="9031" loc="114674 44150 -3376" price="1000" noobless="true" itemId="57" />
+	<teleport id="9032" loc="114306 86573 -3112" price="1000" noobless="true" itemId="57" />
+	<teleport id="9033" loc="191754 56760 -7624" price="1000" noobless="true" itemId="57" />
+	<teleport id="9040" loc="113553 134813 -3540" price="1000" noobless="true" itemId="57" />
+	<teleport id="9046" loc="105918 109759 -3170" price="1000" noobless="true" itemId="57" />
+	<teleport id="9050" loc="54425 -41692 -3072" price="1000" noobless="true" itemId="57" />
+	<teleport id="9051" loc="84092 -80084 -3504" price="1000" noobless="true" itemId="57" />
+	<teleport id="9052" loc="62084 -40935 -2802" price="1000" noobless="true" itemId="57" />
+	<teleport id="9053" loc="76911 -55295 -5824" price="1000" noobless="true" itemId="57" />
+	<teleport id="9054" loc="106414 -87799 -2949" price="1000" noobless="true" itemId="57" />
+	<teleport id="9060" loc="107929 -52248 -2408" price="1000" noobless="true" itemId="57" />
+	<teleport id="9061" loc="149817 -80053 -5576" price="1000" noobless="true" itemId="57" />
+	<teleport id="9062" loc="106349 -61870 -2904" price="1000" noobless="true" itemId="57" />
+	<teleport id="9063" loc="132997 -60608 -2960" price="1000" noobless="true" itemId="57" />
+	<teleport id="9064" loc="144625 -101291 -3384" price="1000" noobless="true" itemId="57" />
+	<teleport id="9065" loc="183140 -53307 -1896" price="1000" noobless="true" itemId="57" />
+	<teleport id="9066" loc="191257 -59388 -2898" price="1000" noobless="true" itemId="57" />
+	<teleport id="9067" loc="178127 -84435 -7215" price="1000" noobless="true" itemId="57" />
+	<teleport id="9068" loc="186699 -75915 -2826" price="1000" noobless="true" itemId="57" />
+	<teleport id="9070" loc="173436 -112725 -3680" price="1000" noobless="true" itemId="57" />
+	<teleport id="9071" loc="180260 -111913 -5851" price="1000" noobless="true" itemId="57" />
+	<teleport id="9080" loc="50568 152408 -2656" price="1000" noobless="true" itemId="57" />
+	<teleport id="9081" loc="26810 172787 -3376" price="1000" noobless="true" itemId="57" />
+	<teleport id="9082" loc="5941 125455 -3400" price="1000" noobless="true" itemId="57" />
+	<teleport id="9090" loc="107577 -122392 -3632" price="1000" noobless="true" itemId="57" />
+	<teleport id="9091" loc="44221 -114232 -2784" price="1000" noobless="true" itemId="57" />
+	<teleport id="9092" loc="121618 -141554 -1496" price="1000" noobless="true" itemId="57" />
+	<teleport id="9100" loc="-6989 109503 -3040" price="1000" noobless="true" itemId="57" />
+	<teleport id="9101" loc="-18415 85624 -3680" price="1000" noobless="true" itemId="57" />
+	<teleport id="9102" loc="-14129 27094 -3680" price="1000" noobless="true" itemId="57" />
+	<teleport id="9103" loc="-49185 49441 -5912" price="1000" noobless="true" itemId="57" />
+	<teleport id="9104" loc="49315 248452 -5960" price="1000" noobless="true" itemId="57" />
+	<teleport id="9105" loc="-25309 -131569 -680" price="1000" noobless="true" itemId="57" />
+	<teleport id="9106" loc="175499 -181586 -904" price="1000" noobless="true" itemId="57" />
+	<teleport id="9107" loc="144706 -173223 -1520" price="1000" noobless="true" itemId="57" />
+	<teleport id="9110" loc="93218 16969 -3904" price="1000" noobless="true" itemId="57" />
+	<teleport id="9111" loc="67097 68815 -3648" price="1000" noobless="true" itemId="57" />
+	<teleport id="9112" loc="-44566 77508 -3736" price="1000" noobless="true" itemId="57" />
+	<teleport id="9120" loc="75387 195263 -3000" price="1000" noobless="true" itemId="57" />
+	<teleport id="9121" loc="97786 209303 -3040" price="1000" noobless="true" itemId="57" />
+	<teleport id="9122" loc="113708 178387 -3232" price="1000" noobless="true" itemId="57" />
+	<teleport id="9123" loc="82693 242220 -6712" price="1000" noobless="true" itemId="57" />
+	<teleport id="9124" loc="79248 247390 -8816" price="1000" noobless="true" itemId="57" />
+	<teleport id="9125" loc="77868 250400 -9328" price="1000" noobless="true" itemId="57" />
+	<teleport id="9126" loc="78721 253309 -9840" price="1000" noobless="true" itemId="57" />
+	<teleport id="9127" loc="82951 252354 -10592" price="1000" noobless="true" itemId="57" />
+	<teleport id="9128" loc="80987 182423 -3504" price="1000" noobless="true" itemId="57" />
+	<teleport id="9129" loc="86147 218268 -3592" price="1000" noobless="true" itemId="57" />
+	<teleport id="9900" loc="-87328 142266 -3640" price="1" noobless="true" itemId="13722" />
+	<teleport id="9901" loc="146440 46723 -3400" price="1" noobless="true" itemId="13722" />
+	<teleport id="9902" loc="73579 142709 -3768" price="1" noobless="true" itemId="13722" />
+	<teleport id="9910" loc="-54026 179504 -4650" price="1" noobless="true" itemId="13722" />
+	<teleport id="9911" loc="-47506 179572 -3669" price="1" noobless="true" itemId="13722" />
+	<teleport id="9920" loc="183985 61424 -3992" price="1" noobless="true" itemId="13722" />
+	<teleport id="9921" loc="135580 19467 -3424" price="1" noobless="true" itemId="13722" />
+	<teleport id="9922" loc="156898 11217 -4032" price="1" noobless="true" itemId="13722" />
+	<teleport id="9923" loc="110848 16154 -2120" price="1" noobless="true" itemId="13722" />
+	<teleport id="9924" loc="118404 15988 832" price="1" noobless="true" itemId="13722" />
+	<teleport id="9925" loc="115064 12181 2960" price="1" noobless="true" itemId="13722" />
+	<teleport id="9926" loc="118525 16455 5984" price="1" noobless="true" itemId="13722" />
+	<teleport id="9927" loc="115384 16820 9000" price="1" noobless="true" itemId="13722" />
+	<teleport id="9928" loc="114306 86573 -3112" price="1" noobless="true" itemId="13722" />
+	<teleport id="9929" loc="166182 91560 -3168" price="1" noobless="true" itemId="13722" />
+	<teleport id="9930" loc="166080 75574 -2992" price="1" noobless="true" itemId="13722" />
+	<teleport id="9931" loc="114674 44150 -3376" price="1" noobless="true" itemId="13722" />
+	<teleport id="9932" loc="114306 86573 -3112" price="1" noobless="true" itemId="13722" />
+	<teleport id="9933" loc="191754 56760 -7624" price="1" noobless="true" itemId="13722" />
+	<teleport id="9940" loc="113553 134813 -3540" price="1" noobless="true" itemId="13722" />
+	<teleport id="9946" loc="105918 109759 -3170" price="1" noobless="true" itemId="13722" />
+	<teleport id="9950" loc="54425 -41692 -3072" price="1" noobless="true" itemId="13722" />
+	<teleport id="9951" loc="84092 -80084 -3504" price="1" noobless="true" itemId="13722" />
+	<teleport id="9952" loc="62084 -40935 -2802" price="1" noobless="true" itemId="13722" />
+	<teleport id="9953" loc="76911 -55295 -5824" price="1" noobless="true" itemId="13722" />
+	<teleport id="9954" loc="106414 -87799 -2949" price="1" noobless="true" itemId="13722" />
+	<teleport id="9960" loc="107929 -52248 -2408" price="1" noobless="true" itemId="13722" />
+	<teleport id="9961" loc="149817 -80053 -5576" price="1" noobless="true" itemId="13722" />
+	<teleport id="9962" loc="106349 -61870 -2904" price="1" noobless="true" itemId="13722" />
+	<teleport id="9963" loc="132997 -60608 -2960" price="1" noobless="true" itemId="13722" />
+	<teleport id="9964" loc="144625 -101291 -3384" price="1" noobless="true" itemId="13722" />
+	<teleport id="9965" loc="183140 -53307 -1896" price="1" noobless="true" itemId="13722" />
+	<teleport id="9966" loc="191257 -59388 -2898" price="1" noobless="true" itemId="13722" />
+	<teleport id="9967" loc="178127 -84435 -7215" price="1" noobless="true" itemId="13722" />
+	<teleport id="9968" loc="186699 -75915 -2826" price="1" noobless="true" itemId="13722" />
+	<teleport id="9970" loc="173436 -112725 -3680" price="1" noobless="true" itemId="13722" />
+	<teleport id="9971" loc="180260 -111913 -5851" price="1" noobless="true" itemId="13722" />
+	<teleport id="9980" loc="50568 152408 -2656" price="1" noobless="true" itemId="13722" />
+	<teleport id="9981" loc="26810 172787 -3376" price="1" noobless="true" itemId="13722" />
+	<teleport id="9982" loc="5941 125455 -3400" price="1" noobless="true" itemId="13722" />
+	<teleport id="9990" loc="107577 -122392 -3632" price="1" noobless="true" itemId="13722" />
+	<teleport id="9991" loc="44221 -114232 -2784" price="1" noobless="true" itemId="13722" />
+	<teleport id="9992" loc="121618 -141554 -1496" price="1" noobless="true" itemId="13722" />
+	<teleport id="10000" loc="-6989 109503 -3040" price="1" noobless="true" itemId="13722" />
+	<teleport id="10001" loc="-18415 85624 -3680" price="1" noobless="true" itemId="13722" />
+	<teleport id="10002" loc="-14129 27094 -3680" price="1" noobless="true" itemId="13722" />
+	<teleport id="10003" loc="-49185 49441 -5912" price="1" noobless="true" itemId="13722" />
+	<teleport id="10004" loc="49315 248452 -5960" price="1" noobless="true" itemId="13722" />
+	<teleport id="10005" loc="-25309 -131569 -680" price="1" noobless="true" itemId="13722" />
+	<teleport id="10006" loc="175499 -181586 -904" price="1" noobless="true" itemId="13722" />
+	<teleport id="10007" loc="144706 -173223 -1520" price="1" noobless="true" itemId="13722" />
+	<teleport id="10010" loc="93218 16969 -3904" price="1" noobless="true" itemId="13722" />
+	<teleport id="10011" loc="67097 68815 -3648" price="1" noobless="true" itemId="13722" />
+	<teleport id="10012" loc="-44566 77508 -3736" price="1" noobless="true" itemId="13722" />
+	<teleport id="10020" loc="75387 195263 -3000" price="1" noobless="true" itemId="13722" />
+	<teleport id="10021" loc="97786 209303 -3040" price="1" noobless="true" itemId="13722" />
+	<teleport id="10022" loc="113708 178387 -3232" price="1" noobless="true" itemId="13722" />
+	<teleport id="10023" loc="82693 242220 -6712" price="1" noobless="true" itemId="13722" />
+	<teleport id="10024" loc="79248 247390 -8816" price="1" noobless="true" itemId="13722" />
+	<teleport id="10025" loc="77868 250400 -9328" price="1" noobless="true" itemId="13722" />
+	<teleport id="10026" loc="78721 253309 -9840" price="1" noobless="true" itemId="13722" />
+	<teleport id="10027" loc="82951 252354 -10592" price="1" noobless="true" itemId="13722" />
+	<teleport id="10028" loc="147978 -55408 -2728" price="4900" itemId="57" />
+	<teleport id="10029" loc="43849 -47877 -792" price="22000" itemId="57" />
+	<teleport id="10030" loc="146705 25840 -2000" price="21000" itemId="57" />
+	<teleport id="10031" loc="164564 -48145 -3536" price="7000" itemId="57" />
+	<teleport id="10032" loc="144880 -113468 -2560" price="6700" itemId="57" />
+	<teleport id="10033" loc="147978 -55408 -2728" price="8000" itemId="57" />
+	<teleport id="10034" loc="43849 -47877 -792" price="12000" itemId="57" />
+	<teleport id="10035" loc="146705 25840 -2000" price="17000" itemId="57" />
+	<teleport id="10036" loc="164564 -48145 -3536" price="11000" itemId="57" />
+	<teleport id="10037" loc="144880 -113468 -2560" price="14000" itemId="57" />
+	<teleport id="10038" loc="80987 182423 -3504" price="1" noobless="true" itemId="13722" />
+	<teleport id="10039" loc="86147 218268 -3592" price="1" noobless="true" itemId="13722" />
+	<teleport id="11999" loc="-16307 -36591 -10725" />
+	<teleport id="11998" loc="-16359 -43803 -10725" />
+	<teleport id="12050" loc="-117251 46771 360" price="12000" itemId="57" />
+	<teleport id="12051" loc="-117251 46771 360" price="13000" itemId="57" />
+	<teleport id="12052" loc="-117251 46771 360" price="17000" itemId="57" />
+	<teleport id="12053" loc="-117251 46771 360" price="16000" itemId="57" />
+	<teleport id="12054" loc="-117251 46771 360" price="26000" itemId="57" />
+	<teleport id="12055" loc="-117251 46771 360" price="10000" itemId="57" />
+	<teleport id="12056" loc="-117251 46771 360" price="32000" itemId="57" />
+	<teleport id="12057" loc="-119534 87176 -12593" />
+	<teleport id="12058" loc="-73494 53507 -3680" />
+	<teleport id="12059" loc="-59224 -56837 -2032" />
+	<teleport id="12060" loc="-81490 -49167 -10352" />
+	<teleport id="12108" loc="-70293 -71029 -1416" />
+	<teleport id="12109" loc="-59224 -56837 -2032" />
+	<teleport id="12118" loc="-149406 255247 -80" />
+	<teleport id="12119" loc="-84752 243122 -3728" />
+	<teleport id="12120" loc="-149406 255247 -80" />
+	<teleport id="12121" loc="-57328 -60566 -2360" />
+	<teleport id="12122" loc="-204288 242026 1744" />
+	<teleport id="12139" loc="-59157 -56906 -2032" />
+	<teleport id="14000" loc="-183292 206063 -12888" />
+	<teleport id="14001" loc="-212836 209824 4288" />
+	<teleport id="13000" loc="-15043 116596 -3208" />
+	<teleport id="13001" loc="-14393 123671 -3144" />
+	<teleport id="13002" loc="-58761 154663 -2701" />
+	<teleport id="13003" loc="-29856 214275 -3680" />
+	<teleport id="13004" loc="-41248 122848 -2912" price="500" itemId="57" />
+	<teleport id="13005" loc="-19120 136816 -3762" price="500" itemId="57" />
+	<teleport id="13006" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="13007" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="13008" loc="19888 153395 -3144" />
+	<teleport id="13009" loc="19025 145245 -3107" />
+	<teleport id="13010" loc="20126 188254 -3392" />
+	<teleport id="13011" loc="17430 170103 -3506" />
+	<teleport id="13012" loc="5106 126916 -3664" price="500" itemId="57" />
+	<teleport id="13013" loc="47382 111278 -2104" price="500" itemId="57" />
+	<teleport id="13014" loc="630 179184 -3720" price="500" itemId="57" />
+	<teleport id="13015" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="13016" loc="107954 145841 -3224" />
+	<teleport id="13017" loc="81749 149171 -3464" />
+	<teleport id="13018" loc="125934 118277 -3080" />
+	<teleport id="13019" loc="47938 186864 -3420" />
+	<teleport id="13020" loc="85546 131328 -3672" price="500" itemId="57" />
+	<teleport id="13021" loc="43408 206881 -3752" price="500" itemId="57" />
+	<teleport id="13022" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="13023" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="13024" loc="75648 39380 -2952" />
+	<teleport id="13025" loc="82323 55466 -1480" />
+	<teleport id="13026" loc="77023 1591 -3608" />
+	<teleport id="13027" loc="85391 16228 -3640" price="500" itemId="57" />
+	<teleport id="13028" loc="109721 7394 -2800" price="500" itemId="57" />
+	<teleport id="13029" loc="64328 26803 -3768" price="500" itemId="57" />
+	<teleport id="13030" loc="124904 61992 -3973" price="500" itemId="57" />
+	<teleport id="13031" loc="118509 4779 -4000" price="500" itemId="57" />
+	<teleport id="13032" loc="147428 20161 -2008" />
+	<teleport id="13033" loc="147450 28081 -2294" />
+	<teleport id="13034" loc="160702 51661 -3512" />
+	<teleport id="13035" loc="189664 46042 -4264" />
+	<teleport id="13036" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="13071" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="13038" loc="142065 81300 -3000" price="500" itemId="57" />
+	<teleport id="13039" loc="166182 91560 -3168" price="500" itemId="57" />
+	<teleport id="13072" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="13073" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="13040" loc="117608 241660 -1408" />
+	<teleport id="13041" loc="111455 219400 -3546" />
+	<teleport id="13042" loc="124651 207877 -3184" />
+	<teleport id="13043" loc="113708 178387 -3232" price="500" itemId="57" />
+	<teleport id="13044" loc="80987 182423 -3504" price="500" itemId="57" />
+	<teleport id="13045" loc="86147 218268 -3592" price="500" itemId="57" />
+	<teleport id="13046" loc="82693 242220 -6712" price="500" itemId="57" />
+	<teleport id="13047" loc="153996 -50182 -2992" />
+	<teleport id="13048" loc="147728 -56331 -2776" />
+	<teleport id="13049" loc="153460 -70055 -3312" />
+	<teleport id="13050" loc="144880 -113468 -2560" price="500" itemId="57" />
+	<teleport id="13051" loc="125740 -40864 -3736" price="500" itemId="57" />
+	<teleport id="13052" loc="146990 -67128 -3640" price="500" itemId="57" />
+	<teleport id="13053" loc="169018 -116303 -2432" price="500" itemId="57" />
+	<teleport id="13054" loc="165054 -47861 -3560" price="500" itemId="57" />
+	<teleport id="13055" loc="27400 -49180 -1320" />
+	<teleport id="13056" loc="43889 -49101 -792" />
+	<teleport id="13057" loc="71814 -57054 -3088" />
+	<teleport id="13058" loc="52107 -54328 -3158" price="500" itemId="57" />
+	<teleport id="13059" loc="43805 -88010 -2780" price="500" itemId="57" />
+	<teleport id="13060" loc="69340 -50203 -3314" price="500" itemId="57" />
+	<teleport id="13061" loc="65307 -71445 -3696" price="500" itemId="57" />
+	<teleport id="13062" loc="106414 -87799 -2949" price="500" itemId="57" />
+	<teleport id="14063" loc="76911 -55295 -5824" price="500" itemId="57" />
+	<teleport id="13063" loc="76358 -145548 -1176" />
+	<teleport id="13064" loc="87379 -142322 -1336" />
+	<teleport id="13065" loc="105007 -140874 -3360" />
+	<teleport id="13066" loc="144706 -173223 -1520" price="500" itemId="57" />
+	<teleport id="13067" loc="111965 -154172 -1528" price="500" itemId="57" />
+	<teleport id="13068" loc="68693 -110438 -1946" price="500" itemId="57" />
+	<teleport id="13069" loc="113903 -108752 -860" price="500" itemId="57" />
+	<teleport id="13070" loc="47692 -115745 -3744" price="500" itemId="57" />
+	<teleport id="15000" loc="76839 63851 -3648" price="2400" itemId="57" />
+	<teleport id="15001" loc="79414 71496 -3448" price="3700" itemId="57" />
+	<teleport id="15002" loc="87448 61460 -3664" price="1800" itemId="57" />
+	<teleport id="15003" loc="171946 -173352 3440" price="5300" itemId="57" />
+	<teleport id="15004" loc="-180218 185923 -10576" />
+	<teleport id="15005" loc="-178262 153430 2472" />
+	<teleport id="15006" loc="-212843 209695 4280" price="150000" itemId="57" />
+	<teleport id="15007" loc="-248535 250273 4336" price="150000" itemId="57" />
+	<teleport id="15008" loc="-175520 154505 2712" price="150000" itemId="57" />
+	<teleport id="16000" loc="-80684 149770 -3040" price="18000" itemId="57" />
+	<teleport id="16001" loc="73024 118485 -3696" price="1800" itemId="57" />
+	<teleport id="16002" loc="131557 114509 -3712" price="7000" itemId="57" />
+	<teleport id="16003" loc="85391 16228 -3672" price="13000" itemId="57" />
+	<teleport id="16004" loc="154396 121235 -3808" price="1000" noobless="true" itemId="57" />
+	<teleport id="16005" loc="154396 121235 -3808" price="1" noobless="true" itemId="13722" />
+	<teleport id="16006" loc="-73983 51956 -3680" price="9300" itemId="57" />
+	<teleport id="16007" loc="-73983 51956 -3680" price="22000" itemId="57" />
+	<teleport id="16008" loc="85391 16228 -3672" price="6200" itemId="57" />
+	<teleport id="20000" loc="-55240 157193 -2048" />
+	<teleport id="20001" loc="-50296 155793 -2056" />
+	<teleport id="20002" loc="-14393 123671 -3144" />
+	<teleport id="20003" loc="-15043 116596 -3208" />
+	<teleport id="20004" loc="-41248 122848 -2912" price="500" itemId="57" />
+	<teleport id="20005" loc="-19120 136816 -3762" price="500" itemId="57" />
+	<teleport id="20006" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20007" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20008" loc="-25480 219848 -3248" />
+	<teleport id="20009" loc="-19886 219821 -3256" />
+	<teleport id="20010" loc="-14393 123671 -3144" />
+	<teleport id="20011" loc="-15043 116596 -3208" />
+	<teleport id="20012" loc="-41248 122848 -2912" price="500" itemId="57" />
+	<teleport id="20013" loc="-19120 136816 -3762" price="500" itemId="57" />
+	<teleport id="20014" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20015" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20016" loc="15383 186025 -2920" />
+	<teleport id="20017" loc="18046 190017 -2920" />
+	<teleport id="20018" loc="19025 145245 -3107" />
+	<teleport id="20019" loc="19888 153395 -3144" />
+	<teleport id="20020" loc="5106 126916 -3664" price="500" itemId="57" />
+	<teleport id="20021" loc="47382 111278 -2104" price="500" itemId="57" />
+	<teleport id="20022" loc="630 179184 -3720" price="500" itemId="57" />
+	<teleport id="20023" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20024" loc="126066 120350 -2584" />
+	<teleport id="20025" loc="126023 125853 -2584" />
+	<teleport id="20026" loc="81749 149171 -3464" />
+	<teleport id="20027" loc="107954 145841 -3224" />
+	<teleport id="20028" loc="85546 131328 -3672" price="500" itemId="57" />
+	<teleport id="20029" loc="43408 206881 -3752" price="500" itemId="57" />
+	<teleport id="20030" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="20031" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20032" loc="74367 2533 -3040" />
+	<teleport id="20033" loc="71388 6235 -3032" />
+	<teleport id="20034" loc="82323 55466 -1480" />
+	<teleport id="20035" loc="75648 39380 -2952" />
+	<teleport id="20036" loc="64328 26803 -3768" price="500" itemId="57" />
+	<teleport id="20037" loc="124904 61992 -3973" price="500" itemId="57" />
+	<teleport id="20038" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="20039" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20040" loc="153112 56872 -3256" />
+	<teleport id="20041" loc="156730 53921 -3256" />
+	<teleport id="20042" loc="147450 28081 -2294" />
+	<teleport id="20043" loc="147428 20161 -2008" />
+	<teleport id="20044" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20045" loc="124904 61992 -3973" price="500" itemId="57" />
+	<teleport id="20046" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="20047" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="20048" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="20049" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="20050" loc="189894 36746 -3408" />
+	<teleport id="20051" loc="189914 42242 -3408" />
+	<teleport id="20052" loc="147450 28081 -2294" />
+	<teleport id="20053" loc="147428 20161 -2008" />
+	<teleport id="20054" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20055" loc="124904 61992 -3973" price="500" itemId="57" />
+	<teleport id="20056" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="20057" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="20058" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="20059" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="20060" loc="116336 203775 -3336" />
+	<teleport id="20061" loc="120487 206093 -3336" />
+	<teleport id="20062" loc="111455 219400 -3546" />
+	<teleport id="20063" loc="117608 241660 -1408" />
+	<teleport id="20064" loc="80987 182423 -3504" price="500" itemId="57" />
+	<teleport id="20065" loc="86147 218268 -3592" price="500" itemId="57" />
+	<teleport id="20066" loc="113708 178387 -3232" price="500" itemId="57" />
+	<teleport id="20067" loc="82693 242220 -6712" price="500" itemId="57" />
+	<teleport id="20068" loc="157017 -68977 -2864" />
+	<teleport id="20069" loc="161618 -72057 -2864" />
+	<teleport id="20070" loc="147728 -56331 -2776" />
+	<teleport id="20071" loc="153996 -50182 -2992" price="500" itemId="57" />
+	<teleport id="20072" loc="125740 -40864 -3736" price="500" itemId="57" />
+	<teleport id="20073" loc="146990 -67128 -3640" price="500" itemId="57" />
+	<teleport id="20074" loc="169018 -116303 -2432" price="500" itemId="57" />
+	<teleport id="20075" loc="165054 -47861 -3560" price="500" itemId="57" />
+	<teleport id="20076" loc="68692 -63928 -2784" />
+	<teleport id="20077" loc="70820 -58862 -2784" />
+	<teleport id="20078" loc="43889 -49101 -792" />
+	<teleport id="20079" loc="27400 -49180 -1320" />
+	<teleport id="20080" loc="52107 -54328 -3158" price="500" itemId="57" />
+	<teleport id="20081" loc="43805 -88010 -2780" price="500" itemId="57" />
+	<teleport id="20082" loc="69340 -50203 -3314" price="500" itemId="57" />
+	<teleport id="20083" loc="65307 -71445 -3696" price="500" itemId="57" />
+	<teleport id="20084" loc="76911 -55295 -5824" price="500" itemId="57" />
+	<teleport id="20085" loc="107248 -140450 -2960" />
+	<teleport id="20086" loc="111769 -141775 -2920" />
+	<teleport id="20087" loc="87379 -142322 -1336" />
+	<teleport id="20088" loc="76358 -145548 -1176" />
+	<teleport id="20089" loc="47692 -115745 -3744" price="500" itemId="57" />
+	<teleport id="20090" loc="111965 -154172 -1528" price="500" itemId="57" />
+	<teleport id="20091" loc="68693 -110438 -1946" price="500" itemId="57" />
+	<teleport id="20092" loc="113903 -108752 -860" price="500" itemId="57" />
+	<teleport id="20093" loc="3798 148797 -2888" />
+	<teleport id="20094" loc="7693 150682 -2888" />
+	<teleport id="20095" loc="-14393 123671 -3144" />
+	<teleport id="20096" loc="19025 145245 -3107" />
+	<teleport id="20097" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20098" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20099" loc="630 179184 -3720" price="500" itemId="57" />
+	<teleport id="20100" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20101" loc="-54275 89255 -2824" />
+	<teleport id="20102" loc="-52274 93334 -2816" />
+	<teleport id="20103" loc="-14393 123671 -3144" />
+	<teleport id="20104" loc="82323 55466 -1480" />
+	<teleport id="20105" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20106" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20107" loc="64328 26803 -3768" price="500" itemId="57" />
+	<teleport id="20108" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20109" loc="58923 137789 -1752" />
+	<teleport id="20110" loc="61551 141036 -1752" />
+	<teleport id="20111" loc="19025 145245 -3107" />
+	<teleport id="20112" loc="81749 149171 -3464" />
+	<teleport id="20113" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20114" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20115" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="20116" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20117" loc="12468 93196 -3424" />
+	<teleport id="20118" loc="10494 96881 -3424" />
+	<teleport id="20119" loc="19025 145245 -3107" />
+	<teleport id="20120" loc="82323 55466 -1480" />
+	<teleport id="20121" loc="-9959 176184 -4160" price="500" itemId="57" />
+	<teleport id="20122" loc="-28327 155125 -3496" price="500" itemId="57" />
+	<teleport id="20123" loc="64328 26803 -3768" price="500" itemId="57" />
+	<teleport id="20124" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20125" loc="77834 89176 -2880" />
+	<teleport id="20126" loc="80441 92831 -2880" />
+	<teleport id="20127" loc="82323 55466 -1480" />
+	<teleport id="20128" loc="81749 149171 -3464" />
+	<teleport id="20129" loc="64328 26803 -3768" price="500" itemId="57" />
+	<teleport id="20130" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20131" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="20132" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20133" loc="112356 -17243 -992" />
+	<teleport id="20134" loc="110349 -13288 -922" />
+	<teleport id="20135" loc="147450 28081 -2294" />
+	<teleport id="20136" loc="82323 55466 -1480" />
+	<teleport id="20137" loc="147728 -56331 -2776" />
+	<teleport id="20138" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="20139" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="20140" loc="118509 -4779 -4000" price="500" itemId="57" />
+	<teleport id="20141" loc="169018 -116303 -2432" price="500" itemId="57" />
+	<teleport id="20142" loc="165054 -47861 -3560" price="500" itemId="57" />
+	<teleport id="20143" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="20144" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="20145" loc="124180 93249 -2144" />
+	<teleport id="20146" loc="126155 97124 -2144" />
+	<teleport id="20147" loc="147450 28081 -2294" />
+	<teleport id="20148" loc="81749 149171 -3464" />
+	<teleport id="20149" loc="104426 33746 -3825" price="500" itemId="57" />
+	<teleport id="20150" loc="155310 -16339 -3320" price="500" itemId="57" />
+	<teleport id="20151" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="20152" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20153" loc="183985 61424 -3992" price="500" itemId="57" />
+	<teleport id="20154" loc="191754 56760 -7624" price="500" itemId="57" />
+	<teleport id="20155" loc="73205 183893 -2584" />
+	<teleport id="20156" loc="72822 188128 -2584" />
+	<teleport id="20157" loc="111455 219400 -3546" />
+	<teleport id="20158" loc="81749 149171 -3464" />
+	<teleport id="20159" loc="82693 242220 -6712" price="500" itemId="57" />
+	<teleport id="20160" loc="113708 178387 -3232" price="500" itemId="57" />
+	<teleport id="20161" loc="73024 118485 -3720" price="500" itemId="57" />
+	<teleport id="20162" loc="60374 164301 -2856" price="500" itemId="57" />
+	<teleport id="20163" loc="98920 -56423 -624" />
+	<teleport id="20164" loc="102390 -54320 -632" />
+	<teleport id="20165" loc="43889 -49101 -792" />
+	<teleport id="20166" loc="147728 -56331 -2776" />
+	<teleport id="20167" loc="69340 -50203 -3314" price="500" itemId="57" />
+	<teleport id="20168" loc="65307 -71445 -3696" price="500" itemId="57" />
+	<teleport id="20169" loc="169018 -116303 -2432" price="500" itemId="57" />
+	<teleport id="20170" loc="165054 -47861 -3560" price="500" itemId="57" />
+	<teleport id="20171" loc="76911 -55295 -5824" price="500" itemId="57" />
+	<teleport id="20172" loc="72388 -96770 -1424" />
+	<teleport id="20173" loc="71937 -92600 -1416" />
+	<teleport id="20174" loc="43889 -49101 -792" />
+	<teleport id="20175" loc="87379 -142322 -1336" />
+	<teleport id="20176" loc="69340 -50203 -3314" price="500" itemId="57" />
+	<teleport id="20177" loc="65307 -71445 -3696" price="500" itemId="57" />
+	<teleport id="20178" loc="68693 -110438 -1946" price="500" itemId="57" />
+	<teleport id="20179" loc="113903 -108752 -860" price="500" itemId="57" />
+	<teleport id="20180" loc="76911 -55295 -5824" price="500" itemId="57" />
+	<teleport id="200901" loc="169018 -116303 -2432" price="10000" itemId="57" />
+	<teleport id="200902" loc="11235 -24026 -3640" price="10000" itemId="57" />
+	<teleport id="200903" loc="174491 50942 -4360" price="10000" itemId="57" />
+	<teleport id="200904" loc="68693 -110438 -1904" price="10000" itemId="57" />
+	<teleport id="200905" loc="171946 -173352 3440" price="10000" itemId="57" />
+	<teleport id="200906" loc="178591 -184615 360" price="10000" itemId="57" />
+	<teleport id="200907" loc="87691 162835 -3520" price="10000" itemId="57" />
+	<teleport id="200908" loc="82192 226128 -3656" price="10000" itemId="57" />
+	<teleport id="200909" loc="47692 -115745 -3744" price="10000" itemId="57" />
+	<teleport id="200910" loc="89513 -44800 -2136" price="10000" itemId="57" />
+	<teleport id="200911" loc="83551 147945 -3400" price="100000" itemId="57" />
+	<teleport id="200912" loc="146783 25808 -2008" price="100000" itemId="57" />
+	<teleport id="200913" loc="82971 53207 -1488" price="100000" itemId="57" />
+	<teleport id="200914" loc="43835 -47749 -792" price="100000" itemId="57" />
+	<teleport id="200915" loc="148024 -55281 -2728" price="100000" itemId="57" />
+	<teleport id="200916" loc="43835 -47749 -792" price="50000" itemId="57" />
+	<teleport id="200917" loc="11235 -24026 -3640" price="6400" itemId="57" />
+	<teleport id="200918" loc="149518 195280 -3736" price="7200" itemId="57" />
+	<teleport id="200919" loc="191754 56760 -7624" />
+	<teleport id="200920" loc="183985 61424 -3992" />
+	<teleport id="200921" loc="52241 218775 -3224" />
+	<teleport id="200922" loc="174491 50942 -4360" price="7400" itemId="57" />
+	<teleport id="200923" loc="173492 -112272 -5192" />
+	<teleport id="200924" loc="173462 -174011 3480" />
+	<teleport id="200925" loc="179299 -182831 -224" />
+	<teleport id="200926" loc="169018 -116303 -2432" price="10000" itemId="57" />
+	<!-- Custom scripts teleports -->
+	<teleport id="300000" loc="17724, 114004, -11672" maxLevel="55" /> 	<!-- Cruma -->
+	<teleport id="300001" loc="-204288, 242026, 1744" /> 			<!-- Aerial Cleft -->
+	<teleport id="300002" loc="-114592, -152509, -6723" /> 			<!-- Delusion Enter -->
+	<teleport id="300003" loc="4990, -1879, -3178" /> 			<!-- Elroki -->
+	<teleport id="300004" loc="7557, -5513, -3221" /> 			<!-- Elroki -->
+	<teleport id="300005" loc="-180218, 185923, -10576" minLevel="80" /> 	<!-- Seed Of Annihilation -->
+	<teleport id="300006" loc="-204288, 242026, 1744" minLevel="75" /> 	<!-- Gracia Heart -->
+	<teleport id="300007" loc="-248717, 250260, 4337" /> 			<!-- Temporary Teleporter -->
+</list>

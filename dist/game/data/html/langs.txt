@@ -1,0 +1,11 @@
+client -> server langs support
+
+0 KOREA 	ko
+1 ENGLISH	en
+2 JAPAN		ja
+3 TAIWAN	tw
+4 CHINA		zh
+5 THAILAND	th
+6 PHILIPPINE	tl
+7 INDONESIA	id
+8 RUSSIAN	ru

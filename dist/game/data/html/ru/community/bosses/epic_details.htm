@@ -1,0 +1,389 @@
+﻿<html noscrollbar><title>Статистика Эпик Боссов</title>
+<body><br>
+<!-- COMMUNITY -->
+<table width=770>
+<tr>
+<td>
+<table border=0 cellpadding=0 cellspacing=0 width=770 height=500 >
+<tr>
+<td valign="top" align="center" >
+<table width=755 height=500>
+<tr>
+<td width=755 valign="top" align="center">
+<!--	 COMMUNITY INDEX 		-->
+<table width=730 height=350 cellpadding=0 cellspacing=0>
+<tr>
+<!--	 COMMUNITY INDEX | Левый блок	-->
+<td width=530>
+<table width=530 height=100 background="l2ui_ct1_cn.titlebasebarmini">
+<tr>
+<td align=center valign=top>
+
+<!--	 COMMUNITY INDEX | Левый блок | Шапка -->
+<table width=510 border=0 cellspacing=0 cellpadding=0>
+	<tr>
+	<td align=center valign=top>
+		<table width=500 height=40 background="l2ui_ct1_cn.gametip_bg">
+			<tr>
+				<td width=5></td>
+				<td >
+				<img src="icon.skill5012" width="32" height="32">
+				</td>
+				<td width=5></td>
+				<td width=375 align=left valign=top>
+					<br>
+					<font color="CDB38B" name="hs12">Информация об Эпик Боссе</font>
+					<br1>
+					<font color="CDB88B" name="hs11">Подробная информация о боссе</font><br>
+				</td>
+				<td width=200 align=center valign=top>
+					<br><br>
+					<button value="Обновить" action="bypass _bbsepic_<?sort?>_<?page?>_ <?search?> _<?bossId?>" back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="120" height="35"/>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<br>
+<!-- COMMUNITY INDEX | Левый блок | Персонаж -->
+<table width=530 height=405>
+<tr>
+<td align=center valign=top>
+<table width=530 height=400 border=0 cellspacing=0 cellpadding=0 >
+<tr>
+<td align=center valign=top>
+<table width=520 height=380>
+<tr>
+<td align=center valign=top>
+									<table width=480 height=50 background="l2ui_ct1_cn.titlebasebarmini">
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=500 height=46 cellspacing=4 cellpadding=3>
+													<tr>
+														<td width=40 align=right valign=top>
+															<img src="icon.skill6169" width=32 height=32>
+														</td>
+														<td width=244 align=left valign=top>
+															<font color="66ff33">Поиск Рэйдовых Боссов</font> <br1> Найти информацию о боссе.
+														</td>
+														<td width=100 align=center valign=center>
+															<table width=100 height=30>
+																<tr>
+																	<td width=100 height=1>
+																	</td>
+																</tr>
+																<tr>
+																	<td width=100 height=5>
+																		<edit var="search" width=100 height=12>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td width=70 align=left valign=top>
+															<button value="Найти" action="bypass _bbsepiclist_<?sort?>_0_ $search" width=70 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table width=480 height=50 background="l2ui_ct1_cn.titlebasebarmini">
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=500 height=340 cellspacing=1 cellpadding=2>
+													<tr>
+														<td width=486 align=left valign=top>
+															<table width=486>
+																<tr>
+																	<td width=486 align=center>
+																		<table width=486 height=25>
+																			<tr>
+																				<td align=center>
+																					<table>
+																						<tr>
+																							<td width=260 valign=top>
+																								<font color="bbbbbb">Эпик Босс</font> 
+																							</td>
+																							<td width=80 align="center" valign=top>
+																								<font color="bbbbbb">Уровень</font>
+																							</td>
+																							<td width=80 align="center" valign=top>
+																								<font color="bbbbbb">Статус</font>
+																							</td>
+																							<td width=60 align="center" valign=top>
+																								<font color="bbbbbb">Миньоны</font>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+															<table width=486 height=34>
+																<tr>
+																	<td width=486 align=center>
+																		<table width=486 height=25>
+																			<tr>
+																				<td align=center>
+																					<table>
+																						<tr>
+																							<td width=260 valign=top>
+																								<font color="FF6666"><?name?></font>
+																							</td>
+																							<td width=80 align="center" valign=top>
+																								<?level?>
+																							</td>
+																							<td width=80 align="center" valign=top>
+																								<font color="<?status_color?>"><?status?></font>
+																							</td>
+																							<td width=60 align="center" valign=top>
+																								<?minions?>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+															<table width=486 height=256 border=0 cellpadding=0 cellspacing=0>
+																<tr>
+																	<td align="center" valign=top width=110 height=182>
+																		<table width=110 height=256 border=0 cellpadding=0 cellspacing=0>
+																			<tr>
+																				<td width=110 height=26>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td width=110 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.etc_map_ivory_i00">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																						</tr>
+																					</table>
+																					<button action="bypass _bbsepic_<?sort?>_<?page?>_ <?search?> _<?bossId?>_1" value="На Карте" width=105 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td width=110 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill5739">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																						</tr>
+																					</table>
+																					<button action="bypass _bbsepic_<?sort?>_<?page?>_ <?search?> _<?bossId?>_4" value="Очистить" width=105 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign=top>
+																		<table width=264 height=262>
+																			<tr>
+																				<td width=264 height=262>
+																					<table width=256 height=256 background="<?image?>">
+																						<tr>
+																							<td width=150 height=182>
+																							</td>
+																						</tr>
+																						<tr>
+																							<td align=center valign=top>
+																								<table width=256 height=36 background="L2UI_CT1.ItemWindow_IconDisable">
+																									<tr>
+																										<td width=180 height=14 align=center valign=center>
+																											<table width=180 height=12 cellspacing=0 cellpadding=0 background="L2UI_CT1.Gauge_DF_SSQ_Dusk_bg">
+																												<tr>
+																													<td height=12 align=center valign=center>
+																														<font name="CreditTextSmall">Максим. Здоровье: <?maxHp?></font> 
+																													</td>
+																												</tr>
+																											</table>
+																										</td>
+																									</tr>
+																									<tr>
+																										<td width=180 height=12 align=center valign=center>
+																											<table width=180 height=12 cellspacing=0 cellpadding=0 background="L2UI_CT1.Gauge_DF_SSQ_Dusk_bg">
+																												<tr>
+																													<td height=12 align=center valign=center>
+																														<font name="CreditTextSmall">Текущее Здоровье: <?currentHp?></font>
+																													</td>
+																												</tr>
+																											</table>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign=top width=110 height=182>
+																		<table width=110 height=256 border=0 cellpadding=0 cellspacing=0>
+																			<tr>
+																				<td width=110 height=26>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td width=110 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill0629">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																						</tr>
+																					</table>
+																					<button action="bypass _bbsepic_<?sort?>_<?page?>_ <?search?> _<?bossId?>_2" value="Показать Дроп" width=105 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td width=110 align=center valign=top>
+																					<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="icon.skill6320">
+																						<tr>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																							<td width=32 height=32 align=center valign=top>
+																								<img src="icon.panel_2" width=32 height=32>
+																							</td>
+																						</tr>
+																					</table>
+																					<button action="bypass _bbsepic_<?sort?>_<?page?>_ <?search?> _<?bossId?>_3" value="Показать Навыки" width=105 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+</table>
+
+<!-- COMMUNITY INDEX | Левый блок | Персонаж END-->
+</td>
+</tr>
+</table>
+</td>
+<!-- COMMUNITY INDEX | Левый блок END -->
+
+<!-- COMMUNITY INDEX | Правый блок -->
+<td width=220>
+<table width=185 height=428 >
+<tr>
+<td width=1></td>
+<td align=center valign=top>
+	<table width=210 height=58 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+			<td align=center valign=top>
+				<table width=210 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+					<tr>
+						<td width=5></td>
+						<td width=32 align=right>
+							<br>
+							<img src="l2ui_ct1_cn.Minimap_Icon_Worldboss_normal_CN" width="42" height="40">
+							<br>
+						</td>
+						<td width=190 align=left>
+							<br>
+							<button value="СТАТУС РЭЙД БОССОВ" action="bypass -h _bbsbosslist"  back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="150" height="35"/>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<br1>
+	<table width=220 height=40 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+	<td align=center valign=top>
+		<table width=220 border=0>
+			<tr>
+				<td width=220 align=center>
+					<br>
+					<font color="CDB38B" name="hs11">Навигация по серверу
+					<br>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+	<table width=220 height=35 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+			<td align=center valign=top>
+				<table width=220 height=390 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+					<tr>
+					<td width=220 align=center>
+						<br>
+						<button action="bypass _bbsepiclist" value="Статус Эпик Боссов" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Fight3None_Down" fore="L2UI_CT1.OlympiadWnd_DF_Fight3None">
+						<button action="bypass _bbsevent" value="Ивенты" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Apply_Down" fore="L2UI_CT1.OlympiadWnd_DF_Apply">
+						<button action="bypass -h _bbsteleport;" value="Телепорт" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Back_Down" fore="L2UI_CT1.OlympiadWnd_DF_Back">
+						<button action="bypass -h _bbspage:shop" value="Магазины" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_BuyEquip_Down" fore="L2UI_CT1.OlympiadWnd_DF_BuyEquip">
+						<button action="bypass -h _bbsdropCalc" value="База знаний" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_BuyEtc_Down" fore="L2UI_CT1.OlympiadWnd_DF_BuyEtc">
+						<button action="bypass -h _bbsbuffer" value="Баффер" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Fight1None_Down" fore="L2UI_CT1.OlympiadWnd_DF_Fight1None">
+						<button action="bypass -h _bbspage:services" value="Сервисы" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_HeroConfirm_Down" fore="L2UI_CT1.OlympiadWnd_DF_HeroConfirm">
+						<button action="bypass -h _bbspage:help/index" value="Помощь" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Info_Down" fore="L2UI_CT1.OlympiadWnd_DF_Info">
+						<button action="bypass -h _bbsranking:pvp" value="Статистика" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+						<button action="bypass -h _bbsabout" value="О сервере" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Watch_Down" fore="L2UI_CT1.OlympiadWnd_DF_Watch">
+					</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- COMMUNITY INDEX | Правый блок | Навигация END-->
+</td>
+</tr>
+</table>
+</td>
+<!-- COMMUNITY INDEX | Правый блок -->
+</tr>
+</table>	
+<!--	 COMMUNITY INDEX END	-->
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- COMMUNITY END -->
+</body>
+</html>

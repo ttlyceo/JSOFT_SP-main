@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JSOFT[Full][HighFive]" default="full-dist" basedir=".">
+
+	<property name="debug" value="true" />
+
+	<property name="src.gameserver" location="gameserver/src" />
+	<property name="src.authserver" location="authserver/src" />
+	<property name="src.commons" location="commons/src" />
+	<property name="src.fakes" location="fakes/src" />
+	<property name="src.scripts" location="scripts/src"/>
+
+	<property name="dist" location="dist" />
+	<property name="dist.libs" location="${dist}/libs" />
+	<property name="dist.gameserver" location="${dist}/game" />
+	<property name="dist.authserver" location="${dist}/login" />
+	<property name="lib" location="lib" />
+
+	<property name="build" location="build" />
+	<property name="build.classes" location="${build}/classes" />
+
+	<property name="build.dist" location="${build}/dist" />
+	<property name="build.dist.authserver" location="${build.dist}/login" />
+	<property name="build.dist.gameserver" location="${build.dist}/game" />
+	<property name="build.dist.libs" location="${build.dist}/libs" />
+
+	<property name="build.version" value="HighFive" />
+	<property name="build.team" value="jsoft" />
+	<property name="build.teamsite" value="https://jsoft.top" />
+	<property name="build.licensetype" value="Private" />
+	<property name="build.coredev" value="psygrammator" />
+	<property name="build.datadev" value="psygrammator" />
+	<property name="build.revision" value="1" />
+
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<pathconvert property="manifest.libs" pathsep=" ">
+		<path refid="classpath" />
+		<mapper>
+			<chainedmapper>
+				<flattenmapper />
+				<globmapper from="*.jar" to="./lib/*.jar" />
+			</chainedmapper>
+		</mapper>
+	</pathconvert>
+
+	<property name="build.classpath" refid="classpath"/>
+
+	<tstamp>
+		<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm" />
+	</tstamp>
+
+	<target name="clean" description="Remove the output directories.">
+
+		<delete dir="${build}" />
+
+	</target>
+
+	<target name="init" depends="clean" description="Create the output directories.">
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="compile-gameserver" depends="init" description="Compile gameserver source.">
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.gameserver}" classpathref="classpath" destdir="${build.classes}" optimize="on" debug="${debug}" source="21" target="21" includeantruntime="false" encoding="UTF-8" nowarn="off" debuglevel="lines,vars,source" classpath="${build.classpath}:${dist.libs}/l2e-fakes.jar:${dist.libs}/l2e-scripts.jar"> <!--:${dist.libs}/commons.jar-->
+			<compilerarg value="-Xlint:-serial,-unchecked,-deprecation,-static,-removal" />
+		</javac>
+
+	</target>
+
+	<target name="gameserver-jar" depends="compile-gameserver" description="Compile gameserver source and make lib.">
+
+		<echo>Current Revision ${build.revision}</echo>
+		<jar destfile="${build}/l2e-gameserver.jar">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="https://jsoft.top/" />
+				<attribute name="Main-Class" value="l2e.gameserver.GameServer" />
+			</manifest>
+		</jar>
+
+		<copy todir="${build}">
+			<fileset dir="${dist.libs}">
+				<include name="l2e-fakes.jar" />
+				<include name="l2e-scripts.jar" />
+			</fileset>
+		</copy>
+		<!--
+		<delete dir="${dist.gameserver}/lib" />
+		<mkdir dir="${dist.gameserver}/lib" />
+		-->
+		<copy todir="${dist.libs}">
+			<fileset dir="${lib}">
+				<include name="*.jar" />
+				<exclude name="smrt.jar" />
+				<exclude name="smrt-core-1.0.jar" />
+			</fileset>
+			<fileset dir="${build}">
+				<include name="l2e-gameserver.jar" />
+				<include name="l2e-fakes.jar" />
+				<include name="l2e-scripts.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="gameserver" depends="gameserver-jar" description="Compile gameserver source and make dist.">
+
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.gameserver}" />
+		<!--<mkdir dir="${build.dist.gameserver}/lib" />-->
+
+		<sync todir="${build.dist.gameserver}" includeEmptyDirs="true">
+			<fileset dir="${dist}/game"/>
+		</sync>
+
+		<copy todir="${build.dist.libs}">
+			<fileset dir="${lib}">
+				<include name="*.jar" />
+				<exclude name="smrt.jar" />
+				<exclude name="smrt-core-1.0.jar" />
+			</fileset>
+			<fileset dir="${build}">
+				<include name="l2e-gameserver.jar" />
+				<include name="l2e-fakes.jar" />
+				<include name="l2e-scripts.jar" />
+			</fileset>
+		</copy>
+
+		<fixcrlf srcdir="${build.dist.gameserver}" eol="lf" eof="remove" includes="**/*.sh">
+		</fixcrlf>
+
+		<fixcrlf srcdir="${build.dist.gameserver}" eol="crlf" eof="remove" includes="**/*.bat">
+		</fixcrlf>
+
+		<delete dir="${build.classes}" />
+
+		<copy todir="${build.dist}" preservelastmodified="true">
+			<fileset dir="${dist}">
+				<include name="/*.txt" />
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.gameserver}" preservelastmodified="true">
+			<fileset dir="${dist}/game">
+				<include name="**/*.*"/>
+				<exclude name="/data/scripts" />
+				<exclude name="/data/scripts/*" />
+				<exclude name="/data/scripts/**/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile-scripts" depends="init" description="Compile scripts source.">
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac destdir="${build.classes}" optimize="on" debug="on" source="21" target="21" includeantruntime="false" encoding="UTF-8" nowarn="off" classpath="${build.classpath}:${dist.libs}/l2e-gameserver.jar"> <!-- :${dist.libs}/commons.jar -->
+			<src path="${src.scripts}" />
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<target name="scripts-jar" depends="compile-scripts" description="Compile scripts source and make lib.">
+
+		<echo>Current Revision ${build.revision}</echo>
+		<jar destfile="${build}/l2e-scripts.jar" level="9">
+			<fileset dir="${build.classes}"/>
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+			</manifest>
+		</jar>
+
+	</target>
+
+	<target name="scripts" depends="scripts-jar" description="Compile scripts source and make dist.">
+
+		<copy todir="${dist.libs}">
+			<fileset dir="${build}">
+				<include name="l2e-scripts.jar" />
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="compile-authserver" depends="init" description="Compile authserver source.">
+
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.authserver}" classpathref="classpath" destdir="${build.classes}" optimize="on" debug="${debug}" source="21" target="21" includeantruntime="false" encoding="UTF-8" nowarn="off" debuglevel="lines,vars,source" classpath="${build.classpath}:${dist.libs}/l2e-gameserver.jar"> <!-- :${dist.libs}/commons.jar -->
+			<compilerarg value="-Xlint:-serial,-unchecked,-deprecation,-static,-removal" />
+		</javac>
+
+	</target>
+
+	<target name="authserver-jar" depends="compile-authserver" description="Compile authserver source and make lib.">
+
+		<echo>Current Revision ${build.revision}</echo>
+		<jar destfile="${build}/l2e-loginserver.jar">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Built-Date" value="${build.tstamp}" />
+				<attribute name="Class-Path" value="${manifest.libs}" />
+				<attribute name="Implementation-URL" value="https://jsoft.top/" />
+				<attribute name="Main-Class" value="l2e.loginserver.LoginServer" />
+			</manifest>
+		</jar>
+		<!--
+		<copy todir="${build}">
+			<fileset dir="${dist.authserver}/lib">
+			</fileset>
+		</copy>
+
+		<delete dir="${dist.authserver}/lib" />
+		<mkdir dir="${dist.authserver}/lib" />
+		-->
+		<copy todir="${dist.libs}">
+			<fileset dir="${lib}">
+				<include name="*.jar" />
+				<exclude name="smrt.jar" />
+				<exclude name="smrt-core-1.0.jar" />
+			</fileset>
+			<fileset dir="${build}">
+				<include name="l2e-loginserver.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="authserver" depends="authserver-jar" description="Compile authserver source and make dist.">
+
+		<mkdir dir="${build.dist}" />
+		<mkdir dir="${build.dist.authserver}" />
+		<!--<mkdir dir="${build.dist.authserver}/lib" />-->
+
+		<sync todir="${build.dist.authserver}" includeEmptyDirs="true">
+			<fileset dir="${dist}/login"/>
+		</sync>
+
+		<copy todir="${build.dist.libs}">
+			<fileset dir="${lib}">
+				<include name="*.jar" />
+				<exclude name="smrt.jar" />
+				<exclude name="smrt-core-1.0.jar" />
+			</fileset>
+			<fileset dir="${build}">
+				<include name="l2e-loginserver.jar" />
+			</fileset>
+		</copy>
+
+		<fixcrlf srcdir="${build.dist.authserver}" eol="lf" eof="remove" includes="**/*.sh">
+		</fixcrlf>
+
+		<fixcrlf srcdir="${build.dist.authserver}" eol="crlf" eof="remove" includes="**/*.bat">
+		</fixcrlf>
+
+		<delete dir="${build.classes}" />
+
+	</target>
+
+	<!--compile fakes-->
+	<target name="compile-fakes" depends="gameserver-jar">
+		<delete dir="${build.classes}" />
+		<mkdir dir="${build.classes}" />
+
+		<javac srcdir="${src.fakes}" classpathref="classpath" destdir="${build.classes}" optimize="on" debug="${debug}" source="21" target="21" includeantruntime="false" encoding="UTF-8" nowarn="off" debuglevel="lines,vars,source" classpath="${build.classpath}:${dist.libs}/l2e-gameserver.jar:${dist.libs}/l2e-scripts.jar"> <!-- :${dist.libs}/commons.jar -->
+			<compilerarg value="-Xlint:-serial,-unchecked,-deprecation,-static,-removal" />
+		</javac>
+
+	</target>
+
+	<!--make fakes in jar-->
+	<target name="fakes-jar" depends="compile-fakes">
+
+		<echo>Current Revision ${build.revision}</echo>
+		<jar destfile="${build}/l2e-fakes.jar" level="9">
+			<fileset dir="${build.classes}" />
+			<manifest>
+				<attribute name="Build-By" value="${user.name}" />
+				<attribute name="Build-Date" value="${build.tstamp}" />
+				<attribute name="Implementation-Version" value="${build.revision}" />
+			</manifest>
+		</jar>
+
+	</target>
+
+	<target name="fakes" depends="fakes-jar">
+		<copy todir="${dist.libs}">
+			<fileset dir="${build}">
+				<include name="l2e-fakes.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="checkRequirements" description="Check Requirements.">
+		<echo message="Check ANT version" />
+		<fail message="Ant 1.10.5 is required. But your version is ${ant.version} and if you are using Eclipse probably is outdated.">
+			<condition>
+				<not>
+					<antversion atleast="1.10.5" />
+				</not>
+			</condition>
+		</fail>
+	</target>
+	<target name="full-dist" depends="scripts-jar, fakes-jar, gameserver-jar, authserver-jar" description="Compile all source and make dist archive.">
+		<!-- <delete file="${build}/l2e-loginserver.jar" />
+		<delete file="${build}/l2e-fakes.jar" />
+		<delete file="${build}/commons.jar" />
+		<delete file="${build}/l2e-gameserver.jar" />
+		<delete file="${build}/l2e-scripts.jar" />-->
+		<delete>
+			<dirset dir="${build}" includes="*.jar" />
+			<fileset dir="${build}" includes="*.jar" />
+		</delete>
+		<delete dir="${build.classes}" />
+		<zip destfile="${build}/CT_2.6_HighFive(Rev.${build.revision}).zip" basedir="${dist}" encoding="UTF-8" level="9" comment="JSOFT.TOP | Full Server: VERSION[High Five]"/>
+	</target>
+</project>

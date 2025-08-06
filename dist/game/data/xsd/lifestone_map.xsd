@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="configs" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="set" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="value" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="lifeStones" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="grade" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:int" use="required" />
+									<xs:attribute name="skillChance" type="xs:int" use="required" />
+									<xs:attribute name="growChance" type="xs:int" use="required" />
+									<xs:attribute name="retailChance" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="isRetailAugmentation" type="xs:boolean" use="required" />
+						<xs:attribute name="isRetailAugmentationAccessory" type="xs:boolean" use="required" />
+						<xs:attribute name="baseStatChance" type="xs:int" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="forbidden" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="list" use="required" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="gemStones" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="item" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="grade" type="xs:int" use="required" />
+									<xs:attribute name="gemId" type="xs:int" use="required" />
+									<xs:attribute name="count" type="xs:int" use="required" />
+									<xs:attribute name="accessoryCount" type="xs:int" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="item" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="id" use="required" type="xs:int" use="required" />
+						<xs:attribute name="grade" use="required" type="xs:int" use="required" />
+						<xs:attribute name="level" use="required" type="xs:int" use="required" />
+						<xs:attribute name="minLvl" use="required" type="xs:int" use="required" />
+						<xs:attribute name="isWeaponAugment" type="xs:boolean" use="required" />
+						<xs:attribute name="isArmorAugment" type="xs:boolean" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>		</xs:complexType>
+	</xs:element>
+</xs:schema>

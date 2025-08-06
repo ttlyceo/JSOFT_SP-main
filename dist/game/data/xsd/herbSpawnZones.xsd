@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="param" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:attribute name="chance" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="rndAmount" type="xs:positiveInteger" use="required" />
+						<xs:attribute name="respawnDelay" type="xs:positiveInteger" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="location" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="val" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

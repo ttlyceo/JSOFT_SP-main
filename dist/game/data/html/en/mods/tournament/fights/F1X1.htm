@@ -1,0 +1,53 @@
+<html noscrollbar><title>Tournament (1 vs 1)</title><body>
+<img src=L2UI.SquareGray width=300 height=1>
+<table border="0" width="300" bgcolor="000000">
+	<tr>
+		<td width=20></td>
+		<td width=50> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+		<td width=130> <font color=ff0019>Tournament (1 vs 1)</font></td>
+		<td width=65> <button value="Back" action="bypass -h bp_showTournamentPage main" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<br>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Players Registered: </font>%teamsRegF1X1%</td>
+		<td width="65"><button value="Register" action="bypass -h bp_registerTournament 1X1" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Active Fights: </font>%activeFightsF1X1%</td>
+		<td width="65"><button value="Leave" action="bypass -h bp_removeTournamentParticipation" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Total Fights: </font>%allTimeFights%</td>
+		<td width="65"><button value="Del Team" action="bypass -h bp_deleteTournamentTeam" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Active Observers: </font>%activeObserversF1X1%</td>
+		<td width="65"><button value="Observer" action="bypass -h bp_showTournamentPage observer/F1X1" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<br><br>
+<img src=L2UI.SquareGray width=300 height=1>
+<table border="0" width="300" bgcolor="000000">
+	<tr>
+		<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+		<td width=99 align=center> <font color=ff0019>Your Team</font></td>
+		<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+%memberslist%
+
+</body></html>

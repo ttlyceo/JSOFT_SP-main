@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list hwidCheck="false" taskPerDay="3" taskPerWeek="2" taskPerMonth="1" priceId="0" amount="0">
+	<!-- Example Farm Type Tasks -->
+
+	<task id="1" sort="daily" type="Farm" name="Elpy Killer" image="Icon.skill5739">
+		<description val="You must kill 5 eplyes!" />
+		<npc id="20432" count="5" />
+		<reward>
+			<item id="4037" count="5" />
+		</reward>
+	</task>
+	<task id="2" sort="daily" type="Farm" name="Hot Springs Flava Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Hot Springs Flava!" />
+		<npc id="21316" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="3" sort="daily" type="Farm" name="Hot Springs Bandersnatchling Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Hot Springs Bandersnatchling!" />
+		<npc id="21314" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="4" sort="daily" type="Farm" name="Varka Silenos General Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Varka Silenos General!" />
+		<npc id="21366" count="10" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+	<task id="5" sort="daily" type="Farm" name="Varka's Prophet Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Varka's Prophet!" />
+		<npc id="21373" count="10" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+	<task id="6" sort="daily" type="Farm" name="Ketra Orc General Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Ketra Orc General!" />
+		<npc id="21339" count="10" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="7" sort="daily" type="Farm" name="Ketra Orc Grand Seer Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Ketra Orc Grand Seer!" />
+		<npc id="21342" count="10" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="8" sort="daily" type="Farm" name="Hangman Tree Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Hangman Tree!" />
+		<npc id="20144" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="9" sort="daily" type="Farm" name="Tumran Bugbear Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Tumran Bugbear!" />
+		<npc id="20062" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="10" sort="daily" type="Farm" name="Dungeon Skeleton Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Dungeon Skeleton!" />
+		<npc id="20464" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="11" sort="daily" type="Farm" name="Venemous Spider Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Venemous Spider!" />
+		<npc id="20038" count="10" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>	
+	<task id="12" sort="daily" type="Farm" name="Disciples of Protection Killer" image="Icon.skill5739">
+		<description val="You must kill 20 Disciples of Protection!" />
+		<npc id="21306" count="20" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="13" sort="daily" type="Farm" name="Savior Solina Killer" image="Icon.skill5739">
+		<description val="You must kill 20 Savior Solinas!" />
+		<npc id="22791" count="20" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="14" sort="daily" type="Farm" name="Guide Solina Killer" image="Icon.skill5739">
+		<description val="You must kill 20 Guide Solinas!" />
+		<npc id="22789" count="20" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="15" sort="daily" type="Farm" name="Divinity Manager Killer" image="Icon.skill5739">
+		<description val="You must kill 5 Divinity Managers!" />
+		<npc id="22795" count="5" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="16" sort="daily" type="Farm" name="Divinity Supervisor Killer" image="Icon.skill5739">
+		<description val="You must kill 5 Divinity Supervisors!" />
+		<npc id="22796" count="5" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>	
+	<task id="17" sort="daily" type="Farm" name="Elite Turtletian Killer" image="Icon.skill5739">
+		<description val="You must kill 2 Elite Turtletians!" />
+		<npc id="22757" count="2" />
+		<reward>
+			<item id="4037" count="40" />
+		</reward>
+	</task>
+	<task id="18" sort="daily" type="Farm" name="Elite Krajian Killer" image="Icon.skill5739">
+		<description val="You must kill 2 Elite Krajians!" />
+		<npc id="22758" count="2" />
+		<reward>
+			<item id="4037" count="40" />
+		</reward>
+	</task>
+	<task id="19" sort="month" type="Farm" name="Elite Tardyon Killer" image="Icon.skill5739">
+		<description val="You must kill 2 Elite Tardyons!" />
+		<npc id="22759" count="2" />
+		<reward>
+			<item id="4037" count="40" />
+		</reward>
+	</task>	
+	<task id="20" sort="month" type="Farm" name="Knoriks Killer" image="Icon.skill5739">
+		<description val="You must kill 2 Knoriks!" />
+		<npc id="37101" count="2" />
+		<reward>
+			<item id="4037" count="35" />
+		</reward>
+	</task>	
+	<task id="21" sort="weekly" type="Farm" name="Drakos Assassins Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Drakos Assassins!" />
+		<npc id="22823" count="10" />
+		<reward>
+			<item id="4037" count="25" />
+		</reward>
+	</task>
+	<task id="22" sort="weekly" type="Farm" name="Drakos Hunters Killer" image="Icon.skill5739">
+		<description val="You must kill 5 Drakos Hunters!" />
+		<npc id="22862" count="5" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="23" sort="daily" type="Farm" name="Drakos Warrior Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Drakos Warriors!" />
+		<npc id="22822" count="10" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="24" sort="daily" type="Farm" name="Drakos Guardian Killer" image="Icon.skill5739">
+		<description val="You must kill 15 Drakos Guardian!" />
+		<npc id="22824" count="15" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="25" sort="daily" type="Farm" name="Sand Drako Tracker Killer" image="Icon.skill5739">
+		<description val="You must kill 5 Sand Drako Tracker!" />
+		<npc id="22833" count="5" />
+		<reward>
+			<item id="4037" count="40" />
+		</reward>
+	</task>
+	<task id="26" sort="daily" type="Farm" name="Drakos Knight Killer" image="Icon.skill5739">
+		<description val="You must kill 10 Drakos Knight!" />
+		<npc id="22844" count="10" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>		
+	<!-- Example Quest Type Tasks -->
+
+	<task id="27" sort="daily" type="Quest" name="Help Darin" image="Icon.skill5739">
+		<description val="To execute an assignment Darin" />
+		<quest id="1" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+	<task id="28" sort="daily" type="Quest" name="Help Pinaps" image="Icon.skill5739">
+		<description val="Quest Threat Removal" />
+		<quest id="290" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+		<task id="29" sort="daily" type="Quest" name="Help Swan" image="Icon.skill5739">
+		<description val="Quest Bard's Mandolin" />
+		<quest id="362" />
+		<reward>
+			<item id="4037" count="10" />
+		</reward>
+	</task>
+		<task id="30" sort="daily" type="Quest" name="Help Gilbert" image="Icon.skill5739">
+		<description val="Quest The Guard is Busy" />
+		<quest id="257" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="31" sort="daily" type="Quest" name="Help Vulcan" image="Icon.skill5739">
+		<description val="Quest Gather the Flames" />
+		<quest id="617" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="32" sort="daily" type="Quest" name="Help Katensa" image="Icon.skill5739">
+		<description val="Quest Reed Field Maintenance" />
+		<quest id="308" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="33" sort="daily" type="Quest" name="Help Ghost od Adventurer" image="Icon.skill5739">
+		<description val="Quest Relics of the Old Empire" />
+		<quest id="619" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="34" sort="daily" type="Quest" name="Help Alshupes" image="Icon.skill5739">
+		<description val="Quest Colector's Dream" />
+		<quest id="261" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="35" sort="daily" type="Quest" name="Help Payne" image="Icon.skill5739">
+		<description val="Quest Keen Claws" />
+		<quest id="264" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+		<task id="36" sort="daily" type="Quest" name="Help Inventor Maru" image="Icon.skill5739">
+		<description val="Quest Invention Ambition" />
+		<quest id="269" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+		<task id="37" sort="daily" type="Quest" name="Help Chairen" image="Icon.skill5739">
+		<description val="Quest Expulsion of Evil Spirits" />
+		<quest id="311" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+		<task id="38" sort="weekly" type="Quest" name="Help Gabrielle" image="Icon.skill5739">
+		<description val="Quest Audience with the Land Dragon" />
+		<quest id="337" />
+		<reward itemId="4037" count="20" />
+	</task>
+		<task id="39" sort="daily" type="Quest" name="Help Klein" image="Icon.skill5739">
+		<description val="Quest Into the Flames" />
+		<quest id="618" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>	
+	<!-- Example Pvp Type Tasks -->
+
+	<task id="40" sort="daily" type="Pvp" name="PvP Player" image="Icon.skill5739">
+		<description val="Need to fill 5 PvP" />
+		<pvp count="5" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="41" sort="daily" type="Pvp" name="PvP Master" image="Icon.skill5739">
+		<description val="Need to fill 10 PvP" />
+		<pvp count="10" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="42" sort="daily" type="Pvp" name="PvP God" image="Icon.skill5739">
+		<description val="Need to fill 20 PvP" />
+		<pvp count="20" />
+		<reward>
+			<item id="4037" count="50" />
+		</reward>
+	</task>	
+	<!-- Example Pk Type Tasks -->
+
+	<task id="43" sort="daily" type="Pk" name="Players killer" image="Icon.skill5739">
+		<description val="Need to kill 2 Players" />
+		<pk count="2" />
+		<reward>
+			<item id="4037" count="20" />
+		</reward>
+	</task>
+	<task id="44" sort="daily" type="Pk" name="Players killer" image="Icon.skill5739">
+		<description val="Need to kill 5 Players" />
+		<pk count="5" />
+		<reward>
+			<item id="4037" count="30" />
+		</reward>
+	</task>
+	<task id="45" sort="daily" type="Pk" name="Players killer" image="Icon.skill5739">
+		<description val="Need to kill 10 Players" />
+		<pk count="10" />
+		<reward>
+			<item id="4037" count="50" />
+		</reward>
+	</task>
+	<!-- Example Olympiad Type Tasks -->
+
+	<task id="46" sort="daily" type="Olympiad" name="Olympiad Participant" image="Icon.skill5739">
+		<description val="Need play 5 olympiad matches" />
+		<olympiad match="5" />
+		<reward>
+			<item id="4037" count="40" />
+		</reward>
+	</task>
+	<!-- Example Siege Type Tasks -->
+
+	<task id="47" sort="daily" type="Siege" name="Capture Fortress" image="Icon.skill5739">
+		<description val="Need to capture any fortress" />
+		<siege fortress="true" />
+		<reward>
+			<item id="4037" count="50" />
+		</reward>
+	</task>
+	<!-- Example Event Type Tasks -->
+
+	<task id="48" sort="daily" type="Event" name="Event Hunter" image="Icon.skill5739">
+		<description val="Need to play in 3 events" />
+		<event count="3" />
+		<reward>
+			<item id="4037" count="80" />
+		</reward>
+	</task>
+	<!-- Example Reflection Type Tasks -->
+
+	<task id="50" sort="month" type="Reflection" name="Kill Freya" image="Icon.skill5739">
+		<description val="Need to successful to finish Freya Hard instance!" />
+		<reflection id="144" />
+		<reward>
+			<item id="4037" count="150" />
+		</reward>
+	</task>
+</list>

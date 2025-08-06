@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/dressWeapon.xsd">
+	<weapon id="6611" nameEn="Infinity Blade" type="Sword" allowEnchant="false" allowAugment="false">
+		<price id="4037" count="50" />
+	</weapon>
+	<weapon id="6620" nameEn="Infinity Wing" type="Dual Sword" allowEnchant="false" allowAugment="false">
+		<price id="4037" count="50" />
+	</weapon>
+	<weapon id="23100" nameEn="Insane Dagger" type="Dagger">
+		<price id="4037" count="50" />
+	</weapon>
+	<weapon id="23101" nameEn="Insane Dual Daggers" type="Dual Dagger">
+		<price id="4037" count="50" />
+	</weapon>
+	 <weapon id="23102" nameEn="Insane Bow" type="Bow">
+		<price id="4037" count="50" />
+	</weapon>
+	 <weapon id="23103" nameEn="Insane Shooter" type="Crossbow">
+		<price id="4037" count="50" />
+	</weapon>
+	 <weapon id="8206" nameEn="Heretic Priest Sword" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8689" nameEn="Akamanah Duals" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8190" nameEn="Zariche Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15688" nameEn="Triumph Ancientsword" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15676" nameEn="Triumph Blade" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15686" nameEn="Triumph Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15689" nameEn="Triumph Crossbow" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15679" nameEn="Triumph Crusher" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15677" nameEn="Triumph Dagger" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15678" nameEn="Triumph Hammer" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15681" nameEn="Triumph Jamadhr" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15685" nameEn="Triumph Magic Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15687" nameEn="Triumph Rapier" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15682" nameEn="Triumph Spear" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15683" nameEn="Triumph Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15684" nameEn="Triumph Two Hand Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15680" nameEn="Triumph Two Hand Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8205" nameEn="Heretic Priest Sigil" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21959" nameEn="Blood Brother" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="78" nameEn="Great Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="79" nameEn="Sword of Damascus" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="80" nameEn="Tallum Blade" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="81" nameEn="Dragon Slayer" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="82" nameEn="God's Blade" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="85" nameEn="Phantom Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="91" nameEn="Heavy War Axe" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="92" nameEn="Sprite's Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="97" nameEn="Lance" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="98" nameEn="Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="142" nameEn="Keshanberk" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="146" nameEn="Ghoulbane" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="147" nameEn="Tear of Darkness" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="148" nameEn="Sword of Valhalla" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="149" nameEn="Sword of Life" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="150" nameEn="Elemental Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="151" nameEn="Sword of Miracles" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="164" nameEn="Elysian" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="165" nameEn="Yablonski's Hammer" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="175" nameEn="Art of Battle Axe" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10004" nameEn="Dynasty Dual Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10215" nameEn="Icarus Sawsword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10216" nameEn="Icarus Disperser" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10217" nameEn="Icarus Spirit" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10218" nameEn="Icarus Heavy Arms" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10219" nameEn="Icarus Trident" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10220" nameEn="Icarus Hammer" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10221" nameEn="Icarus Hand" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10222" nameEn="Icarus Hall" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10223" nameEn="Icarus Spitter" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10224" nameEn="Icarus Stinger" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10225" nameEn="Icarus Wingblade" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10226" nameEn="Icarus Shooter" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10252" nameEn="Dynasty Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10253" nameEn="Dynasty Crusher" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10415" nameEn="Icarus Dual Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10870" nameEn="Great Sword - Lightning" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10874" nameEn="Great Axe - Thunder" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10878" nameEn="Sword of Limit*Sword of Limit - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10879" nameEn="Sword of Limit*Sword of Delusion - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10880" nameEn="Sword of Limit*Sword of Nightmare - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10881" nameEn="Sword of Limit*Tsurugi - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10882" nameEn="Innominate Victory - Lightning" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10886" nameEn="Dark Elven Long Bow - Concentration" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10890" nameEn="Sword of Delusion*Sword of Delusion - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10891" nameEn="Sword of Delusion*Sword of Nightmare - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10892" nameEn="Sword of Delusion*Tsurugi - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10893" nameEn="Sword of Valhalla - Nature" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10897" nameEn="Stormbringer*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10902" nameEn="Arthro Nail - Destruction" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10906" nameEn="Ice Storm Hammer - Lightning" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10910" nameEn="Sword of Nightmare*Sword of Nightmare - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10911" nameEn="Sword of Nightmare*Tsurugi - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10912" nameEn="Military Fleuret - Destruction" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10916" nameEn="Sprite's Staff - Hail" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10920" nameEn="Tsurugi*Tsurugi - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10921" nameEn="Caliburs*Sword of Limit - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10922" nameEn="Caliburs*Sword of Delusion - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10923" nameEn="Caliburs*Sword of Nightmare - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10924" nameEn="Caliburs*Tsurugi - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10925" nameEn="Caliburs*Caliburs - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10926" nameEn="Kris - Confusion" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10930" nameEn="Keshanberk - Destruction" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10934" nameEn="Peacemaker - Concentration" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10942" nameEn="Hell Knife - Confusion" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10946" nameEn="Raid Sword*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10947" nameEn="Shamshir*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10948" nameEn="Spirit Sword*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10949" nameEn="Katana*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10950" nameEn="Sword of Limit*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10951" nameEn="Sword of Delusion*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10952" nameEn="Sword of Nightmare*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10953" nameEn="Tsurugi*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10954" nameEn="Caliburs*Samurai Long Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10955" nameEn="Guardian Sword - Great Gale" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10959" nameEn="Sword of Damascus - Earth" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10963" nameEn="Dismantler - Great Gale" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10967" nameEn="Lance - Earth" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10971" nameEn="Bellion Cestus - Great Gale" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10975" nameEn="Staff of Evil Spirits - Holy Spirit" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10979" nameEn="Deadman's Glory - Landslide" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10983" nameEn="Star Buster - Great Gale" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10987" nameEn="Samurai Long Sword*Samurai Long Sword - Landslide" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="10992" nameEn="Demon Dagger - Great Gale" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11001" nameEn="Colichemarde - Earth" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11005" nameEn="Wizard's Tear - Cleverness" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11009" nameEn="Bow of Peril - Earth" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11013" nameEn="Hell Hound - Earth" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11017" nameEn="Dasparion's Staff - Hail" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11021" nameEn="Doomchanter - Concentration" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11025" nameEn="White Lightning - Destruction" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11033" nameEn="Blood Tornado - Destruction" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11037" nameEn="Bloody Orchid - Confusion" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11041" nameEn="Elemental Sword - Hail" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11049" nameEn="Infernal Master - Concentration" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11053" nameEn="Carnage Bow - Concentration" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11057" nameEn="Keshanberk*Keshanberk - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11058" nameEn="Tallum Blade - Destruction" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11062" nameEn="Destroyer Hammer - Lightning" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11066" nameEn="Divine Pain - Concentration" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11070" nameEn="Halberd - Lightning" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11074" nameEn="Keshanberk*Damascus - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11075" nameEn="Lacerator - Thunder" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11079" nameEn="Damascus*Damascus - Thunder" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11080" nameEn="Dark Legion - Thunder" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11084" nameEn="Undertaker - Evil Spirit" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11088" nameEn="Doom Crusher - Thunder" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11092" nameEn="Dragon Grinder - Earth" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11096" nameEn="Dragon Slayer - Evil Spirit" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11100" nameEn="Flaming Dragon Skull - Wisdom" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11104" nameEn="Branch of the Mother Tree - Nature" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11108" nameEn="Sword of Miracles - Holy Spirit" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11112" nameEn="Reaper - Clairvoyance" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11116" nameEn="Soul Separator - On Fire" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11124" nameEn="Soul Bow - Clairvoyance" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11128" nameEn="Tallum Glaive - On Fire" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11133" nameEn="Naga Storm - Molar" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11137" nameEn="Daimon Crystal - Wisdom" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11145" nameEn="Screaming Vengeance - Concentration" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11149" nameEn="Behemoth's Tuning Fork - Destruction" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11153" nameEn="Bultgang - Earth" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11157" nameEn="Shyeed's Bow - Concentration" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11161" nameEn="Sword of Ipos - Earth" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11165" nameEn="Sobekk's Hurricane - Landslide" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11169" nameEn="Sirra's Blade - Landslide" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11173" nameEn="Eclair Bijou - Landslide" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11177" nameEn="Tiphon's Spear - Landslide" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11181" nameEn="Tallum Blade*Damascus - Landslide" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11182" nameEn="Themis' Tongue - Cleverness" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11186" nameEn="Cabrio's Hand - Cleverness" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11190" nameEn="Gram - Thunder" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11194" nameEn="Demon Splinter - Thunder" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11198" nameEn="Draconic Bow - Earth" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11202" nameEn="Dragon Hunter Axe - Thunder" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11206" nameEn="Laevateinn - Lightning" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11210" nameEn="Basalt Battlehammer - Concentration" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11214" nameEn="Sarunga - Earth" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11218" nameEn="Saint Spear - Destruction" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11226" nameEn="Angel Slayer - Concentration" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11230" nameEn="Imperial Staff - Nature" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11234" nameEn="Tallum Blade*Dark Legion's Edge - Lightning" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11235" nameEn="Forgotten Blade - Lightning" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11239" nameEn="Heaven's Divider - Thunder" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11243" nameEn="Dynasty Ancient Sword - Great Gale" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11247" nameEn="Dynasty Knife - Great Gale" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11251" nameEn="Dynasty Dual Sword - Earth" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11252" nameEn="Dynasty Rapier - Earth" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11260" nameEn="Dynasty Bagh-Nakh - Great Gale" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11264" nameEn="Dynasty Bow - Great Gale" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11268" nameEn="Dynasty Blade - Great Gale" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11272" nameEn="Dynasty Sword - Earth" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11276" nameEn="Dynasty Staff - Holy Spirit" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11284" nameEn="Dynasty Crusher - Great Gale" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11288" nameEn="Dynasty Crossbow - Great Gale" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11292" nameEn="Dynasty Phantom - Nature" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11296" nameEn="Dynasty Halberd - Earth" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11300" nameEn="Icarus Dual Sword - Destruction" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11301" nameEn="Icarus Disperser - Confusion" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11305" nameEn="Icarus Sawsword - Destruction" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11309" nameEn="Icarus Shooter - Concentration" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11313" nameEn="Icarus Stinger - Destruction" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11317" nameEn="Icarus Spirit - Nature" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11321" nameEn="Icarus Spitter - Concentration" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11325" nameEn="Icarus Wingblade - Lightning" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11329" nameEn="Icarus Trident - Thunder" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11337" nameEn="Icarus Hand - Destruction" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="11341" nameEn="Icarus Heavy Arms - Lightning" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13042" nameEn="Ancient Legacy Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13043" nameEn="Enhanced Ancient Legacy Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13044" nameEn="Complete Ancient Legacy Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13052" nameEn="Spear of Silenos" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13053" nameEn="Enhanced Spear of Silenos" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13054" nameEn="Complete Spear of Silenos" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13845" nameEn="Attribute Master Yin's Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13881" nameEn="Attribute Master Yang's Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13882" nameEn="Dynasty Dual Daggers" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13883" nameEn="Icarus Dual Daggers" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13985" nameEn="Exclusive to Monsters (Death Slayer_r)" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13986" nameEn="Exclusive to Monsters (Death Slayer_l)" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="13987" nameEn="Exclusive to Monsters (Savage Warrior)" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14526" nameEn="Dynasty Dual Daggers - Great Gale" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14527" nameEn="Icarus Dual Daggers - Confusion" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14560" nameEn="Dagger of Val Turner Family" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14561" nameEn="Slasher of Val Turner Family" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14562" nameEn="Sword of Ashton Family" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14563" nameEn="Claw of Ashton Family" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14564" nameEn="Slasher of Esthus Family" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14565" nameEn="Great Hammer of Esthus Family" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14566" nameEn="Staff of Dake Family" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14567" nameEn="Hall of Dake Family" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14568" nameEn="Bow of Cadmus Family" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14569" nameEn="Mace of Cadmus Family" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14570" nameEn="Dual Sword of Hunter Family" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14571" nameEn="Spear of Hunter Family" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14572" nameEn="Staff of Abygail Family" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14573" nameEn="Great Hammer of Abygail Family" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14574" nameEn="Spear of Halter Family" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14575" nameEn="Dagger of Halter Family" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14576" nameEn="Mace of Orwen Family" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14577" nameEn="Claw of Orwen Family" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14578" nameEn="Slicer of Val Turner Family" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14579" nameEn="?p?e of Ashton Family" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14580" nameEn="Slicer of Esthus Family" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="14581" nameEn="Estoc of Cadmus Family" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15280" nameEn="NPC use clear 1HS" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15281" nameEn="NPC use clear 2HS" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15300" nameEn="NPC exclusive transparent dual" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15301" nameEn="NPC exclusive transparent pole" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15302" nameEn="NPC exclusive transparent bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15303" nameEn="NPC exclusive transparent claw" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15304" nameEn="NPC exclusive transparent bowgun" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15305" nameEn="NPC exclusive transparent rapier" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15306" nameEn="NPC exclusive transparent dual dagger" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15310" nameEn="Sacred Sword of Einhasad" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="15687" nameEn="Triumph Rapier" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="207" nameEn="Staff of Phantom" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="208" nameEn="Staff of Seal" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="209" nameEn="Divine Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="210" nameEn="Staff of Evil Spirits" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="211" nameEn="Staff of Nobility" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="212" nameEn="Dasparion's Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="213" nameEn="Branch of the Mother Tree" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="214" nameEn="The Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="229" nameEn="Kris" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="234" nameEn="Demon Dagger" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="235" nameEn="Bloody Orchid" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="236" nameEn="Soul Separator" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="237" nameEn="Dragon's Tooth" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="243" nameEn="Hell Knife" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="264" nameEn="Pata" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="267" nameEn="Arthro Nail" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="268" nameEn="Bellion Cestus" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="269" nameEn="Blood Tornado" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="270" nameEn="Dragon Grinder" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="284" nameEn="Dark Elven Long Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="287" nameEn="Bow of Peril" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="288" nameEn="Carnage Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="289" nameEn="Soul Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="290" nameEn="The Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21935" nameEn="Butcher Blades" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21937" nameEn="Butcher Blades - Confusion" type="Dual Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21955" nameEn="Blades of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21957" nameEn="Blades of Delusion - Earth" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21959" nameEn="Blood Brother" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21966" nameEn="Blood Brother - Great Gale" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21973" nameEn="Mardil's Fan" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="21977" nameEn="Mardil's Fan - Holy Spirit" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2500" nameEn="Dark Legion's Edge" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2504" nameEn="Meteor Shower" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2566" nameEn="Stormbringer*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2567" nameEn="Stormbringer*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2568" nameEn="Stormbringer*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2569" nameEn="Stormbringer*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2570" nameEn="Stormbringer*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2571" nameEn="Stormbringer*Samurai Long sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2576" nameEn="Shamshir*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2577" nameEn="Shamshir*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2578" nameEn="Shamshir*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2579" nameEn="Shamshir*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2580" nameEn="Shamshir*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2581" nameEn="Shamshir*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2585" nameEn="Katana*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2586" nameEn="Katana*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2587" nameEn="Katana*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2588" nameEn="Katana*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2589" nameEn="Katana*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2590" nameEn="Katana*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2593" nameEn="Spirit Sword*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2594" nameEn="Spirit Sword*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2595" nameEn="Spirit Sword*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2596" nameEn="Spirit Sword*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2597" nameEn="Spirit Sword*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2598" nameEn="Spirit Sword*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2600" nameEn="Raid Sword*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2601" nameEn="Raid Sword*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2602" nameEn="Raid Sword*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2603" nameEn="Raid Sword*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2604" nameEn="Raid Sword*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2605" nameEn="Raid Sword*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2606" nameEn="Caliburs*Caliburs" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2607" nameEn="Caliburs*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2608" nameEn="Caliburs*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2609" nameEn="Caliburs*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2610" nameEn="Caliburs*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2611" nameEn="Caliburs*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2612" nameEn="Sword of Limit*Sword of Limit" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2613" nameEn="Sword of Limit*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2614" nameEn="Sword of Limit*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2615" nameEn="Sword of Limit*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2616" nameEn="Sword of Limit*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2617" nameEn="Sword of Delusion*Sword of Delusion" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2618" nameEn="Sword of Delusion*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2619" nameEn="Sword of Delusion*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2620" nameEn="Sword of Delusion*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2621" nameEn="Sword of Nightmare*Sword of Nightmare" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2622" nameEn="Sword of Nightmare*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2623" nameEn="Sword of Nightmare*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2624" nameEn="Tsurugi*Tsurugi" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2625" nameEn="Tsurugi*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="2626" nameEn="Samurai Long Sword*Samurai Long Sword" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="300" nameEn="Great Axe" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="304" nameEn="Orcish Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="305" nameEn="Tallum Glaive" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="306" nameEn="Dragon Claw Axe" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="307" nameEn="Aurakyria Lance" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="4903" nameEn="Dasparion's Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="4904" nameEn="Dasparion's Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="4905" nameEn="Dasparion's Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5233" nameEn="Keshanberk*Keshanberk" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5629" nameEn="Orcish Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5630" nameEn="Orcish Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5631" nameEn="Orcish Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5704" nameEn="Keshanberk*Keshanberk" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5705" nameEn="Keshanberk*Damascus" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="5706" nameEn="Damascus*Damascus" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6364" nameEn="Forgotten Blade" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6366" nameEn="Imperial Staff" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6367" nameEn="Angel Slayer" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6368" nameEn="Shining Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6369" nameEn="Dragon Hunter Axe" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6370" nameEn="Saint Spear" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6371" nameEn="Demon Splinter" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6372" nameEn="Heaven's Divider" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6532" nameEn="KingFisher Rod" type="Rod">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6533" nameEn="Cygnus Pole" type="Rod">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6534" nameEn="Triton Pole" type="Rod">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6579" nameEn="Arcana Mace" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6580" nameEn="Tallum Blade*Dark Legion's Edge" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="6722" nameEn="Monster Only(Ahrimanes)" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7575" nameEn="Draconic Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7883" nameEn="Guardian Sword" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7884" nameEn="Infernal Master" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7889" nameEn="Wizard's Tear" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7892" nameEn="Spell Breaker" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7893" nameEn="Kaim Vanul's Bones" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7894" nameEn="Spiritual Eye" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7899" nameEn="Destroyer Hammer" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7900" nameEn="Ice Storm Hammer" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7901" nameEn="Star Buster" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="7902" nameEn="Doom Crusher" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8678" nameEn="Sirra's Blade" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8679" nameEn="Sword of Ipos" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8680" nameEn="Barakiel's Axe" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8681" nameEn="Behemoth's Tuning Fork" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8682" nameEn="Naga Storm" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8683" nameEn="Tiphon's Spear" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8684" nameEn="Shyeed's Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8685" nameEn="Sobekk's Hurricane" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8686" nameEn="Themis' Tongue" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8688" nameEn="Daimon Crystal" type="Big Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8763" nameEn="Elrokian Trap" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="8938" nameEn="Damascus * Tallum Blade" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9304" nameEn="Military Fleuret" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9308" nameEn="Innominate Victory" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9312" nameEn="Peacemaker" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9316" nameEn="Colichemarde" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9320" nameEn="Dismantler" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9324" nameEn="Hell Hound" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9328" nameEn="White Lightning" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9332" nameEn="Divine Pain" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9336" nameEn="Doomchanter" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9340" nameEn="Lacerator" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9344" nameEn="Undertaker" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9348" nameEn="Reaper" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9352" nameEn="?clair Bijou" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9356" nameEn="Durendal" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9360" nameEn="Screaming Vengeance" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9364" nameEn="Laevateinn" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9368" nameEn="Gram" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9372" nameEn="Sarnga" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9376" nameEn="Dynasty Rapier" type="Rapier">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9380" nameEn="Dynasty Ancient Sword" type="Ancient">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9384" nameEn="Dynasty Crossbow" type="Crossbow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9442" nameEn="Dynasty Sword" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9443" nameEn="Dynasty Blade" type="Big Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9444" nameEn="Dynasty Phantom" type="Sword">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9445" nameEn="Dynasty Bow" type="Bow">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9446" nameEn="Dynasty Knife" type="Dagger">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9447" nameEn="Dynasty Halberd" type="Pole">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9448" nameEn="Dynasty Cudgel" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9449" nameEn="Dynasty Mace" type="Blunt">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9450" nameEn="Dynasty Bagh-Nakh" type="Dual Fist">
+		<price id="4037" count="500" />
+	</weapon>
+	<weapon id="9813" nameEn="Orc Officer" type="Dual Sword">
+		<price id="4037" count="500" />
+	</weapon>
+</list>

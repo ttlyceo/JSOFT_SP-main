@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="142" nameEn="Fallen Angel - Request of Dawn" nameRu="Падший Ангел - Поручение Рассвета">
+		<level min="38" max="85" />
+		<expirience>
+			<rewardExp val="223036" rateable="true" />
+			<rewardSp val="13091" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20079">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20080">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20081">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20082">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20084">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20086">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20087">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20088">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20089">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="20090">
+				<item id="10352" min="1" chance="20" rateable="true" /> <!--Prophecy Fragment-->
+			</npc>
+			<npc id="27338">
+				<item id="10353" min="1" chance="100" rateable="false" /> <!--Fallen Angel Blood-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="92676" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

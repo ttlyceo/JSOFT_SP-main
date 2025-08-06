@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/fight_events.xsd">
+	<event id="3" nameEn="Lucky Creatures" nameRu="Счастливые Создания" impl="LuckyCreatures">
+		<parameter name="icon" value="L2UI_CT1.clan_DF_TerritoryWarIcon_Aden" />
+        	<parameter name="descEn" value="Will be 10 minutes to kill as many monsters as you can. Be quick and obtain great rewards!" />
+		<parameter name="descRu" value="Дается 10 минут, чтобы убить как можно больше монстров, за которых будет даваться награда!" />
+		<parameter name="roundRunTime" value="5" />
+        	<parameter name="roundEvent" value="false" />
+		<parameter name="isAutoTimed" value="true" />
+		<parameter name="autoTimes" value="0 2,14 * * *" />
+		<parameter name="teamed" value="false" />
+		<parameter name="canAttackPlayers" value="false" />
+		<parameter name="useBuffs" value="true" />
+		<parameter name="dispelBuffs" value="true" />
+		<parameter name="fighterBuffs" value="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2" />
+		<parameter name="mageBuffs" value="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2" />
+		<parameter name="givePvpPoints" value="false" />
+		<parameter name="canUseScrolls" value="false" />
+		<parameter name="canUsePotions" value="false" />
+		<parameter name="canItemSummons" value="false" />
+		<parameter name="canUseCommunity" value="true" /> <!-- if false will block buffer and other community services -->
+		<parameter name="rootBetweenRounds" value="true" />
+		<parameter name="loseBuffsOnDeath" value="false" />
+		<parameter name="excludedClasses" value="" />
+		<parameter name="validLevels" value="75-85" /> <!-- Valid levels diff -->
+		<parameter name="validProffs" value="2;3" /> <!-- Valid proffs levels list -->
+		<parameter name="respawnTime" value="0" />
+		<parameter name="ressAllowed" value="false" />
+		<parameter name="monstersCount" value="200" />
+		<parameter name="monstersRespawn" value="60" />
+		<parameter name="monsterTemplates" value="20432;22228" />
+		<!-- better to make different rewards for different positions -->
+		<!-- can use several items in one position -->
+		<parameter name="rewardByParticipation" value="57,100000" />
+		<parameter name="rewardByKillPlayer" value="4037,1" /> <!-- reward for mob killing -->
+		<parameter name="instanced" value="true" />
+		<parameter name="isUseEventItems" value="false" />
+		<!-- check and unequip items from slot numbers -->
+		<parameter name="checkItemSlots" value="23;0;8;9;4;13;14;1;5;7;10;6;11;12;2;3;17;18;19;20;21;16;15;24" />
+		<!-- Example event items by classes -->
+		<eventItems>
+			<class id="106"> <!-- Shillien Templar -->
+				<itemList>
+					<item id="14120" amount="1" enchant="16" augmentation="16340:13400" elementals="0:300" /> <!-- Vesper Cutter -->
+					<item id="13435" amount="1" /> <!-- Vesper Noble Breastplate -->
+					<item id="13448" amount="1" /> <!-- Vesper Noble Gaiters -->
+					<item id="13140" amount="1" /> <!-- Vesper Noble Helmet -->
+                			<item id="13450" amount="1" /> <!-- Vesper Noble Boots -->
+               				<item id="13449" amount="1" /> <!-- Vesper Noble Gauntlet -->
+                			<item id="13471" amount="1" /> <!-- Vesper Shield -->
+                			<item id="14164" amount="1" /> <!-- Vesper Necklace -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+				</itemList>
+			</class>
+			<class id="90"> <!-- Phoenix Knight -->
+				<itemList>
+					<item id="14120" amount="1" enchant="16" augmentation="16340:13400" elementals="0:300" /> <!-- Vesper Cutter -->
+					<item id="13435" amount="1" /> <!-- Vesper Noble Breastplate -->
+					<item id="13448" amount="1" /> <!-- Vesper Noble Gaiters -->
+					<item id="13140" amount="1" /> <!-- Vesper Noble Helmet -->
+                			<item id="13450" amount="1" /> <!-- Vesper Noble Boots -->
+               				<item id="13449" amount="1" /> <!-- Vesper Noble Gauntlet -->
+                			<item id="13471" amount="1" /> <!-- Vesper Shield -->
+                			<item id="14164" amount="1" /> <!-- Vesper Necklace -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+				</itemList>
+			</class>
+		</eventItems>
+	</event>
+</list>

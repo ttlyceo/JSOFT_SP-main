@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/statLimit.xsd">
+	<general>
+		<player>
+			<class id="-1"> <!-- for all classes -->
+				<set name="MOVE_SPEED" value="300" />
+				<set name="CRITICAL_RATE" value="500" />
+				<set name="MCRITICAL_RATE" value="20" />
+				<set name="POWER_ATTACK_SPEED" value="1500" />
+				<set name="MAGIC_ATTACK_SPEED" value="1999" />
+				<set name="EVASION_RATE" value="250" />
+				<set name="CRITICAL_DAMAGE" value="5" />
+			</class>
+		</player>		
+		<summon>
+			<set name="MOVE_SPEED" value="300" />
+			<set name="CRITICAL_RATE" value="500" />
+			<set name="MCRITICAL_RATE" value="20" />
+			<set name="POWER_ATTACK_SPEED" value="1500" />
+			<set name="MAGIC_ATTACK_SPEED" value="1999" />
+			<set name="EVASION_RATE" value="250" />
+			<set name="CRITICAL_DAMAGE" value="5" />
+		</summon>
+	</general>
+	<olympiad>
+		<player>
+			<class id="-1"> <!-- for all classes -->
+				<set name="MOVE_SPEED" value="300" />
+				<set name="CRITICAL_RATE" value="500" />
+				<set name="MCRITICAL_RATE" value="20" />
+				<set name="POWER_ATTACK_SPEED" value="1500" />
+				<set name="MAGIC_ATTACK_SPEED" value="1999" />
+				<set name="EVASION_RATE" value="250" />
+				<set name="CRITICAL_DAMAGE" value="5" />
+			</class>
+		</player>		
+		<summon>
+			<set name="MOVE_SPEED" value="300" />
+			<set name="CRITICAL_RATE" value="500" />
+			<set name="MCRITICAL_RATE" value="20" />
+			<set name="POWER_ATTACK_SPEED" value="1500" />
+			<set name="MAGIC_ATTACK_SPEED" value="1999" />
+			<set name="EVASION_RATE" value="250" />
+			<set name="CRITICAL_DAMAGE" value="5" />
+		</summon>
+	</olympiad>
+</list>

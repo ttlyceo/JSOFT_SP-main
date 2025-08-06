@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="dress" maxOccurs="9999" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="set" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="chest" use="required" type="xs:int" />
+									<xs:attribute name="legs" use="required" type="xs:int" />
+									<xs:attribute name="gloves" use="required" type="xs:int" />
+									<xs:attribute name="feet" use="required" type="xs:int" />
+									<xs:attribute name="shield" type="xs:int" />
+									<xs:attribute name="cloak" type="xs:int" />
+									<xs:attribute name="hat" type="xs:int" />
+									<xs:attribute name="slot" type="xs:int" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="price" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int" />
+									<xs:attribute name="count" use="required" type="xs:int" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="removed" maxOccurs="1" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="modifier" use="required" type="xs:decimal" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="skill" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int" />
+									<xs:attribute name="level" use="required" type="xs:int" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" use="required" type="xs:int" />
+						<xs:attribute name="nameEn" use="required" type="xs:normalizedString" />
+						<xs:attribute name="nameRu" type="xs:normalizedString" />
+						<xs:attribute name="checkEquip" type="xs:boolean" />
+						<xs:attribute name="isForSell" type="xs:boolean" />
+						<xs:attribute name="isForKamael" type="xs:boolean" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

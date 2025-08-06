@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="653" nameEn="Wild Maiden" nameRu="Дикарка">
+		<level min="26" max="85" />
+		<rewardlist>
+			<item id="57" min="2553" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,68 @@
+<html noscrollbar><title>Attribute Transfer Service</title><body><br>
+<center>
+<br>
+<table width=270>
+	<tr>
+		<td fixwidth=20>
+			<button action="%augment_bypass%" value=" " width=15 height=15 back="%augment_select%" fore="%augment_select%">
+		</td>
+		<td fixwidth=115>
+			<font color=CDB38B>Augment Transfer</font>
+		</td>
+		<td fixwidth=20>
+			<button action="%element_bypass%" value=" " width=15 height=15 back="%element_select%" fore="%element_select%">
+		</td>
+		<td fixwidth=115>
+			<font color=CDB38B>Elements Transfer</font>
+		</td>
+	</tr>
+</table>
+<br><br>
+<table width=270>
+	<tr>
+		<td width=130 align=center><font color=E6D0AE>General item</font><br>
+			<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=%selectIcon%>
+				<tr>
+					<td width=32 height=32 align=center valign=top>
+						<button action="bypass -h selectitem" width=34 height=34 back=L2UI_CT1.ItemWindow_DF_Frame_Down fore=L2UI_CT1.ItemWindow_DF_Frame />
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width=130 align=center><font color=E6D0AE>New item</font><br>
+			<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=%transferIcon%>
+				<tr>
+					<td width=32 height=32 align=center valign=top>
+						<button action="bypass -h transferitem" width=34 height=34 back=L2UI_CT1.ItemWindow_DF_Frame_Down fore=L2UI_CT1.ItemWindow_DF_Frame />
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br><br><br>
+<font color=CDB38B>Service price:</font><br>
+<table width=270>
+	<tr>
+		<td width=80>
+			&nbsp;
+		</td>
+		<td width=40>
+			<table cellspacing=0 cellpadding=0 background="%priceIcon%">
+				<tr>
+					<td>
+						<button value=" " action="" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame">
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr><td width=220>%priceName%<br1><font color=%color%>X %priceCount%</font><br></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br><br><button width=150 height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h changeabilities" value="Transfer Attributes!">
+</center>
+</body></html>

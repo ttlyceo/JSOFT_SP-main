@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/communityTeleports.xsd">
+	<!-- Example bypass format: bypass -h _bbsteleport;id;1 -->
+
+	<point id="1" name="Giran Warehouse" minLevel="1" maxLevel="85" freeLevel="40" pk="false" forPremium="false">
+		<request itemId="4037" count="1" /> <!-- Check for use teleport -->
+		<cost itemId="57" count="50000" /> <!-- Price for teleport -->
+		<coordinates x="77560" y="148200" z="-3622" />
+	</point>
+</list>

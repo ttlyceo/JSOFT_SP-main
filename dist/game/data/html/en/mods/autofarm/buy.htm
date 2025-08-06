@@ -1,0 +1,19 @@
+<html noscrollbar><title>Auto Farm Buy Menu</title><body>
+<center>
+<br>
+To receive a auto farm, it is necessary to specify choose days which the auto farm will be issued.<br>
+<table width=250>
+	<tr>
+		<td fixwidth=170>Choose auto farm hours:</td>
+		<td><combobox width=100 var=selectid list="%time%"></td>
+	</tr>
+</table>
+<br>
+<table width=250 height=210>
+<tr>
+<td><button value="Buy Auto Farm" action="bypass -h voiced_buyTimefarm $selectid %skillType% %skillPage%" width=140 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>%freeUse%</td>
+</tr>
+</table>
+<button value="Back" action="bypass -h voiced_autofarm %skillType% %skillPage%" width=80 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</center>
+</body></html>

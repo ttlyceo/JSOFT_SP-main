@@ -1,0 +1,104 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ *
+ */
+package l2e.gameserver.model.entity.underground_coliseum;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UCRunningTask implements Runnable
+{
+	private final UCArena _arena;
+
+	public UCRunningTask(UCArena arena)
+	{
+		_arena = arena;
+	}
+
+	@Override
+	public void run()
+	{
+		_arena.generateWinner();
+		_arena.removeTeams();
+		
+		UCTeam winnerTeam = null;
+		for (final UCTeam team : _arena.getTeams())
+		{
+			if (team.getStatus() == UCTeam.WIN)
+			{
+				winnerTeam = team;
+			}
+			else if (team.getStatus() == UCTeam.FAIL)
+			{
+				team.cleanUp();
+			}
+		}
+
+		for (final UCPoint point : _arena.getPoints())
+		{
+			point.actionDoors(false);
+			point.getPlayers().clear();
+		}
+		
+		if (winnerTeam != null)
+		{
+			if (_arena.getWaitingList().size() >= 1)
+			{
+				final UCTeam other = winnerTeam.getOtherTeam();
+				final UCWaiting otherWaiting = _arena.getWaitingList().get(0);
+				other.setParty(otherWaiting.getParty());
+				other.setRegisterTime(otherWaiting.getRegisterMillis());
+				_arena.getWaitingList().remove(0);
+				_arena.prepareStart();
+				return;
+			}
+			else
+			{
+				winnerTeam.cleanUp();
+			}
+		}
+
+		if (_arena.getWaitingList().size() >= 2)
+		{
+			int i = 0;
+			UCWaiting teamWaiting = null;
+			final List<UCWaiting> removeList = new ArrayList<>();
+			for (final UCTeam team : _arena.getTeams())
+			{
+				teamWaiting = _arena.getWaitingList().get(i);
+				removeList.add(teamWaiting);
+				team.setParty(teamWaiting.getParty());
+				team.setRegisterTime(teamWaiting.getRegisterMillis());
+				i++;
+				if (i == 2)
+				{
+					break;
+				}
+			}
+			
+			for (final UCWaiting tm : removeList)
+			{
+				if (_arena.getWaitingList().contains(tm))
+				{
+					_arena.getWaitingList().remove(tm);
+				}
+			}
+			removeList.clear();
+			_arena.prepareStart();
+			return;
+		}
+		_arena.setIsBattleNow(false);
+		_arena.runNewTask(false);
+	}
+}

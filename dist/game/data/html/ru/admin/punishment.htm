@@ -1,0 +1,164 @@
+<html noscrollbar><body>
+<title>Меню Наказаний</title>
+<table width=750 border=0>
+	<tr>
+		<td width=750 align=center>
+			<br>
+			<font color="CDB88B" name="hs12">М е н ю  Н а к а з а н и й</font>
+			<br>
+		</td>
+	</tr>
+</table>
+<img src="L2UI_CT1.Gauge_DF_CP_Center" width=770 height=2>
+<table cellspacing=2 width=770 border=0>
+	<tr>
+		<td width=40 align=right>
+			Вид
+		</td>
+		<td width=100 align=center>
+			<combobox width=100 var="sort" list="%sort%;%sortList%">
+		</td>
+		<td width=40 align=right>
+			Тип
+		</td>
+		<td width=100 align=center>
+			<combobox width=90 var="type" list="%type%;%typeList%">
+		</td>
+		<td width=50 align=right>
+			Прим.
+		</td>
+		<td width=90 align=center>
+			<combobox width=100 var="affect" list="%aff%;%affList%">
+		</td>
+		<td width=60 align=left>
+			<button value="Применить" action="bypass -h _bbspunishmentlist $sort $type $affect %page%" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td width=70 align=right>
+			Поиск
+		</td>
+		<td width=110>
+			<edit var="search" width=110 height=15>
+		</td>
+		<td width=60>
+			<button value="Найти" action="bypass -h _bbspunishmentlist $sort $type $affect %page% $search" width=60 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+</table>
+<img src="L2UI_CT1.Gauge_DF_CP_Center" width=770 height=2>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=770>
+	<tr><td height=10></td></tr>
+	<tr>
+		<td fixwidth=130 cellspacing=0 cellpadding=0 height=370 align=center>
+			<table border=0 cellspacing=0 cellpadding=0>
+				<tr>
+					<td align=center>
+						<font color=00FF00>Новый Бан</font><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<combobox width=100 var="bansort" list="CHARACTER;ACCOUNT"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<font color=LEVEL>Имя или Аккаунт</font>
+						<edit var="banname" width=100 height=15><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<combobox width=100 var="bantype" list="BAN;CHAT_BAN;PARTY_BAN;JAIL"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<combobox width=100 var="banaffect" list="CHARACTER;ACCOUNT;IP;HWID"><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<font color=LEVEL>Время</font>
+						<edit var="bantime" width=100 height=15><br><br1>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<font color=LEVEL>Причина</font>
+						<edit var="banreason" width=100 height=15><br><br>
+					</td>
+				</tr>				
+				<tr>
+					<td align=center>
+						<table border=0 cellspacing=0 cellpadding=0>
+							<tr>
+								<td width=20 align=left>
+									<button action="bypass _bbspunishmentAnnounce" value=" " width=15 height=15 back="%announce_img%" fore="%announce_img%">
+								</td>
+								<td align=center>
+									<font color=LEVEL>Аннонсиров.?</font>
+								</td>
+							</tr>
+						</table>
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+						<button value="Добавить" action="bypass _bbsaddpunishment $banname $bansort $banaffect $bantype $bantime $banreason" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width=9 cellspacing=0 cellpadding=0  height=430>
+		<img src="l2ui.squaregray" width=1 height=430>
+		</td>
+		<td width=530>
+			<table border=0 cellspacing=0 cellpadding=0 width=530 height=387>
+				<tr>
+					<td>
+						<table border=0 cellspacing=0 cellpadding=0 fixwidth=580>
+										<tr>
+											<td fixwidth=80>
+												<button value="Вид" action="" width=80 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=120>
+												<button value="Название" action="" width=120 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=80>
+												<button value="Тип" action="" width=80 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=80>
+												<button value="Применение" action="" width=80 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=130>
+												<button value="Время" action="" width=130 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=120>
+												<button value="Исполнитель" action="" width=120 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+											<td fixwidth=30>
+												<button value="" action="" width=30 height=18 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+										</tr>
+						</table>
+						%list%
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td width=530 align=center>
+						<table border=0 cellspacing=5 cellpadding=0 width=300>
+							<tr>
+								%navigation%
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body></html>

@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/spawn.xsd">
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-001]" />
+		<point x="13856" y="-18041" z="-3084" h="14873" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-001]" />
+		<point x="16705" y="-10693" z="-3256" h="16322" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-001]" />
+		<point x="27434" y="-16969" z="-2684" h="27490" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-002]" />
+		<point x="26440" y="-19193" z="-2436" h="39975" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-003]" />
+		<point x="23494" y="-19750" z="-2768" h="33024" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-004]" />
+		<point x="21023" y="-19780" z="-3291" h="20822" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-005]" />
+		<point x="18244" y="-19661" z="-3268" h="30880" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-006]" />
+		<point x="17347" y="-17214" z="-3210" h="22418" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-007]" />
+		<point x="15651" y="-18428" z="-3176" h="37306" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-008]" />
+		<point x="16602" y="-15343" z="-3189" h="17384" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-009]" />
+		<point x="17319" y="-13008" z="-3126" h="5605" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-010]" />
+		<point x="20041" y="-9136" z="-2792" h="17359" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-011]" />
+		<point x="21009" y="-14388" z="-3100" h="46465" />
+		<npc id="18344" /><!--Ancient Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-012]" />
+		<point x="6038" y="-17401" z="-3724" h="43831" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-013]" />
+		<point x="5950" y="-8682" z="-3643" h="55411" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-014]" />
+		<point x="5996" y="-8285" z="-3649" h="48744" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-015]" />
+		<point x="3059" y="-10939" z="-3642" h="56598" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-016]" />
+		<point x="5203" y="-8446" z="-3585" h="59155" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-017]" />
+		<point x="4759" y="-7135" z="-3464" h="26944" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-018]" />
+		<point x="5613" y="-14345" z="-3712" h="48634" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-019]" />
+		<point x="5135" y="-11339" z="-3641" h="48544" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-020]" />
+		<point x="7379" y="-14714" z="-3711" h="38907" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-021]" />
+		<point x="3368" y="-15608" z="-3547" h="2412" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-022]" />
+		<point x="4265" y="-15184" z="-3589" h="15488" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-023]" />
+		<point x="5505" y="-19683" z="-3618" h="3661" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-024]" />
+		<point x="6563" y="-19978" z="-3604" h="63942" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-025]" />
+		<point x="3736" y="-17799" z="-3633" h="64130" />
+		<npc id="22214" /><!--Elroki-->
+	</spawn>
+	<spawn count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-026]" />
+		<point x="24767" y="-12441" z="-2532" h="15314" />
+		<npc id="22215" /><!--Tyrannosaurus-->
+	</spawn>
+	<spawn count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-027]" />
+		<point x="28263" y="-17486" z="-2539" h="50052" />
+		<npc id="22215" /><!--Tyrannosaurus-->
+	</spawn>
+	<spawn count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-028]" />
+		<point x="18229" y="-17975" z="-3219" h="65140" />
+		<npc id="22215" /><!--Tyrannosaurus-->
+	</spawn>
+	<spawn count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-029]" />
+		<point x="19897" y="-9087" z="-2781" h="2686" />
+		<npc id="22216" /><!--Tyrannosaurus-->
+	</spawn>
+	<spawn count="1" respawn="300" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-030]" />
+		<point x="22827" y="-14698" z="-3080" h="53946" />
+		<npc id="22217" /><!--Tyrannosaurus-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-031]" />
+		<point x="11965" y="-23989" z="-3644" h="30964" />
+		<npc id="32105" /><!--Dinn-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-032]" />
+		<point x="10297" y="-24997" z="-3686" h="8408" />
+		<npc id="32106" /><!--Singsing-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-033]" />
+		<point x="23763" y="-7329" z="-1195" h="38200" />
+		<npc id="32109" /><!--Shilen's Stone Statue-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-034]" />
+		<point x="7320" y="-5432" z="-3224" h="57729" />
+		<npc id="32111" /><!--Orahochin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-035]" />
+		<point x="5395" y="-2922" z="-3161" h="15524" />
+		<npc id="32112" /><!--Gariachin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-036]" />
+		<point x="11717" y="-23628" z="-3644" h="38271" />
+		<npc id="32113" /><!--Marquez-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-037]" />
+		<point x="6643" y="-2577" z="-2938" h="40315" />
+		<npc id="32114" /><!--Mushika-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-038]" />
+		<point x="6458" y="-2427" z="-2938" h="39083" />
+		<npc id="32115" /><!--Asamah-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-039]" />
+		<point x="12733" y="-14459" z="-3180" h="45998" />
+		<npc id="32116" /><!--Kirikachin-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-040]" />
+		<point x="6334" y="-2185" z="-2964" h="34674" />
+		<npc id="32117" /><!--Karakawei-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-041]" />
+		<point x="15386" y="-19586" z="-3134" h="26907" />
+		<npc id="32118" /><!--Mantarasa Egg-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-042]" />
+		<point x="23707" y="-19108" z="-2820" h="16264" />
+		<npc id="32119" /><!--Ulu Kaimu-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-043]" />
+		<point x="27723" y="-11684" z="-2302" h="16264" />
+		<npc id="32120" /><!--Balu Kaimu-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-044]" />
+		<point x="18714" y="-9635" z="-2795" h="16264" />
+		<npc id="32121" /><!--Chuta Kaimu-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-045]" />
+		<point x="13122" y="-8897" z="-3096" h="61707" />
+		<npc id="32122" /><!--Warrior's Grave-->
+	</spawn>
+	<spawn count="1" respawn="86400" respawn_random="21600" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-046]" />
+		<point x="3776" y="-6768" z="-3288" h="43200" />
+		<npc id="25527" /><!--Uruka-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-047]" />
+		<point x="11504" y="-23344" z="-3640" h="39000" />
+		<npc id="32714" /><!--Asher -->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [point-048]" />
+		<point x="11464" y="-23048" z="-3637" h="44323" />
+		<npc id="32104" /><!-- Vervato -->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_alive_npc">
+		<debug name="territory_name" val="20_17 [point-049]" />
+		<point x="10840" y="-24184" z="-3640" h="40959" />
+		<npc id="4324" /><!--Worshipper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_alive_npc">
+		<debug name="territory_name" val="20_17 [point-050]" />
+		<point x="10968" y="-24248" z="-3640" h="45796" />
+		<npc id="4325" /><!--Altar Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_alive_npc">
+		<debug name="territory_name" val="20_17 [point-051]" />
+		<point x="10824" y="-24024" z="-3640" h="29412" />
+		<npc id="4325" /><!--Altar Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_dead_npc">
+		<debug name="territory_name" val="20_17 [point-052]" />
+		<point x="10840" y="-24184" z="-3640" h="40959" />
+		<npc id="4327" /><!--Worshipper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_dead_npc">
+		<debug name="territory_name" val="20_17 [point-053]" />
+		<point x="10968" y="-24248" z="-3640" h="45796" />
+		<npc id="4328" /><!--Altar Guard-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none" group="Primeval_bloodaltar_dead_npc">
+		<debug name="territory_name" val="20_17 [point-054]" />
+		<point x="10824" y="-24024" z="-3640" h="29412" />
+		<npc id="4328" /><!--Altar Guard-->
+	</spawn>
+	<spawn count="4" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [001]" />
+		<territory>
+			<add x="7843" y="-21468" zmin="-3700" zmax="-3350" />
+			<add x="8280" y="-20280" zmin="-3700" zmax="-3350" />
+			<add x="6515" y="-18989" zmin="-3700" zmax="-3350" />
+			<add x="6632" y="-21199" zmin="-3700" zmax="-3350" />
+		</territory>
+		<npc id="22226" /><!--Pachycephalosaurus-->
+		<npc id="22227" /><!--Wild Strider-->
+		<npc id="22742" count="2" /><!--Ornithomimus-->
+		<npc id="22743" count="2" /><!--Deinonychus-->
+		<npc id="22744" count="2" /><!--Ornithomimus-->
+		<npc id="22745" count="2" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="4" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [002]" />
+		<territory>
+			<add x="6190" y="-21920" zmin="-3620" zmax="-3300" />
+			<add x="5160" y="-21655" zmin="-3620" zmax="-3300" />
+			<add x="3829" y="-20082" zmin="-3620" zmax="-3300" />
+			<add x="5446" y="-19246" zmin="-3620" zmax="-3300" />
+		</territory>
+		<npc id="22226" /><!--Pachycephalosaurus-->
+		<npc id="22227" /><!--Wild Strider-->
+		<npc id="22742" count="2" /><!--Ornithomimus-->
+		<npc id="22743" count="2" /><!--Deinonychus-->
+		<npc id="22744" count="2" /><!--Ornithomimus-->
+		<npc id="22745" count="2" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="9" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [003]" />
+		<territory>
+			<add x="3608" y="-19040" zmin="-3780" zmax="-3400" />
+			<add x="2990" y="-18632" zmin="-3780" zmax="-3400" />
+			<add x="2241" y="-16860" zmin="-3780" zmax="-3400" />
+			<add x="7986" y="-15855" zmin="-3780" zmax="-3400" />
+			<add x="8057" y="-18041" zmin="-3780" zmax="-3400" />
+		</territory>
+		<npc id="22226" /><!--Pachycephalosaurus-->
+		<npc id="22227" /><!--Wild Strider-->
+		<npc id="22742" count="5" /><!--Ornithomimus-->
+		<npc id="22743" count="5" /><!--Deinonychus-->
+		<npc id="22744" count="5" /><!--Ornithomimus-->
+		<npc id="22745" count="5" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="5" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [004]" />
+		<territory>
+			<add x="8233" y="-16245" zmin="-3780" zmax="-3250" />
+			<add x="7888" y="-15059" zmin="-3780" zmax="-3250" />
+			<add x="6774" y="-12815" zmin="-3780" zmax="-3250" />
+			<add x="4835" y="-13014" zmin="-3780" zmax="-3250" />
+			<add x="2189" y="-13872" zmin="-3780" zmax="-3250" />
+			<add x="2391" y="-17642" zmin="-3780" zmax="-3250" />
+		</territory>
+		<npc id="22226" /><!--Pachycephalosaurus-->
+		<npc id="22227" count="9" /><!--Wild Strider-->
+		<npc id="22742" count="9" /><!--Ornithomimus-->
+		<npc id="22743" /><!--Deinonychus-->
+		<npc id="22744" /><!--Ornithomimus-->
+		<npc id="22745" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="9" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [005]" />
+		<territory>
+			<add x="2206" y="-14322" zmin="-3780" zmax="-3250" />
+			<add x="2832" y="-7304" zmin="-3780" zmax="-3250" />
+			<add x="4499" y="-7421" zmin="-3780" zmax="-3250" />
+			<add x="7377" y="-6263" zmin="-3780" zmax="-3250" />
+			<add x="7549" y="-7838" zmin="-3780" zmax="-3250" />
+			<add x="6427" y="-11694" zmin="-3780" zmax="-3250" />
+		</territory>
+		<npc id="22226" /><!--Pachycephalosaurus-->
+		<npc id="22227" /><!--Wild Strider-->
+		<npc id="22742" count="5" /><!--Ornithomimus-->
+		<npc id="22743" count="5" /><!--Deinonychus-->
+		<npc id="22744" count="5" /><!--Ornithomimus-->
+		<npc id="22745" count="5" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [006]" />
+		<territory>
+			<add x="14079" y="-17023" zmin="-3280" zmax="-2926" />
+			<add x="16035" y="-19072" zmin="-3280" zmax="-2926" />
+			<add x="16372" y="-19025" zmin="-3280" zmax="-2926" />
+			<add x="16717" y="-18290" zmin="-3280" zmax="-2926" />
+			<add x="17306" y="-18012" zmin="-3280" zmax="-2926" />
+			<add x="17637" y="-18147" zmin="-3280" zmax="-2926" />
+			<add x="18207" y="-18757" zmin="-3280" zmax="-2926" />
+			<add x="20388" y="-17837" zmin="-3280" zmax="-2926" />
+			<add x="22337" y="-16995" zmin="-3280" zmax="-2926" />
+			<add x="23740" y="-15161" zmin="-3280" zmax="-2926" />
+			<add x="23676" y="-14211" zmin="-3280" zmax="-2926" />
+			<add x="22277" y="-13226" zmin="-3280" zmax="-2926" />
+			<add x="19565" y="-14274" zmin="-3280" zmax="-2926" />
+			<add x="15996" y="-15766" zmin="-3280" zmax="-2926" />
+			<add x="14961" y="-16200" zmin="-3280" zmax="-2926" />
+			<add x="15323" y="-16563" zmin="-3280" zmax="-2926" />
+			<add x="14880" y="-16788" zmin="-3280" zmax="-2926" />
+			<banned_territory>
+				<add x="15286" y="-18262" zmin="-3280" zmax="-2926" />
+				<add x="15468" y="-18152" zmin="-3280" zmax="-2926" />
+				<add x="15683" y="-18316" zmin="-3280" zmax="-2926" />
+				<add x="15723" y="-18240" zmin="-3280" zmax="-2926" />
+				<add x="15468" y="-18064" zmin="-3280" zmax="-2926" />
+				<add x="15213" y="-18175" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="16338" y="-18020" zmin="-3280" zmax="-2926" />
+				<add x="16349" y="-17838" zmin="-3280" zmax="-2926" />
+				<add x="16003" y="-17793" zmin="-3280" zmax="-2926" />
+				<add x="15873" y="-17747" zmin="-3280" zmax="-2926" />
+				<add x="15944" y="-17964" zmin="-3280" zmax="-2926" />
+				<add x="16066" y="-18079" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15103" y="-16221" zmin="-3280" zmax="-2926" />
+				<add x="15217" y="-16357" zmin="-3280" zmax="-2926" />
+				<add x="15323" y="-16312" zmin="-3280" zmax="-2926" />
+				<add x="15286" y="-16176" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15443" y="-16199" zmin="-3280" zmax="-2926" />
+				<add x="15390" y="-16298" zmin="-3280" zmax="-2926" />
+				<add x="15477" y="-16302" zmin="-3280" zmax="-2926" />
+				<add x="15510" y="-16210" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15876" y="-16212" zmin="-3280" zmax="-2926" />
+				<add x="15806" y="-16154" zmin="-3280" zmax="-2926" />
+				<add x="15713" y="-16244" zmin="-3280" zmax="-2926" />
+				<add x="15787" y="-16314" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15962" y="-16319" zmin="-3280" zmax="-2926" />
+				<add x="15858" y="-16402" zmin="-3280" zmax="-2926" />
+				<add x="15908" y="-16491" zmin="-3280" zmax="-2926" />
+				<add x="15971" y="-16423" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="16971" y="-17126" zmin="-3280" zmax="-2926" />
+				<add x="17085" y="-17069" zmin="-3280" zmax="-2926" />
+				<add x="17056" y="-16975" zmin="-3280" zmax="-2926" />
+				<add x="16941" y="-17057" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="19532" y="-17891" zmin="-3280" zmax="-2926" />
+				<add x="19763" y="-18071" zmin="-3280" zmax="-2926" />
+				<add x="20010" y="-17946" zmin="-3280" zmax="-2926" />
+				<add x="19825" y="-17468" zmin="-3280" zmax="-2926" />
+				<add x="19691" y="-17613" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="19740" y="-17509" zmin="-3280" zmax="-2926" />
+				<add x="19652" y="-17339" zmin="-3280" zmax="-2926" />
+				<add x="19424" y="-17497" zmin="-3280" zmax="-2926" />
+				<add x="19556" y="-17634" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="17690" y="-16620" zmin="-3280" zmax="-2926" />
+				<add x="18078" y="-17078" zmin="-3280" zmax="-2926" />
+				<add x="18431" y="-16919" zmin="-3280" zmax="-2926" />
+				<add x="17921" y="-16436" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="20564" y="-15860" zmin="-3280" zmax="-2926" />
+				<add x="20735" y="-16303" zmin="-3280" zmax="-2926" />
+				<add x="20455" y="-16509" zmin="-3280" zmax="-2926" />
+				<add x="20666" y="-16699" zmin="-3280" zmax="-2926" />
+				<add x="20542" y="-17005" zmin="-3280" zmax="-2926" />
+				<add x="20635" y="-17104" zmin="-3280" zmax="-2926" />
+				<add x="20979" y="-16917" zmin="-3280" zmax="-2926" />
+				<add x="21082" y="-17232" zmin="-3280" zmax="-2926" />
+				<add x="21165" y="-17234" zmin="-3280" zmax="-2926" />
+				<add x="21308" y="-16963" zmin="-3280" zmax="-2926" />
+				<add x="21662" y="-17197" zmin="-3280" zmax="-2926" />
+				<add x="21750" y="-17059" zmin="-3280" zmax="-2926" />
+				<add x="21631" y="-16834" zmin="-3280" zmax="-2926" />
+				<add x="21586" y="-16738" zmin="-3280" zmax="-2926" />
+				<add x="21769" y="-16621" zmin="-3280" zmax="-2926" />
+				<add x="21768" y="-16565" zmin="-3280" zmax="-2926" />
+				<add x="21528" y="-16444" zmin="-3280" zmax="-2926" />
+				<add x="21725" y="-16049" zmin="-3280" zmax="-2926" />
+				<add x="21622" y="-15993" zmin="-3280" zmax="-2926" />
+				<add x="21375" y="-16140" zmin="-3280" zmax="-2926" />
+				<add x="21221" y="-15846" zmin="-3280" zmax="-2926" />
+				<add x="21136" y="-15823" zmin="-3280" zmax="-2926" />
+				<add x="20969" y="-16059" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22563" y="-15640" zmin="-3280" zmax="-2926" />
+				<add x="22246" y="-15244" zmin="-3280" zmax="-2926" />
+				<add x="22115" y="-15350" zmin="-3280" zmax="-2926" />
+				<add x="22223" y="-15697" zmin="-3280" zmax="-2926" />
+				<add x="22287" y="-15754" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23190" y="-14682" zmin="-3280" zmax="-2926" />
+				<add x="23330" y="-14536" zmin="-3280" zmax="-2926" />
+				<add x="23192" y="-14329" zmin="-3280" zmax="-2926" />
+				<add x="23086" y="-14508" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23512" y="-14114" zmin="-3280" zmax="-2926" />
+				<add x="23448" y="-14070" zmin="-3280" zmax="-2926" />
+				<add x="23378" y="-14154" zmin="-3280" zmax="-2926" />
+				<add x="23477" y="-14205" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23307" y="-14182" zmin="-3280" zmax="-2926" />
+				<add x="23145" y="-14076" zmin="-3280" zmax="-2926" />
+				<add x="22957" y="-14189" zmin="-3280" zmax="-2926" />
+				<add x="23146" y="-14357" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22806" y="-14192" zmin="-3280" zmax="-2926" />
+				<add x="22928" y="-14170" zmin="-3280" zmax="-2926" />
+				<add x="22942" y="-13911" zmin="-3280" zmax="-2926" />
+				<add x="22829" y="-13876" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22629" y="-14001" zmin="-3280" zmax="-2926" />
+				<add x="22684" y="-13667" zmin="-3280" zmax="-2926" />
+				<add x="22674" y="-13610" zmin="-3280" zmax="-2926" />
+				<add x="22570" y="-13605" zmin="-3280" zmax="-2926" />
+				<add x="22531" y="-13624" zmin="-3280" zmax="-2926" />
+				<add x="22530" y="-13964" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22387" y="-13770" zmin="-3280" zmax="-2926" />
+				<add x="22389" y="-13654" zmin="-3280" zmax="-2926" />
+				<add x="22261" y="-13607" zmin="-3280" zmax="-2926" />
+				<add x="22257" y="-13745" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22349" y="-13476" zmin="-3280" zmax="-2926" />
+				<add x="22405" y="-13342" zmin="-3280" zmax="-2926" />
+				<add x="22298" y="-13273" zmin="-3280" zmax="-2926" />
+				<add x="22223" y="-13331" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="22131" y="-13790" zmin="-3280" zmax="-2926" />
+				<add x="22043" y="-13568" zmin="-3280" zmax="-2926" />
+				<add x="21912" y="-13637" zmin="-3280" zmax="-2926" />
+				<add x="22034" y="-13800" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="21632" y="-13920" zmin="-3280" zmax="-2926" />
+				<add x="21428" y="-13796" zmin="-3280" zmax="-2926" />
+				<add x="21118" y="-13991" zmin="-3280" zmax="-2926" />
+				<add x="21091" y="-14291" zmin="-3280" zmax="-2926" />
+				<add x="21276" y="-14414" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="20309" y="-14247" zmin="-3280" zmax="-2926" />
+				<add x="20050" y="-14396" zmin="-3280" zmax="-2926" />
+				<add x="20156" y="-14525" zmin="-3280" zmax="-2926" />
+				<add x="20336" y="-14336" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="18240" y="-15159" zmin="-3280" zmax="-2926" />
+				<add x="18235" y="-15397" zmin="-3280" zmax="-2926" />
+				<add x="18508" y="-15279" zmin="-3280" zmax="-2926" />
+				<add x="18415" y="-15096" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+			<banned_territory>
+				<add x="18849" y="-15664" zmin="-3280" zmax="-2926" />
+				<add x="18313" y="-15880" zmin="-3280" zmax="-2926" />
+				<add x="18449" y="-16278" zmin="-3280" zmax="-2926" />
+				<add x="18518" y="-16315" zmin="-3280" zmax="-2926" />
+				<add x="18753" y="-16062" zmin="-3280" zmax="-2926" />
+				<add x="18901" y="-15779" zmin="-3280" zmax="-2926" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22196" /><!--Velociraptor-->
+		<npc id="22199" /><!--Pterosaur-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [007]" />
+		<territory>
+			<add x="20951" y="-18040" zmin="-3380" zmax="-2970" />
+			<add x="18098" y="-19299" zmin="-3380" zmax="-2970" />
+			<add x="17937" y="-19544" zmin="-3380" zmax="-2970" />
+			<add x="18391" y="-19999" zmin="-3380" zmax="-2970" />
+			<add x="18272" y="-20514" zmin="-3380" zmax="-2970" />
+			<add x="18807" y="-20494" zmin="-3380" zmax="-2970" />
+			<add x="19284" y="-20516" zmin="-3380" zmax="-2970" />
+			<add x="20542" y="-21294" zmin="-3380" zmax="-2970" />
+			<add x="21301" y="-20236" zmin="-3380" zmax="-2970" />
+			<add x="21242" y="-19616" zmin="-3380" zmax="-2970" />
+			<add x="21312" y="-18624" zmin="-3380" zmax="-2970" />
+			<banned_territory>
+				<add x="19042" y="-20199" zmin="-3380" zmax="-2970" />
+				<add x="18768" y="-20243" zmin="-3380" zmax="-2970" />
+				<add x="18792" y="-20336" zmin="-3380" zmax="-2970" />
+				<add x="19074" y="-20349" zmin="-3380" zmax="-2970" />
+			</banned_territory>
+			<banned_territory>
+				<add x="19540" y="-20479" zmin="-3380" zmax="-2970" />
+				<add x="19605" y="-20156" zmin="-3380" zmax="-2970" />
+				<add x="19287" y="-20217" zmin="-3380" zmax="-2970" />
+				<add x="19262" y="-20391" zmin="-3380" zmax="-2970" />
+			</banned_territory>
+			<banned_territory>
+				<add x="20737" y="-19879" zmin="-3380" zmax="-2970" />
+				<add x="20683" y="-19977" zmin="-3380" zmax="-2970" />
+				<add x="20766" y="-20053" zmin="-3380" zmax="-2970" />
+				<add x="20823" y="-19920" zmin="-3380" zmax="-2970" />
+			</banned_territory>
+			<banned_territory>
+				<add x="20764" y="-19350" zmin="-3380" zmax="-2970" />
+				<add x="20525" y="-19184" zmin="-3380" zmax="-2970" />
+				<add x="20306" y="-19224" zmin="-3380" zmax="-2970" />
+				<add x="20189" y="-19366" zmin="-3380" zmax="-2970" />
+				<add x="20227" y="-19554" zmin="-3380" zmax="-2970" />
+				<add x="20444" y="-19608" zmin="-3380" zmax="-2970" />
+				<add x="20644" y="-19539" zmin="-3380" zmax="-2970" />
+			</banned_territory>
+			<banned_territory>
+				<add x="19509" y="-18766" zmin="-3380" zmax="-2970" />
+				<add x="19568" y="-19036" zmin="-3380" zmax="-2970" />
+				<add x="19692" y="-19033" zmin="-3380" zmax="-2970" />
+				<add x="19656" y="-18733" zmin="-3380" zmax="-2970" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22198" /><!--Velociraptor-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [008]" />
+		<territory>
+			<add x="23485" y="-17601" zmin="-3041" zmax="-2197" />
+			<add x="23236" y="-18057" zmin="-3041" zmax="-2197" />
+			<add x="23823" y="-18595" zmin="-3041" zmax="-2197" />
+			<add x="23982" y="-18924" zmin="-3041" zmax="-2197" />
+			<add x="23760" y="-19450" zmin="-3041" zmax="-2197" />
+			<add x="23034" y="-19851" zmin="-3041" zmax="-2197" />
+			<add x="22691" y="-19573" zmin="-3041" zmax="-2197" />
+			<add x="22861" y="-21565" zmin="-3041" zmax="-2197" />
+			<add x="23177" y="-22173" zmin="-3041" zmax="-2197" />
+			<add x="23887" y="-22028" zmin="-3041" zmax="-2197" />
+			<add x="24925" y="-20449" zmin="-3041" zmax="-2197" />
+			<add x="26205" y="-19404" zmin="-3041" zmax="-2197" />
+			<add x="27007" y="-19800" zmin="-3041" zmax="-2197" />
+			<add x="27180" y="-19317" zmin="-3041" zmax="-2197" />
+			<add x="28006" y="-18991" zmin="-3041" zmax="-2197" />
+			<add x="27854" y="-18379" zmin="-3041" zmax="-2197" />
+			<add x="28925" y="-17882" zmin="-3041" zmax="-2197" />
+			<add x="28888" y="-16794" zmin="-3041" zmax="-2197" />
+			<add x="28393" y="-15846" zmin="-3041" zmax="-2197" />
+			<add x="28626" y="-15187" zmin="-3041" zmax="-2197" />
+			<add x="27891" y="-14853" zmin="-3041" zmax="-2197" />
+			<add x="27526" y="-15454" zmin="-3041" zmax="-2197" />
+			<add x="27163" y="-15394" zmin="-3041" zmax="-2197" />
+			<add x="26892" y="-15858" zmin="-3041" zmax="-2197" />
+			<add x="25936" y="-15557" zmin="-3041" zmax="-2197" />
+			<add x="25668" y="-14628" zmin="-3041" zmax="-2197" />
+			<add x="25246" y="-14670" zmin="-3041" zmax="-2197" />
+			<add x="25076" y="-14680" zmin="-3041" zmax="-2197" />
+			<add x="23636" y="-16983" zmin="-3041" zmax="-2197" />
+			<banned_territory>
+				<add x="23281" y="-21835" zmin="-3041" zmax="-2197" />
+				<add x="23371" y="-21822" zmin="-3041" zmax="-2197" />
+				<add x="23222" y="-21493" zmin="-3041" zmax="-2197" />
+				<add x="23145" y="-21517" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23508" y="-22087" zmin="-3041" zmax="-2197" />
+				<add x="23576" y="-22075" zmin="-3041" zmax="-2197" />
+				<add x="23581" y="-21992" zmin="-3041" zmax="-2197" />
+				<add x="23507" y="-22011" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23688" y="-21936" zmin="-3041" zmax="-2197" />
+				<add x="23782" y="-21876" zmin="-3041" zmax="-2197" />
+				<add x="23549" y="-21481" zmin="-3041" zmax="-2197" />
+				<add x="23432" y="-21591" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="26507" y="-18170" zmin="-3041" zmax="-2197" />
+				<add x="26641" y="-18257" zmin="-3041" zmax="-2197" />
+				<add x="26863" y="-18190" zmin="-3041" zmax="-2197" />
+				<add x="26860" y="-17957" zmin="-3041" zmax="-2197" />
+				<add x="26717" y="-17829" zmin="-3041" zmax="-2197" />
+				<add x="26576" y="-17829" zmin="-3041" zmax="-2197" />
+				<add x="26510" y="-18051" zmin="-3041" zmax="-2197" />
+				<add x="26636" y="-18223" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="26978" y="-17767" zmin="-3041" zmax="-2197" />
+				<add x="27016" y="-17608" zmin="-3041" zmax="-2197" />
+				<add x="26879" y="-17455" zmin="-3041" zmax="-2197" />
+				<add x="26734" y="-17477" zmin="-3041" zmax="-2197" />
+				<add x="26632" y="-17600" zmin="-3041" zmax="-2197" />
+				<add x="26848" y="-17770" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28564" y="-17648" zmin="-3041" zmax="-2197" />
+				<add x="28843" y="-17370" zmin="-3041" zmax="-2197" />
+				<add x="28823" y="-17317" zmin="-3041" zmax="-2197" />
+				<add x="28464" y="-17229" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28412" y="-16862" zmin="-3041" zmax="-2197" />
+				<add x="28442" y="-16699" zmin="-3041" zmax="-2197" />
+				<add x="28238" y="-16689" zmin="-3041" zmax="-2197" />
+				<add x="28232" y="-16852" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28103" y="-16761" zmin="-3041" zmax="-2197" />
+				<add x="28154" y="-16639" zmin="-3041" zmax="-2197" />
+				<add x="28010" y="-16455" zmin="-3041" zmax="-2197" />
+				<add x="27867" y="-16530" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28385" y="-16529" zmin="-3041" zmax="-2197" />
+				<add x="28482" y="-16364" zmin="-3041" zmax="-2197" />
+				<add x="28292" y="-16241" zmin="-3041" zmax="-2197" />
+				<add x="28242" y="-16435" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28229" y="-16191" zmin="-3041" zmax="-2197" />
+				<add x="28111" y="-16063" zmin="-3041" zmax="-2197" />
+				<add x="27991" y="-16166" zmin="-3041" zmax="-2197" />
+				<add x="28087" y="-16279" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="27861" y="-16404" zmin="-3041" zmax="-2197" />
+				<add x="27954" y="-16299" zmin="-3041" zmax="-2197" />
+				<add x="27871" y="-16231" zmin="-3041" zmax="-2197" />
+				<add x="27772" y="-16326" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28399" y="-15983" zmin="-3041" zmax="-2197" />
+				<add x="28299" y="-15797" zmin="-3041" zmax="-2197" />
+				<add x="28138" y="-15837" zmin="-3041" zmax="-2197" />
+				<add x="28250" y="-16017" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="28249" y="-15545" zmin="-3041" zmax="-2197" />
+				<add x="28306" y="-15599" zmin="-3041" zmax="-2197" />
+				<add x="28359" y="-15516" zmin="-3041" zmax="-2197" />
+				<add x="28287" y="-15452" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="23959" y="-16880" zmin="-3041" zmax="-2197" />
+				<add x="24080" y="-16857" zmin="-3041" zmax="-2197" />
+				<add x="24207" y="-16397" zmin="-3041" zmax="-2197" />
+				<add x="24060" y="-16424" zmin="-3041" zmax="-2197" />
+				<add x="23945" y="-16826" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24370" y="-16635" zmin="-3041" zmax="-2197" />
+				<add x="24273" y="-16596" zmin="-3041" zmax="-2197" />
+				<add x="24229" y="-16706" zmin="-3041" zmax="-2197" />
+				<add x="24348" y="-16730" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24267" y="-16027" zmin="-3041" zmax="-2197" />
+				<add x="24151" y="-16202" zmin="-3041" zmax="-2197" />
+				<add x="24478" y="-16198" zmin="-3041" zmax="-2197" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22196" /><!--Velociraptor-->
+		<npc id="22199" /><!--Pterosaur-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [009]" />
+		<territory>
+			<add x="25505" y="-14055" zmin="-2604" zmax="-2184" />
+			<add x="26684" y="-13800" zmin="-2604" zmax="-2184" />
+			<add x="26945" y="-13124" zmin="-2604" zmax="-2184" />
+			<add x="27895" y="-13079" zmin="-2604" zmax="-2184" />
+			<add x="28217" y="-12486" zmin="-2604" zmax="-2184" />
+			<add x="27672" y="-12132" zmin="-2604" zmax="-2184" />
+			<add x="27329" y="-11400" zmin="-2604" zmax="-2184" />
+			<add x="27364" y="-11215" zmin="-2604" zmax="-2184" />
+			<add x="28243" y="-10828" zmin="-2604" zmax="-2184" />
+			<add x="27288" y="-10576" zmin="-2604" zmax="-2184" />
+			<add x="26902" y="-10082" zmin="-2604" zmax="-2184" />
+			<add x="26082" y="-10151" zmin="-2604" zmax="-2184" />
+			<add x="23441" y="-9390" zmin="-2604" zmax="-2184" />
+			<add x="24612" y="-11297" zmin="-2604" zmax="-2184" />
+			<add x="24037" y="-11793" zmin="-2604" zmax="-2184" />
+			<add x="24422" y="-12413" zmin="-2604" zmax="-2184" />
+			<add x="23842" y="-13360" zmin="-2604" zmax="-2184" />
+			<add x="24339" y="-13765" zmin="-2604" zmax="-2184" />
+			<banned_territory>
+				<add x="26144" y="-13634" zmin="-2604" zmax="-2184" />
+				<add x="26219" y="-13579" zmin="-2604" zmax="-2184" />
+				<add x="26146" y="-13491" zmin="-2604" zmax="-2184" />
+				<add x="26089" y="-13555" zmin="-2604" zmax="-2184" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24313" y="-13427" zmin="-2604" zmax="-2184" />
+				<add x="24331" y="-13547" zmin="-2604" zmax="-2184" />
+				<add x="24492" y="-13538" zmin="-2604" zmax="-2184" />
+				<add x="24430" y="-13403" zmin="-2604" zmax="-2184" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24431" y="-13183" zmin="-2604" zmax="-2184" />
+				<add x="24549" y="-13248" zmin="-2604" zmax="-2184" />
+				<add x="24815" y="-13012" zmin="-2604" zmax="-2184" />
+				<add x="24621" y="-12989" zmin="-2604" zmax="-2184" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24656" y="-13392" zmin="-2604" zmax="-2184" />
+				<add x="24791" y="-13343" zmin="-2604" zmax="-2184" />
+				<add x="24773" y="-13217" zmin="-2604" zmax="-2184" />
+				<add x="24653" y="-13223" zmin="-2604" zmax="-2184" />
+			</banned_territory>
+			<banned_territory>
+				<add x="24896" y="-13007" zmin="-2604" zmax="-2184" />
+				<add x="24848" y="-13053" zmin="-2604" zmax="-2184" />
+				<add x="24897" y="-13122" zmin="-2604" zmax="-2184" />
+				<add x="24949" y="-13055" zmin="-2604" zmax="-2184" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22198" /><!--Velociraptor-->
+		<npc id="22199" /><!--Pterosaur-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [010]" />
+		<territory>
+			<add x="22189" y="-12634" zmin="-2883" zmax="-2536" />
+			<add x="22527" y="-12662" zmin="-2883" zmax="-2536" />
+			<add x="22735" y="-12070" zmin="-2883" zmax="-2536" />
+			<add x="23177" y="-11422" zmin="-2883" zmax="-2536" />
+			<add x="23856" y="-10932" zmin="-2883" zmax="-2536" />
+			<add x="22891" y="-9477" zmin="-2883" zmax="-2536" />
+			<add x="22443" y="-8813" zmin="-2883" zmax="-2536" />
+			<add x="21565" y="-8679" zmin="-2883" zmax="-2536" />
+			<add x="21293" y="-8253" zmin="-2883" zmax="-2536" />
+			<add x="21016" y="-8472" zmin="-2883" zmax="-2536" />
+			<add x="20778" y="-8195" zmin="-2883" zmax="-2536" />
+			<add x="20608" y="-8293" zmin="-2883" zmax="-2536" />
+			<add x="20317" y="-8018" zmin="-2883" zmax="-2536" />
+			<add x="19807" y="-8370" zmin="-2883" zmax="-2536" />
+			<add x="18671" y="-8672" zmin="-2883" zmax="-2536" />
+			<add x="18706" y="-9224" zmin="-2883" zmax="-2536" />
+			<add x="19085" y="-9792" zmin="-2883" zmax="-2536" />
+			<add x="19315" y="-10015" zmin="-2883" zmax="-2536" />
+			<add x="18741" y="-10260" zmin="-2883" zmax="-2536" />
+			<add x="18846" y="-10680" zmin="-2883" zmax="-2536" />
+			<add x="18405" y="-10969" zmin="-2883" zmax="-2536" />
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22196" /><!--Velociraptor-->
+		<npc id="22199" /><!--Pterosaur-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [011]" />
+		<territory>
+			<add x="14701" y="-8796" zmin="-3314" zmax="-2946" />
+			<add x="17238" y="-10006" zmin="-3314" zmax="-2946" />
+			<add x="17595" y="-8957" zmin="-3314" zmax="-2946" />
+			<add x="17830" y="-8131" zmin="-3314" zmax="-2946" />
+			<add x="17479" y="-7516" zmin="-3314" zmax="-2946" />
+			<add x="17333" y="-7534" zmin="-3314" zmax="-2946" />
+			<add x="17164" y="-7306" zmin="-3314" zmax="-2946" />
+			<add x="16765" y="-6335" zmin="-3314" zmax="-2946" />
+			<add x="15413" y="-6549" zmin="-3314" zmax="-2946" />
+			<add x="14861" y="-8018" zmin="-3314" zmax="-2946" />
+			<add x="14587" y="-8320" zmin="-3314" zmax="-2946" />
+			<add x="14824" y="-8558" zmin="-3314" zmax="-2946" />
+			<banned_territory>
+				<add x="17361" y="-9154" zmin="-3314" zmax="-2946" />
+				<add x="17533" y="-8945" zmin="-3314" zmax="-2946" />
+				<add x="17548" y="-8692" zmin="-3314" zmax="-2946" />
+				<add x="17149" y="-8686" zmin="-3314" zmax="-2946" />
+				<add x="17124" y="-8895" zmin="-3314" zmax="-2946" />
+			</banned_territory>
+			<banned_territory>
+				<add x="17100" y="-8502" zmin="-3314" zmax="-2946" />
+				<add x="17343" y="-8567" zmin="-3314" zmax="-2946" />
+				<add x="17499" y="-8431" zmin="-3314" zmax="-2946" />
+				<add x="17527" y="-8253" zmin="-3314" zmax="-2946" />
+				<add x="17351" y="-8167" zmin="-3314" zmax="-2946" />
+				<add x="17183" y="-8216" zmin="-3314" zmax="-2946" />
+				<add x="17053" y="-8365" zmin="-3314" zmax="-2946" />
+			</banned_territory>
+			<banned_territory>
+				<add x="16247" y="-7818" zmin="-3314" zmax="-2946" />
+				<add x="16535" y="-7574" zmin="-3314" zmax="-2946" />
+				<add x="16529" y="-7306" zmin="-3314" zmax="-2946" />
+				<add x="16017" y="-7122" zmin="-3314" zmax="-2946" />
+				<add x="15856" y="-7208" zmin="-3314" zmax="-2946" />
+				<add x="15874" y="-7582" zmin="-3314" zmax="-2946" />
+				<add x="16009" y="-7822" zmin="-3314" zmax="-2946" />
+			</banned_territory>
+			<banned_territory>
+				<add x="16188" y="-6746" zmin="-3314" zmax="-2946" />
+				<add x="16624" y="-7158" zmin="-3314" zmax="-2946" />
+				<add x="16823" y="-7050" zmin="-3314" zmax="-2946" />
+				<add x="16455" y="-6523" zmin="-3314" zmax="-2946" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22198" /><!--Velociraptor-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+	<spawn count="3" respawn="20" respawn_random="0" period_of_day="none">
+		<debug name="territory_name" val="20_17 [012]" />
+		<territory>
+			<add x="14443" y="-9228" zmin="-3367" zmax="-2987" />
+			<add x="14091" y="-10657" zmin="-3367" zmax="-2987" />
+			<add x="14263" y="-10747" zmin="-3367" zmax="-2987" />
+			<add x="14088" y="-11432" zmin="-3367" zmax="-2987" />
+			<add x="13841" y="-12271" zmin="-3367" zmax="-2987" />
+			<add x="14327" y="-12230" zmin="-3367" zmax="-2987" />
+			<add x="14398" y="-12551" zmin="-3367" zmax="-2987" />
+			<add x="13767" y="-13081" zmin="-3367" zmax="-2987" />
+			<add x="13855" y="-13406" zmin="-3367" zmax="-2987" />
+			<add x="13650" y="-14671" zmin="-3367" zmax="-2987" />
+			<add x="13546" y="-14829" zmin="-3367" zmax="-2987" />
+			<add x="13895" y="-15480" zmin="-3367" zmax="-2987" />
+			<add x="14109" y="-15105" zmin="-3367" zmax="-2987" />
+			<add x="14232" y="-15104" zmin="-3367" zmax="-2987" />
+			<add x="14389" y="-15399" zmin="-3367" zmax="-2987" />
+			<add x="15292" y="-15360" zmin="-3367" zmax="-2987" />
+			<add x="17038" y="-14573" zmin="-3367" zmax="-2987" />
+			<add x="17047" y="-14235" zmin="-3367" zmax="-2987" />
+			<add x="17161" y="-14144" zmin="-3367" zmax="-2987" />
+			<add x="18843" y="-13560" zmin="-3367" zmax="-2987" />
+			<add x="18276" y="-12957" zmin="-3367" zmax="-2987" />
+			<add x="17959" y="-12718" zmin="-3367" zmax="-2987" />
+			<add x="17783" y="-12081" zmin="-3367" zmax="-2987" />
+			<add x="17741" y="-11355" zmin="-3367" zmax="-2987" />
+			<add x="17341" y="-10690" zmin="-3367" zmax="-2987" />
+			<add x="16677" y="-10067" zmin="-3367" zmax="-2987" />
+			<banned_territory>
+				<add x="14836" y="-11537" zmin="-3367" zmax="-2987" />
+				<add x="14863" y="-11657" zmin="-3367" zmax="-2987" />
+				<add x="15006" y="-11626" zmin="-3367" zmax="-2987" />
+				<add x="14958" y="-11479" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+			<banned_territory>
+				<add x="14698" y="-12402" zmin="-3367" zmax="-2987" />
+				<add x="14615" y="-12638" zmin="-3367" zmax="-2987" />
+				<add x="15173" y="-12801" zmin="-3367" zmax="-2987" />
+				<add x="15021" y="-12375" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15121" y="-12389" zmin="-3367" zmax="-2987" />
+				<add x="15134" y="-12688" zmin="-3367" zmax="-2987" />
+				<add x="15414" y="-12800" zmin="-3367" zmax="-2987" />
+				<add x="15692" y="-12673" zmin="-3367" zmax="-2987" />
+				<add x="15815" y="-12431" zmin="-3367" zmax="-2987" />
+				<add x="15664" y="-12284" zmin="-3367" zmax="-2987" />
+				<add x="15270" y="-12258" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15450" y="-12135" zmin="-3367" zmax="-2987" />
+				<add x="15529" y="-12016" zmin="-3367" zmax="-2987" />
+				<add x="15357" y="-11895" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+			<banned_territory>
+				<add x="15165" y="-11938" zmin="-3367" zmax="-2987" />
+				<add x="15210" y="-11846" zmin="-3367" zmax="-2987" />
+				<add x="15093" y="-11647" zmin="-3367" zmax="-2987" />
+				<add x="15013" y="-11874" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+			<banned_territory>
+				<add x="14909" y="-11753" zmin="-3367" zmax="-2987" />
+				<add x="14998" y="-11573" zmin="-3367" zmax="-2987" />
+				<add x="14898" y="-11467" zmin="-3367" zmax="-2987" />
+				<add x="14835" y="-11640" zmin="-3367" zmax="-2987" />
+			</banned_territory>
+		</territory>
+		<npc id="18345" /><!--Sprigant-->
+		<npc id="18346" /><!--Sprigant-->
+		<npc id="22196" /><!--Velociraptor-->
+		<npc id="22199" /><!--Pterosaur-->
+		<npc id="22200" /><!--Ornithomimus-->
+		<npc id="22203" /><!--Deinonychus-->
+	</spawn>
+</list>

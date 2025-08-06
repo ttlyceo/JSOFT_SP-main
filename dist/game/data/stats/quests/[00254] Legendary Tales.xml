@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="254" nameEn="Legendary Tales" nameRu="Именем легенды">
+		<level min="80" max="85" />
+		<droplist>
+			<npc id="25718">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25719">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25720">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25721">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25722">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25723">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+			<npc id="25724">
+				<item id="17249" min="1" chance="100" rateable="false" /> <!--Large Dragon Skull-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="13457" min="1" rateable="false" /> <!--Vesper Cutter-->
+			</variant>
+			<variant id="2">
+				<item id="13458" min="1" rateable="false" /> <!--Vesper Slasher-->
+			</variant>
+			<variant id="3">
+				<item id="13459" min="1" rateable="false" /> <!--Vesper Buster-->
+			</variant>
+			<variant id="4">
+				<item id="13460" min="1" rateable="false" /> <!--Vesper Shaper-->
+			</variant>
+			<variant id="5">
+				<item id="13461" min="1" rateable="false" /> <!--Vesper Fighter-->
+			</variant>
+			<variant id="6">
+				<item id="13462" min="1" rateable="false" /> <!--Vesper Stormer-->
+			</variant>
+			<variant id="7">
+				<item id="13463" min="1" rateable="false" /> <!--Vesper Avenger-->
+			</variant>
+			<variant id="8">
+				<item id="13464" min="1" rateable="false" /> <!--Vesper Retributor-->
+			</variant>
+			<variant id="9">
+				<item id="13465" min="1" rateable="false" /> <!--Vesper Caster-->
+			</variant>
+			<variant id="10">
+				<item id="13466" min="1" rateable="false" /> <!--Vesper Singer-->
+			</variant>
+			<variant id="11">
+				<item id="13467" min="1" rateable="false" /> <!--Vesper Thrower-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

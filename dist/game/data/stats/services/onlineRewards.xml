@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	hwidCheck="false" checkHwid
+	playersLimit="1" count players can get reward by 1 hwid/ip
+-->
+<list hwidCheck="false" playersLimit="1">
+	<reward id="1" time="1" printItem="true">
+		<item id="57" count="1" chance="100"/>
+	</reward>
+	<reward id="2" time="2" printItem="true">
+		<item id="57" count="2" chance="100"/>
+	</reward>
+	<reward id="3" time="3" printItem="true">
+		<item id="57" count="3" chance="100"/>
+	</reward>
+	<reward id="4" time="4" printItem="true">
+		<item id="57" count="4" chance="100"/>
+	</reward>
+	<reward id="5" time="5" printItem="true">
+		<item id="57" count="5" chance="100"/>
+	</reward>
+</list>

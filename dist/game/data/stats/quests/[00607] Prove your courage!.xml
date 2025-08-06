@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="607" nameEn="Prove your courage!" nameRu="Доказательство доблести">
+		<level min="75" max="85" />
+		<expirience>
+			<rewardExp val="0" rateable="true" />
+			<rewardSp val="10000" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="25309">
+				<item id="7235" min="1" chance="100" rateable="false" /> <!--Head of Shadith-->
+			</npc>
+		</droplist>
+		<add_parameters>
+			<set name="killForAll" value="false" />  <!--if true will calc items from raid by hate list-->
+		</add_parameters>
+		<rewardlist>
+			<item id="7219" min="1" rateable="false" /> <!--Totem of Valor-->
+		</rewardlist>
+	</quest>
+</list>

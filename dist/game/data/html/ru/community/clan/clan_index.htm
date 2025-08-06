@@ -1,0 +1,250 @@
+﻿<html noscrollbar>
+<title>Клан %clanName%</title>
+<body><br>
+<!-- COMMUNITY -->
+<table width=770>
+<tr>
+<td>
+<table border=0 cellpadding=0 cellspacing=0 width=770 height=500 >
+<tr>
+<td valign="top" align="center" >
+<table width=755 height=500>
+<tr>
+<td width=755 valign="top" align="center">
+<!-- COMMUNITY INDEX -->
+<table width=730 height=350 cellpadding=0 cellspacing=0>
+<tr>
+<!-- Левый блок	-->
+<td width=537>
+<table width=536 height=60 background="l2ui_ct1_cn.titlebasebarmini">
+<tr>
+<td width=5></td>
+<td align=center valign=top>
+
+<!-- Шапка -->
+<table width=520 height=90 border=0 cellspacing=0 cellpadding=0>
+	<tr>
+	<td align=center valign=top>
+
+		<table width=510 height=90 background="l2ui_ct1_cn.gametip_bg">
+			<tr>
+				<td width=5></td>
+				<td width=15>
+				<br><img src="l2ui_ct1_cn.Minimap_Icon_Occupy_normal_CN" width="41" height="64">
+				</td>
+				<td width=375 align=left valign=top>
+					<br><br>
+					<font color="CDB38B" name="hs12">РАЗДЕЛ КЛАНА</font>
+					<br1>
+					<font color="CDB88B" name="hs11">Управление и информация клана <font color="LEVEL" name="hs11">%clanName%</font></font>
+					<br>
+				</td>
+				<td width=200 align=left valign=top>
+					<br><br>
+					<button value="СПИСОК КЛАНОВ" action="bypass -h _bbsclanlist_0"  back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="150" height="35"/>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Шапка -->
+</td>
+</tr>
+</table>
+<br>
+
+<!-- Персонаж -->
+<table width=535>
+<tr>
+<td align=center valign=top>
+
+<table width=250 height=220 border=0 cellspacing=0 cellpadding=0 background="l2ui_ct1_cn.titlebasebarmini">
+<tr>
+<td align=center valign=top>
+
+<table width=535 height=220 background="l2ui_ct1_cn.gametip_bg">
+<tr>
+<!-- Информация о персонаже -->
+<td width=220 align=center valign=top>
+	<br>
+	<center><font name="hs12" color="CDB38B">-= Информация =-</font></center>
+	<br1>
+	<table width=250 height=175 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+		<tr>
+		<td fixwidth=250 valign=top>
+			<table border=0 cellspacing=5 cellpadding=1>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Лидер:</font></td><td width=120 align=right><font color="00FF00">%clanLeader%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Уровень Клана:</font></td><td width=120 align=right><font color="LEVEL">%clanLevel%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Альянс:</font></td><td width=120 align=right><font color="26bfbf">%allyName%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=90><font color="CDB38B">Холл Клана:</font></td><td width=145 align=right><font color="bf8226">%clanHall%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Замок:</font></td><td width=120 align=right><font color="bf8226">%castle%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=90><font color="CDB38B">Крепость:</font></td><td width=145 align=right><font color="bf8226">%fortress%</font></td></tr></table></td></tr>
+				<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=120><font color="CDB38B">Средний Уровень:</font></td><td width=115 align=right><font color="bf3626">%clan_avarage_level%</font></td></tr></table></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br1>
+<button action="bypass _bbsclanmembers_%clanId%" value="Игроков в игре: %clan_online%" width=180 height=26 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+<br>
+</td>
+<!-- Информация о персонаже -->
+
+<!-- Сервисы -->
+<td width=220 height=195 align=center valign=top>
+	<table width=220 height=36>
+		<tr>
+			<td align=center>
+				<font name="hs12" color="CDB38B">-= Статистика =-</font>
+			</td>
+		</tr>
+	</table>
+<br1>
+<table width=250 height=175 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+	<tr>
+	<td fixwidth=250 valign=top>
+		<table border=0 cellspacing=5 cellpadding=1>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Позиция в Топе:</font></td><td width=120 align=right><font color="LEVEL">%position%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Репутация:</font></td><td width=120 align=right><font color="FFFFFF">%crp%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">ПвП:</font></td><td width=120 align=right><font color="bf26bf">%pvps%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Убийств:</font></td><td width=120 align=right><font color="bf3626">%pks%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Игроков:</font></td><td width=120 align=right><font color="26bf26">%membersCount%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=115><font color="CDB38B">Дворян:</font></td><td width=120 align=right><font color="26bfbf">%nobleCount%</font></td></tr></table></td></tr>
+		<tr><td><table fixwidth=245 border=0><tr><td align=left fixwidth=120><font color="CDB38B">Героев:</font></td><td width=115 align=right><font color="LEVEL">%heroCount%</font></td></tr></table></td></tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<br1>
+<button action="bypass _bbsclanskills_%clanId%_0" value="Навыки Клана" width=180 height=26 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+<br>
+</td>
+<!-- Сервисы -->
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<!-- Персонаж -->
+
+<!-- Персональная инфа -->
+<table width=535>
+	<tr>
+	<td align=center valign=top>
+		<br><font color="CDB38B" name="hs12"> -= Клановые Войны =- </font>
+		<br1>
+		<table width=535 height=100 border=0 cellspacing=0 cellpadding=0 background="l2ui_ct1_cn.titlebasebarmini">
+			<tr>
+			<td align=center valign=top>
+				<br>
+				<table width=535 height=95>
+					%wars%
+				</table>
+			</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Персональная инфа -->
+</td>
+<!-- Левый блок -->
+
+<!-- Правый блок -->
+<td width=220>
+<table width=185 height=428 >
+<tr>
+<td width=1></td>
+<td align=center valign=top>
+
+	<!-- Правый блок | Кнопка Премиум Аккаунта -->
+	<table width=210 height=58 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+		<td align=center valign=top>
+			<table width=210 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+				<tr>
+				<td width=5></td>
+				<td width=32 align=right>
+				<br>
+				<img src="l2ui_ct1_cn.Minimap_Icon_Occupy_normal_CN" width="42" height="40">
+				<br>
+				</td>
+					<td width=190 align=left>
+					<br>
+					<button value="ГЛАВНОЕ МЕНЮ" action="bypass -h _bbshome" back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="150" height="35"/>
+					<br>
+					</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+	<!-- Правый блок | Кнопка Премиум Аккаунта END-->
+<br1>
+	<!-- Правый блок | Предупреждение -->
+	<table width=220 height=40 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+	<td align=center valign=top>
+		<table width=220 border=0>
+			<tr>
+				<td width=220 align=center>
+					<br>
+					<font color="CDB38B" name="hs11">Управление</font>
+					<br>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+<!-- Правый блок | Предупреждение -->
+
+	<!-- Правый блок | Навигация -->
+	<table width=220 height=35 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+			<td align=center valign=top>
+				<table width=220 height=380 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+					<tr>
+					<td width=220 align=center>
+						<br>
+						<table width=200 align=center>
+							%buttons%
+						</table>
+						<br>
+						%allyInfo%
+					</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- Правый блок | Навигация END-->
+</td>
+</tr>
+</table>
+</td>
+<!-- Правый блок -->
+</tr>
+</table>	
+<!-- COMMUNITY INDEX END -->
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- COMMUNITY END -->
+</body>
+</html>

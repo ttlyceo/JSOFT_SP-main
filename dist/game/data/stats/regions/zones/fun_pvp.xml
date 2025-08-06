@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<!-- Example Fun Pvp Zones -->
+       	<zone name="Custom" type="FunPvpZone" shape="NPoly" minZ="-3498" maxZ="-3298">
+		<stat name="isPvpZone" val="true" /> <!-- Enable PvP zone status -->
+		<stat name="enablePvPFlag" val="true" /> <!-- Enable PvP flag to all people when entering to the zone -->
+		<stat name="hwidsLimit" val="0" /> <!-- check players limit by HWID or IP -->
+		<stat name="enablePvPKills" val="true" /> <!-- Gives PvP points when killed -->
+		<stat name="flagDelay" val="20" /> <!-- delay in removing flag status when exit from zone -->
+		<stat name="canUseCommunityBuffs" val="false" /> <!-- Check to use community buffer for players in zone -->
+		<stat name="canUseCommunityTeleports" val="false" /> <!-- Check to use community teleport for players in zone -->
+		<stat name="spawnLocations" val="147420,46378,-3350" /> <!-- Set the spawn points where players will be teleported on revive -->
+		<stat name="reviveDelay" val="10" /> <!-- Delay, in seconds, to wait before revive (0 - disable) -->
+		<stat name="fighterBuffs" val="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2" /> <!-- Auto buffs for fighters -->
+		<stat name="mageBuffs" val="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2" /> <!-- Auto buffs for mages -->
+		<stat name="giveNoblesse" val="true" /> <!-- If set to true, players will take noblesse blessing when entering -->
+		<stat name="bannedItems" val="728,7575,6383,1538" /> <!-- List of Items(id's) that won't be usable inside this area and also will be unequiped when entering -->
+		<stat name="bannedSkills" val="395,396,1374,1375,1376" /> <!-- List of Skills(id's) that won't be usable inside this area -->
+		<stat name="bannedGrades" val="C,B,A" /> <!-- List of Grades that won't be usable inside this area and also will be unequiped when entering -->
+		<stat name="bannedClasses" val="92" /> <!-- Players with one of that classes won't be able to enter to the zone -->
+		<stat name="respawnRadius" val="500" /> <!-- Random respawn radius -->
+		<stat name="enchantLimit" val="0" /> <!-- Enchantment limit, items exceeding the limit will be banned and unequiped (0 - disable) -->
+		<stat name="removeBuffs" val="false" /> <!-- Remove buffs when entering to the zone -->
+		<stat name="removePets" val="false" /> <!-- Remove pets when entering to the zone -->
+		<stat name="isNoRestartZone" val="false" /> <!-- If set true, zone will be no-restart zone -->
+		<stat name="isNoSummonFriendZone" val="true" /> <!-- If set true, zone will be no-summon friend zone -->
+		<stat name="allowStore" val="false" /> <!-- If set false, zone will be no-store zone -->
+		<stat name="isNoLogoutZone" val="false" /> <!-- If set to true, zone will be no-logout zone -->
+		<stat name="reviveNoblesse" val="true" /> <!-- Give noblesse after revive -->
+		<stat name="reviveHeal" val="true" /> <!-- Heal after revive -->
+		<stat name="rewardItems" val="57,4037" /> <!-- Items id which are received by the player for pvp in zone -->
+		<stat name="rewardAmount" val="1000000,10" /> <!-- Items amount which are received by the player for pvp in zone -->
+		<stat name="rewardChance" val="100,60" /> <!-- Chance of receiving items -->
+		<stat name="rewardLvls" val="1,85" /> <!-- Avaliable reward levels -->
+		<stat name="activePattern" val="*/2 * * * *" /> <!-- activate every 2 minutes -->
+		<stat name="activeTime" val="1" /> <!-- activate time 1 min -->
+		<stat name="activeAnnounce" val="Zone.ANNOUNCE_ENABLE" /> <!-- enable announce -->
+		<stat name="activeBanish" val="true" /> <!-- teleport players to nearest town from zone when it activates -->
+		<stat name="deactiveAnnounce" val="Zone.ANNOUNCE_DISABLE" /> <!-- disable announce -->
+		<stat name="deactiveBanish" val="true" /> <!-- teleport players to nearest town from zone when it deactivates -->
+		<stat name="banishIfNotActive" val="true" /> <!-- teleport players to nearest town on zone enter if its not activate -->
+		<stat name="isHideClanInfo" val="true" /> <!-- hide clan information in pvp zone -->
+		<stat name="isHideTitles" val="true" /> <!-- hide titles in pvp zone -->
+		<stat name="isHideNames" val="true" /> <!-- hide names in pvp zone -->
+		<stat name="enableParty" val="false"/> <!-- let players to be in party/create parties in zone -->
+		<stat name="canAttackAllies" val="true"/> <!-- allow players to attack clan/ally mates -->
+		<stat name="blockTransformations" val="-1" /> <!-- allow block transforms by ID or for all -->
+			<node X="151236" Y="47268" />
+			<node X="151255" Y="47520" />
+			<node X="150785" Y="48132" />
+			<node X="148258" Y="48126" />
+			<node X="147712" Y="47532" />
+			<node X="147728" Y="47294" />
+			<node X="148278" Y="46707" />
+			<node X="150697" Y="46709" />
+			<!-- TEMP FIX: Hardcoded until RespawnZones done -->
+			<spawn X="147420" Y="46378" Z="-3350" />
+			<spawn X="147696" Y="46416" Z="-3350" />
+			<spawn X="147248" Y="47048" Z="-3350" />
+			<spawn X="147449" Y="47051" Z="-3350" />
+			<spawn X="147680" Y="47040" Z="-3350" />
+			<spawn X="147232" Y="46352" Z="-3350" />
+			<spawn X="147696" Y="46928" Z="-3350" />
+			<spawn X="147456" Y="46928" Z="-3350" />
+			<spawn X="147232" Y="46928" Z="-3350" />
+			<spawn X="147232" Y="46464" Z="-3350" />
+			<spawn X="147424" Y="46464" Z="-3350" />
+			<spawn X="147696" Y="46512" Z="-3350" />
+			<spawn X="151294" Y="46378" Z="-3350" />
+			<spawn X="151535" Y="46353" Z="-3350" />
+			<spawn X="151712" Y="46368" Z="-3350" />
+			<spawn X="151753" Y="46500" Z="-3405" />
+			<spawn X="151760" Y="46928" Z="-3350" />
+			<spawn X="151760" Y="47104" Z="-3350" />
+			<spawn X="151536" Y="46960" Z="-3350" />
+			<spawn X="151536" Y="47104" Z="-3350" />
+			<spawn X="151264" Y="47136" Z="-3350" />
+			<spawn X="151264" Y="47008" Z="-3350" />
+			<spawn X="151536" Y="46482" Z="-3350" />
+			<spawn X="151296" Y="46480" Z="-3350" />
+			<spawn X="147420" Y="46378" Z="-3350" />
+			<spawn X="147696" Y="46416" Z="-3350" />
+			<spawn X="147248" Y="47048" Z="-3350" />
+			<spawn X="147449" Y="47051" Z="-3350" />
+			<spawn X="147680" Y="47040" Z="-3350" />
+			<spawn X="147232" Y="46352" Z="-3350" />
+			<spawn X="147696" Y="46928" Z="-3350" />
+			<spawn X="147456" Y="46928" Z="-3350" />
+			<spawn X="147232" Y="46928" Z="-3350" />
+			<spawn X="147232" Y="46464" Z="-3350" />
+			<spawn X="147424" Y="46464" Z="-3350" />
+			<spawn X="147696" Y="46512" Z="-3350" />
+			<spawn X="151294" Y="46378" Z="-3350" />
+			<spawn X="151535" Y="46353" Z="-3350" />
+			<spawn X="151712" Y="46368" Z="-3350" />
+			<spawn X="151753" Y="46500" Z="-3405" />
+			<spawn X="151760" Y="46928" Z="-3350" />
+			<spawn X="151760" Y="47104" Z="-3350" />
+			<spawn X="151536" Y="46960" Z="-3350" />
+			<spawn X="151536" Y="47104" Z="-3350" />
+			<spawn X="151264" Y="47136" Z="-3350" />
+			<spawn X="151264" Y="47008" Z="-3350" />
+			<spawn X="151536" Y="46482" Z="-3350" />
+			<spawn X="151296" Y="46480" Z="-3350" />
+       	</zone>
+</list>

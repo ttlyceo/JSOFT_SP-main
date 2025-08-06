@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="454" nameEn="Completely Lost" nameRu="Где же мы?">
+		<level min="84" max="85" />
+		<add_parameters>
+			<set name="timeLimit" value="20" />  <!--quest active time limit-->
+		</add_parameters>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="15792" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Helmet (60%)-->
+				<item id="15798" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gaiter (60%)-->
+				<item id="15795" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Breastplate (60%)-->
+				<item id="15801" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gauntlet (60%)-->
+				<item id="15808" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Shield (60%)-->
+				<item id="15804" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Boots (60%)-->
+				<item id="15809" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Ring (70%)-->
+				<item id="15810" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Earring (70%)-->
+				<item id="15811" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Necklace (70%)-->
+			</variant>
+			<variant id="2"><!--Given one random item-->
+				<item id="15660" min="3" rateable="true" /> <!--Sealed Vesper Helmet Piece-->
+				<item id="15666" min="3" rateable="true" /> <!--Sealed Vesper Gaiter Piece-->
+				<item id="15663" min="3" rateable="true" /> <!--Sealed Vesper Breastplate Piece-->
+				<item id="15667" min="3" rateable="true" /> <!--Sealed Vesper Gauntlet Piece-->
+				<item id="15668" min="3" rateable="true" /> <!--Sealed Vesper Boots Piece-->
+				<item id="15669" min="3" rateable="true" /> <!--Sealed Vesper Ring Gem-->
+				<item id="15770" min="3" rateable="true" /> <!--Sealed Vesper Earring Gem-->
+				<item id="15771" min="3" rateable="true" /> <!--Sealed Vesper Necklace Gem-->
+			</variant>
+			<variant id="3"><!--Given one random item-->
+				<item id="15805" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Boots (60%)-->
+				<item id="15796" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Breastplate (60%)-->
+				<item id="15793" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Helmet (60%)-->
+				<item id="15799" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Legging (60%)-->
+				<item id="15802" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Leather Gloves (60%)-->
+				<item id="15809" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Ring (70%)-->
+				<item id="15810" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Earring (70%)-->
+				<item id="15811" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Necklace (70%)-->
+			</variant>
+			<variant id="4"><!--Given one random item-->
+				<item id="15672" min="3" rateable="true" /> <!--Sealed Vesper Leather Boots Piece-->
+				<item id="15664" min="3" rateable="true" /> <!--Sealed Vesper Leather Breastplate Piece-->
+				<item id="15661" min="3" rateable="true" /> <!--Sealed Vesper Leather Helmet Piece-->
+				<item id="15670" min="3" rateable="true" /> <!--Sealed Vesper Leather Legging Piece-->
+				<item id="15671" min="3" rateable="true" /> <!--Sealed Vesper Leather Gloves Piece-->
+				<item id="15769" min="3" rateable="true" /> <!--Sealed Vesper Ring Gem-->
+				<item id="15770" min="3" rateable="true" /> <!--Sealed Vesper Earring Gem-->
+				<item id="15771" min="3" rateable="true" /> <!--Sealed Vesper Necklace Gem-->
+			</variant>
+			<variant id="5"><!--Given one random item-->
+				<item id="15800" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Stockings (60%)-->
+				<item id="15803" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Gloves (60%)-->
+				<item id="15806" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Shoes (60%)-->
+				<item id="15807" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Sigil (60%)-->
+				<item id="15797" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Tunic (60%)-->
+				<item id="15794" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Circlet (60%)-->
+				<item id="15809" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Ring (70%)-->
+				<item id="15810" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Earring (70%)-->
+				<item id="15811" min="1" rateable="false" /> <!--Recipe - Sealed Vesper Necklace (70%)-->
+			</variant>
+			<variant id="6"><!--Given one random item-->
+				<item id="15673" min="3" rateable="true" /> <!--Sealed Vesper Stockings Piece-->
+				<item id="15674" min="3" rateable="true" /> <!--Sealed Vesper Gloves Piece-->
+				<item id="15675" min="3" rateable="true" /> <!--Sealed Vesper Shoes Piece-->
+				<item id="15691" min="3" rateable="true" /> <!--Sealed Vesper Sigil Piece-->
+				<item id="15665" min="3" rateable="true" /> <!--Sealed Vesper Tunic Piece-->
+				<item id="15662" min="3" rateable="true" /> <!--Sealed Vesper Circlet Piece-->
+				<item id="15769" min="3" rateable="true" /> <!--Sealed Vesper Ring Gem-->
+				<item id="15770" min="3" rateable="true" /> <!--Sealed Vesper Earring Gem-->
+				<item id="15771" min="3" rateable="true" /> <!--Sealed Vesper Necklace Gem-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

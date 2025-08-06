@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- Need add new custom button to npc general html <a action="bypass -h Quest SpecialBypass teleport">Button Name</a>
+	##### Example Baium enter support #####
+	<npc id="31862" dispelBuffs="false">
+		<level min="75" max="80" />
+		<party min="1" max="1" />
+		<teleport x="114077" y="15882" z="10078" />
+		<remove>
+			<item id="4295" count="1" necessary="true" type="ALL" />
+		</remove>
+	</npc>
+
+	##### Example Antharas enter support #####
+	<npc id="13001" dispelBuffs="false">
+		<level min="75" max="85" />
+		<party min="2" max="27" />
+		<teleport x="179700" y="113800" z="-7709" />
+		<remove>
+			<item id="3865" count="1" necessary="true" type="ALL" />
+		</remove>
+	</npc>
+
+-->
+</list>

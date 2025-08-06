@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="654" nameEn="Journey to a Settlement" nameRu="Долгое путешествие">
+		<level min="74" max="85" />
+		<droplist>
+			<npc id="21294">
+				<item id="8072" min="1" chance="5" rateable="false" /> <!--Antelope Skin-->
+			</npc>
+			<npc id="21295">
+				<item id="8072" min="1" chance="5" rateable="false" /> <!--Antelope Skin-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="8073" min="1" rateable="true" /> <!--Frintezza's Magic Force Field Removal Scroll-->
+		</rewardlist>
+	</quest>
+</list>

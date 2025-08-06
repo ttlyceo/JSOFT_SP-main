@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- General PvP Rewards -->
+	<pvp allowReward="false" allowForParty="false">
+		<reward itemId="57" count="10000" chance="100" />
+		<reward itemId="4037" count="5" chance="50" />
+	</pvp>
+	<!-- Fortress Rewards -->
+	<!-- If onlyForLeader false rewards get all online members -->
+	<forts>
+		<pvp allowReward="false" allowForParty="false">
+			<reward itemId="57" count="10000" chance="100" />
+			<reward itemId="4037" count="1" chance="50" />
+		</pvp>
+		<capture allowReward="false" onlyForLeader="true">
+			<!-- Reward for all forts -->
+			<reward itemId="57" count="100000" chance="100" />
+			<fort id="116">
+				<!-- Reward capture Antharas fort -->
+				<reward itemId="4037" count="10" chance="50" />
+			</fort>
+		</capture>
+		<defence allowReward="false" onlyForLeader="true">
+			<!-- Reward for all forts -->
+			<reward itemId="57" count="100000" chance="100" />
+			<fort id="116">
+				<!-- Reward defence Antharas fort -->
+				<reward itemId="4037" count="10" chance="50" />
+			</fort>
+		</defence>
+	</forts>
+	<!-- Clan War Rewards -->
+	<clanWar allowReward="false" allowForParty="false">
+		<reward itemId="57" count="50000" chance="100" />
+		<reward itemId="4037" count="1" chance="10" />
+	</clanWar>
+	<!-- Territory War Rewards -->
+	<territoryWar>
+		<pvp allowReward="false" allowForParty="false">
+			<reward itemId="57" count="20000" chance="100" />
+			<reward itemId="4037" count="1" chance="30" />
+		</pvp>
+	</territoryWar>
+	<!-- Olympiad Rewards -->
+	<olympiad>
+		<winner allowReward="false">
+			<reward itemId="57" count="20000" chance="100" />
+			<reward itemId="4037" count="1" chance="30" />
+		</winner>
+		<loser allowReward="false">
+			<reward itemId="57" count="20000" chance="100" />
+			<reward itemId="4037" count="1" chance="30" />
+		</loser>
+	</olympiad>
+</list>

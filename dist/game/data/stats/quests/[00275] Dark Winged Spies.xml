@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="275" nameEn="Dark Winged Spies" nameRu="Чернокрылые шпионы">
+		<level min="11" max="15" />
+		<droplist>
+			<npc id="20316">
+				<item id="1478" min="1" chance="100" rateable="true" /> <!--Darkwing Bat Fang-->
+			</npc>
+			<npc id="27043">
+				<item id="1478" min="5" chance="100" rateable="true" /> <!--Darkwing Bat Fang-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="4550" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

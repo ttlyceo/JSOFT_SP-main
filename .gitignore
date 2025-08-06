@@ -1,0 +1,24 @@
+.idea
+# Compiled class file
+*.class
+*.log
+*.l2j
+*.patch
+#*.dat
+
+# Folder
+build
+out
+dist/game/log
+dist/login/log
+dist/game/l2e-gameserver.jar
+dist/login/l2e-loginserver.jar
+todo
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

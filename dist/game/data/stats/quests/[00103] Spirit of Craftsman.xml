@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="103" nameEn="Spirit of Craftsman" nameRu="Дух мастера">
+		<level min="10" max="85" />
+		<expirience>
+			<rewardExp val="46663" rateable="true" />
+			<rewardSp val="3999" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20517">
+				<item id="1107" min="1" chance="30" rateable="true" /> <!--Bone Fragment-->
+			</npc>
+			<npc id="20518">
+				<item id="1107" min="1" chance="30" rateable="true" /> <!--Bone Fragment-->
+			</npc>
+			<npc id="20455">
+				<item id="1107" min="1" chance="30" rateable="true" /> <!--Bone Fragment-->
+			</npc>
+			<npc id="20015">
+				<item id="973" min="1" chance="30" rateable="true" /> <!--Zombie Head-->
+			</npc>
+			<npc id="20020">
+				<item id="973" min="1" chance="30" rateable="true" /> <!--Zombie Head-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1">
+				<item id="57" min="19799" rateable="true" /> <!--Adena-->
+				<item id="975" min="1" rateable="false" /> <!--Blood Saber-->
+				<item id="1060" min="100" rateable="true" /> <!--Lesser Healing Potion-->
+				<item id="4412" min="10" rateable="true" /> <!--Echo Crystal - Theme of Battle-->
+				<item id="4413" min="10" rateable="true" /> <!--Echo Crystal - Theme of Love-->
+				<item id="4414" min="10" rateable="true" /> <!--Echo Crystal - Theme of Solitude-->
+				<item id="4415" min="10" rateable="true" /> <!--Echo Crystal - Theme of the Feast-->
+				<item id="4416" min="10" rateable="true" /> <!--Echo Crystal - Theme of Celebration-->
+				<item id="4417" min="10" rateable="true" /> <!--Echo Crystal - Theme of Comedy-->
+				<item id="5790" min="3000" rateable="false" /> <!--Spiritshot: No Grade for Beginners-->
+				<item id="2509" min="500" rateable="false" /> <!--Spiritshot: No Grade-->
+			</variant>
+			<variant id="2">
+				<item id="57" min="19799" rateable="true" /> <!--Adena-->
+				<item id="975" min="1" rateable="false" /> <!--Blood Saber-->
+				<item id="1060" min="100" rateable="true" /> <!--Lesser Healing Potion-->
+				<item id="4412" min="10" rateable="true" /> <!--Echo Crystal - Theme of Battle-->
+				<item id="4413" min="10" rateable="true" /> <!--Echo Crystal - Theme of Love-->
+				<item id="4414" min="10" rateable="true" /> <!--Echo Crystal - Theme of Solitude-->
+				<item id="4415" min="10" rateable="true" /> <!--Echo Crystal - Theme of the Feast-->
+				<item id="4416" min="10" rateable="true" /> <!--Echo Crystal - Theme of Celebration-->
+				<item id="4417" min="10" rateable="true" /> <!--Echo Crystal - Theme of Comedy-->
+				<item id="5789" min="6000" rateable="false" /> <!--Soulshot: No Grade for Beginners-->
+				<item id="1835" min="1000" rateable="false" /> <!--Soulshot: No Grade-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

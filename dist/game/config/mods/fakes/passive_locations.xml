@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../data/xsd/passive_locations.xsd">
+	<location id="1" amount="40">
+		<level min="40" max="75" />
+		<territory name="Giran">
+			<add x="83032" y="149560" zmin="-3480" zmax="-3400" />
+			<add x="80888" y="149560" zmin="-3480" zmax="-3400" />
+			<add x="80888" y="147608" zmin="-3480" zmax="-3400" />
+			<add x="83000" y="147592" zmin="-3480" zmax="-3400" />
+		</territory>
+		<delay min="1200" max="2400" />
+		<respawn min="30" max="60" />
+	</location>
+	<traders>
+		<trader id="1" classId="0" type="SELL" minLvl="10" maxLvl="20">
+			<territory name="Giran">
+				<add x="83032" y="149560" zmin="-3480" zmax="-3400" />
+				<add x="80888" y="149560" zmin="-3480" zmax="-3400" />
+				<add x="80888" y="147608" zmin="-3480" zmax="-3400" />
+				<add x="83000" y="147592" zmin="-3480" zmax="-3400" />
+			</territory>
+			<items>
+				<add itemId="57" amount="100000000" />
+				<add itemId="1865" amount="2834" />
+				<add itemId="1887" amount="534" />
+				<add itemId="4822" amount="1" enchant="10" />
+				<trade itemId="1865" amountMin="2234" amountMax="2834" priceMin="1200" priceMax="3600" />
+				<trade itemId="1887" amountMin="134" amountMax="534" priceMin="15000" priceMax="18000" />
+				<trade itemId="4822" amountMin="1" amountMax="1" priceMin="15000000" priceMax="20000000" />
+			</items>
+			<message val="WTS Varnish, Purity EB" />
+		</trader>
+		<trader id="2" classId="57" type="BUY" minLvl="40" maxLvl="50">
+			<point x="82264" y="148600" z="-3466" h="52064" />
+			<items>
+				<add itemId="57" amount="100000000" />
+				<add itemId="1880" amount="1" />
+				<add itemId="1865" amount="1" />
+				<trade itemId="1880" amountMin="500" amountMax="800" priceMin="5000" priceMax="7000" />
+				<trade itemId="1865" amountMin="2000" amountMax="2500" priceMin="500" priceMax="800" />
+			</items>
+			<message val="WTB steel,varnish" />
+		</trader>
+	</traders>
+</list>

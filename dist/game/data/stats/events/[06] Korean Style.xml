@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/fight_events.xsd">
+	<event id="6" nameEn="Korean Style" nameRu="Корейский Стиль" impl="KoreanStyle">
+		<parameter name="icon" value="Icon.skill5074" />
+		<parameter name="descEn" value="You will need to defeat enemy Team in 1 VS 1 Fights!" />
+		<parameter name="descRu" value="Вам нужно будет победить вражескую команду в боях 1 на 1!" />
+		<parameter name="roundRunTime" value="-1" />
+		<parameter name="roundEvent" value="false" />
+		<parameter name="isAutoTimed" value="true" />
+		<parameter name="autoTimes" value="0 5,17 * * *" />
+		<parameter name="teamed" value="true" />
+		<parameter name="canTargetTeam" value="false" />
+		<parameter name="useBuffs" value="false" />
+		<parameter name="dispelBuffs" value="true" />
+		<parameter name="givePvpPoints" value="false" />
+		<parameter name="canUseScrolls" value="false" />
+		<parameter name="canUsePotions" value="false" />
+		<parameter name="canItemSummons" value="false" />
+		<parameter name="canUseCommunity" value="true" /> <!-- if false will block buffer and other community services -->
+		<parameter name="rootBetweenRounds" value="true" />
+		<parameter name="loseBuffsOnDeath" value="false" />
+		<parameter name="excludedClasses" value="HEALERS" />
+		<parameter name="excludedSkills" value="1410;438;21090;23118" /> <!-- Salvation-type skills -->
+		<parameter name="validLevels" value="75-85" /> <!-- Valid levels diff -->
+		<parameter name="validProffs" value="2;3" /> <!-- Valid proffs levels list -->
+		<parameter name="respawnTime" value="-1" />
+		<parameter name="ressAllowed" value="false" />
+		<parameter name="winnerByDamage" value="true" /> <!-- duel winner if players survived -->
+		<!-- better to make different rewards for different positions -->
+		<!-- can use several items in one position -->
+		<parameter name="rewardByParticipation" value="57,100000" />
+		<parameter name="rewardByKillPlayer" value="4037,1" />
+		<parameter name="rewardByWinner" value="4037,6" />
+		<parameter name="rewardByTopKiller" value="4037,3" />
+		<parameter name="instanced" value="true" />
+		<parameter name="isUseEventItems" value="false" />
+		<!-- check and unequip items from slot numbers -->
+		<parameter name="checkItemSlots" value="23;0;8;9;4;13;14;1;5;7;10;6;11;12;2;3;17;18;19;20;21;16;15;24" />
+		<!-- Example event items by classes -->
+		<eventItems>
+			<class id="106"> <!-- Shillien Templar -->
+				<itemList>
+					<item id="14120" amount="1" enchant="16" augmentation="16340:13400" elementals="0:300" /> <!-- Vesper Cutter -->
+					<item id="13435" amount="1" /> <!-- Vesper Noble Breastplate -->
+					<item id="13448" amount="1" /> <!-- Vesper Noble Gaiters -->
+					<item id="13140" amount="1" /> <!-- Vesper Noble Helmet -->
+                			<item id="13450" amount="1" /> <!-- Vesper Noble Boots -->
+               				<item id="13449" amount="1" /> <!-- Vesper Noble Gauntlet -->
+                			<item id="13471" amount="1" /> <!-- Vesper Shield -->
+                			<item id="14164" amount="1" /> <!-- Vesper Necklace -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+				</itemList>
+			</class>
+			<class id="90"> <!-- Phoenix Knight -->
+				<itemList>
+					<item id="14120" amount="1" enchant="16" augmentation="16340:13400" elementals="0:300" /> <!-- Vesper Cutter -->
+					<item id="13435" amount="1" /> <!-- Vesper Noble Breastplate -->
+					<item id="13448" amount="1" /> <!-- Vesper Noble Gaiters -->
+					<item id="13140" amount="1" /> <!-- Vesper Noble Helmet -->
+                			<item id="13450" amount="1" /> <!-- Vesper Noble Boots -->
+               				<item id="13449" amount="1" /> <!-- Vesper Noble Gauntlet -->
+                			<item id="13471" amount="1" /> <!-- Vesper Shield -->
+                			<item id="14164" amount="1" /> <!-- Vesper Necklace -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="16376" amount="1" /> <!-- Vesper Earring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+					<item id="14165" amount="1" /> <!-- Vesper Ring -->
+				</itemList>
+			</class>
+		</eventItems>
+ 	</event>
+</list>

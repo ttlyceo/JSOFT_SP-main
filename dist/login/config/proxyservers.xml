@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!--
+    		Использование : <proxyServer origId="<origId>" proxyId="<proxyId>" proxyHost="<proxyHost>" proxyPort="<proxyPort>" accessLevels="<min>-<max>" isHideMain="<isHideMain>" />
+
+    		Именно:
+        	<origId>	 	- Оригинальный ID сервера. Например Bartz - 1
+        	<proxyId>       	- Сервер ID который будет использовать прокси сервер (фэйково парковать доп адрес). К примеру 2 - Sieghardt
+        	<proxyHost>            	- (Хост) IP адрес прокси сервера
+        	<proxyPort>            	- Порт прокси сервера
+        	<isHideMain>            - Скрытие основного IP
+        	<accessLevels>          - min max accessLevel который увидит прокси в списке
+
+    		Пример:
+        	<proxyServer origId="1" proxyId="2" proxyHost="127.0.0.1" proxyPort="7777" accessLevels="0-8" isHideMain="false" />
+	-->
+</list>

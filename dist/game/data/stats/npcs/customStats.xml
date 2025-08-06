@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- 
+* System for quickly adding modifier stats to the NPCs you are interested in
+* Valid types: MAXHP, MAXMP, MATK, MSPEED, MDEF, PATK, PSPEED, PDEF
+* lvlDiff - if you remove this param server auto generate lvldiff="1-85"
+* Valid npcType ALL(for all npcs) or by types(see npc types in npcs folder). If remove this param server auto generate npcType="ALL"
+* npcId group stats by npc id. if param empty or removed check npcType -> if npcId not empty reads it in priority!
+* forbiddenList - disables stats on IDs that are in list
+* Examples:
+	<stats lvlDiff="1-85" npcType="RaidBoss;Monster" forbiddenList="29001;29020">
+		<stat type="MAXHP" value="1.5" />
+		<stat type="MAXMP" value="1.5" />
+		<stat type="MATK" value="1.5" />
+		<stat type="MSPEED" value="1.5" />
+		<stat type="MDEF" value="1.5" />
+		<stat type="PATK" value="1.5" />
+		<stat type="PSPEED" value="1.5" />
+		<stat type="PDEF" value="1.5" />
+	</stats>
+-->
+</list>

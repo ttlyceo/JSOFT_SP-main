@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="709" nameEn="Path to Becoming a Lord - Dion" nameRu="Путь Лорда - Диона">
+		<droplist>
+			<npc id="20154">
+				<item id="13849" min="1" chance="100" rateable="true" /> <!--Mandragora Root-->
+			</npc>
+			<npc id="20155">
+				<item id="13849" min="1" chance="100" rateable="true" /> <!--Mandragora Root-->
+			</npc>
+			<npc id="20156">
+				<item id="13849" min="1" chance="100" rateable="true" /> <!--Mandragora Root-->
+			</npc>
+		</droplist>
+	</quest>
+</list>

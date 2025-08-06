@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phases>
+    <phase name="day">
+        <!-- Example NPC spawn for Day phase -->
+        <npc id="35368" x="82515" y="149247" z="-3464" heading="0" count="2" respawnDelay="60"/>
+    </phase>
+    <phase name="night">
+        <!-- Example NPC spawn for Night phase -->
+        <npc id="35369" x="82532" y="148786" z="-3464" heading="0" count="2" respawnDelay="60"/>
+    </phase>
+    <phase name="redmoon">
+        <!-- Example NPC spawn for RedMoon phase -->
+        <npc id="35370" x="82543" y="148071" z="-3464" heading="0" count="2" respawnDelay="60"/>
+    </phase>
+</phases>

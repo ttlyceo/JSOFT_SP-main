@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Valid types CHAR,ACCOUNT,IP,HWID -->
+<list type="HWID" lastDay="1">
+	<!-- Update Times Info -->
+	<refreshTime daily="30 6 * * *" month="30 6 1 * *" />
+
+	<!-- Example Daily Rewards for Month -->
+	<day number="1" image="icon.etc_adena_i00">
+		<reward itemId="57" count="5000000"/>
+	</day>
+	<day number="2" image="BranchSys.br_hallowinday_candy_i00">
+		<reward itemId="20034" count="2" />
+	</day>
+	<day number="3" image="icon.etc_scroll_of_return_i01">
+		<reward itemId="1538" count="5" />
+	</day>
+	<day number="4" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="21603" count="1" />
+	</day>
+	<day number="5" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="57" count="10000000" />	
+	</day>
+	<day number="6" image="icon.etc_codex_of_giant_i03">
+		<reward itemId="9627" count="5"/>
+	</day>
+	<day number="7" image="branchsys2.br_vitality_day_i00">
+		<reward itemId="14052" count="100"/>
+		<reward itemId="14168" count="5" />		
+	</day>
+	<day number="8" image="icon.etc_mineral_rare_i03">
+		<reward itemId="14168" count="5" />
+	</day>
+	<day number="9" image="icon.etc_scroll_of_enchant_weapon_i05">
+		<reward itemId="960" count="3" />
+		<reward itemId="959" count="3" />		
+	</day>
+	<day number="10" image="icon.etc_mineral_rare_i03">
+		<reward itemId="14168" count="5" />
+	</day>	
+	<day number="11" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="21603" count="1" />
+	</day>
+	<day number="12" image="icon.etc_codex_of_giant_i03">
+		<reward itemId="9627" count="5" />		
+	</day>
+	<day number="13" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="6673" count="5"/>
+	</day>
+	<day number="14" image="branchsys2.br_vitality_day_i00">
+		<reward itemId="14052" count="100"/>
+		<reward itemId="6673" count="5" />
+		<reward itemId="21609" count="1" />		
+	</day>
+	<day number="15" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="21603" count="1" />
+	</day>
+	<day number="16" image="BranchSys.br_hallowinday_candy_i00">
+		<reward itemId="20034" count="5" />
+	</day>
+	<day number="17" image="icon.etc_scroll_of_enchant_weapon_i05">
+		<reward itemId="960" count="10" />
+		<reward itemId="959" count="10" />
+	</day>
+	<day number="18" image="icon.etc_scroll_of_return_i01">
+		<reward itemId="1538" count="10" />
+	</day>
+	<day number="19" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="6673" count="10"/>
+	</day>
+	<day number="20" image="Icon.etc_codex_of_giant_i03">
+		<reward itemId="9627" count="20"/>
+	</day>
+	<day number="21" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="14169" count="10" />
+		<reward itemId="9627" count="20"/>
+		<reward itemId="21609" count="1" />		
+	</day>
+	<day number="22" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="21609" count="1" />
+	</day>
+	<day number="23" image="icon.etc_mineral_unique_i03">
+		<reward itemId="14169" count="20" />
+	</day>
+	<day number="24" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="4037" count="10" />
+	</day>
+	
+	<day number="25" image="icon.mouse_coin_i00">
+		<reward itemId="4037" count="15" />
+	</day>
+	<day number="26" image="BranchSys.icon.br_four_leaf_clover_box_i00">
+		<reward itemId="21609" count="1" />
+	</day>
+	<day number="27" image="Icon.skill1526">
+		<reward itemId="4037" count="5" />
+		<reward itemId="57" count="100000" />
+	</day>
+	<day number="28" image="branchsys2.br_vitality_day_i00">
+		<reward itemId="4037" count="5"/>
+		<reward itemId="57" count="100000" />
+	</day>
+	<day number="29" image="">
+		<reward itemId="4037" count="5" displayId="true" />
+		<reward itemId="57" count="100000" />
+	</day>
+	<day number="30" image="">
+		<reward itemId="4037" count="5" displayId="true" />
+		<reward itemId="57" count="100000" />
+	</day>
+	<day number="31" image="">
+		<reward itemId="4037" count="5" displayId="true" />
+		<reward itemId="57" count="100000" />
+	</day>
+</list>

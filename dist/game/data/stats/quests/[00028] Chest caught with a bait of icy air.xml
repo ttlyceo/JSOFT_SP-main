@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="28" nameEn="Chest caught with a bait of icy air" nameRu="Сундук Воды">
+		<level min="36" max="85" />
+		<rewardlist>
+			<item id="881" min="1" rateable="false" /> <!--Elven Ring-->
+		</rewardlist>
+	</quest>
+</list>

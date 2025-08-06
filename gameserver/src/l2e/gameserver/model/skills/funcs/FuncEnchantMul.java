@@ -1,0 +1,52 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ *
+ */
+package l2e.gameserver.model.skills.funcs;
+
+import l2e.gameserver.model.items.instance.ItemInstance;
+import l2e.gameserver.model.stats.Env;
+import l2e.gameserver.model.stats.Stats;
+
+public class FuncEnchantMul extends Func
+{
+	private final Lambda _lambda;
+	
+	public FuncEnchantMul(Stats pStat, int pOrder, Object owner, Lambda lambda)
+	{
+		super(pStat, pOrder, owner);
+		_lambda = lambda;
+	}
+
+	@Override
+	public void calc(Env env)
+	{
+		if ((cond != null) && !cond.test(env))
+		{
+			return;
+		}
+		final ItemInstance item = (ItemInstance) funcOwner;
+		final int enchant = item.getEnchantLevel();
+		if (enchant <= 0)
+		{
+			return;
+		}
+		final double value = _lambda.calc(env);
+		double nextValue = value;
+		for (int i = 1; i < item.getEnchantLevel(); i++)
+		{
+			nextValue *= value;
+		}
+		env.mulValue(nextValue);
+	}
+}

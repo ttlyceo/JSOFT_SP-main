@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/classBalance.xsd">
+	<balance classId="118" targetClassId="-2">
+		<set type="Crit" val="1.0"/>
+	</balance>
+</list>

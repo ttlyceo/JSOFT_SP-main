@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="334" nameEn="The Wishing Potion" nameRu="Зелье Желаний">
+		<level min="30" max="85" />
+		<droplist>
+			<npc id="20078">
+				<item id="3685" min="1" chance="10" rateable="false" /> <!--Wind Soulstone-->
+			</npc>
+			<npc id="20087">
+				<item id="3689" min="1" chance="10" rateable="false" /> <!--Ant Soldier Aphid-->
+			</npc>
+			<npc id="20088">
+				<item id="3689" min="1" chance="10" rateable="false" /> <!--Ant Soldier Aphid-->
+			</npc>
+			<npc id="20168">
+				<item id="3688" min="1" chance="10" rateable="false" /> <!--Silenos Horn-->
+			</npc>
+			<npc id="20192">
+				<item id="3690" min="1" chance="10" rateable="false" /> <!--Tyrant's Chitin-->
+			</npc>
+			<npc id="20193">
+				<item id="3690" min="1" chance="10" rateable="false" /> <!--Tyrant's Chitin-->
+			</npc>
+			<npc id="20199">
+				<item id="3684" min="1" chance="10" rateable="false" /> <!--Amber Scale-->
+			</npc>
+			<npc id="20227">
+				<item id="3687" min="1" chance="10" rateable="false" /> <!--Horror Ectoplasm-->
+			</npc>
+			<npc id="20248">
+				<item id="3691" min="1" chance="10" rateable="false" /> <!--Bugbear Blood-->
+			</npc>
+			<npc id="20249">
+				<item id="3691" min="1" chance="10" rateable="false" /> <!--Bugbear Blood-->
+			</npc>
+			<npc id="20250">
+				<item id="3686" min="1" chance="10" rateable="false" /> <!--Glass Eye-->
+			</npc>
+			<npc id="27135">
+				<item id="57" min="100000000" chance="10" rateable="true" /> <!--Adena-->
+				<item id="57" min="900000" chance="70" rateable="true" /> <!--Adena-->
+			</npc>
+			<npc id="27136">
+				<item id="3683" min="1" chance="28" rateable="false" /> <!--Forbidden Love Scroll-->
+			</npc>
+			<npc id="27138">
+				<item id="57" min="1406956" chance="100" rateable="false" /> <!--Adena-->
+			</npc>
+			<npc id="27139">
+				<item id="3679" min="1" chance="100" rateable="false" /> <!--Secret Book of Potion-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Random one item-->
+				<item id="1979" min="1" rateable="true" /> <!--Demon's Tunic Fabric-->
+				<item id="1980" min="1" rateable="true" /> <!--Demon's Stocking Pattern-->
+				<item id="2952" min="1" rateable="true" /> <!--Demon's Boots Fabric-->
+				<item id="2953" min="1" rateable="true" /> <!--Demon's Gloves Fabric-->
+			</variant>
+			<variant id="2">
+				<item id="931" min="1" rateable="false" /> <!--Necklace of Grace-->
+			</variant>
+			<variant id="3">
+				<item id="3683" min="1" rateable="false" /> <!--Forbidden Love Scroll-->
+			</variant>
+			<variant id="4"> <!--Random one item-->
+				<item id="4408" min="1" rateable="false" /> <!--Musical Score - Theme of Love-->
+				<item id="4409" min="1" rateable="false" /> <!--Musical Score - Theme of Battle-->
+			</variant>
+			<variant id="5"> <!--Random one item-->
+				<item id="441" min="1" rateable="false" /> <!--Demon's Tunic-->
+				<item id="472" min="1" rateable="false" /> <!--Demon's Stockings-->
+				<item id="2435" min="1" rateable="false" /> <!--Demon's Boots-->
+				<item id="2459" min="1" rateable="false" /> <!--Demon's Gloves-->
+			</variant>
+			<variant id="6"> <!--Random one item-->
+				<item id="12766" min="1" rateable="false" /> <!--Gold Circlet-->
+				<item id="12767" min="1" rateable="false" /> <!--Silver Circlet-->
+			</variant>
+			<variant id="7">
+				<item id="57" min="10000" rateable="true" /> <!--Adena-->
+			</variant>
+			<variant id="8">
+				<item id="57" min="500000" rateable="true" /> <!--Adena-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

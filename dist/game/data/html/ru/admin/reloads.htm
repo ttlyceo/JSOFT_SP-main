@@ -1,0 +1,71 @@
+﻿<html noscrollbar><title>Меню Сервера | Перезагрузить</title><body>
+<table width=300><tr>
+<td width=50><button value="Меню" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>Перезагрузка Компонентов</center></td>
+<td width=50><button value="Назад" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+<br>
+<center>
+<font color="LEVEL">[ Меню Перезагрузки Компонентов ]</font><br1>
+<font color="ff0000">- НЕ ИСПОЛЬЗОВАТЬ НА РАБОЧЕМ СЕРВЕ! -</font><br1>
+<table width=270>
+	<tr>
+		<td fixwidth=100 align=center>
+			<font color=LEVEL>Основное</font>
+
+		</td>
+		<td align=center>
+			<font color=LEVEL>Важное</font>
+		</td>
+	</tr>
+</table>
+<table width=270 bgcolor="444444">
+	<tr>
+		<td>
+			<combobox width=80 var="group1" list="configs;htmls;access;limits;clans;quests;doors;initials;armorSets;zones;enchant;transforms;reflections;hennas">
+
+		</td>
+		<td>
+			<button value="reload" action="bypass -h admin_reload $group1" width=60 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td>
+			<combobox width=80 var="group2" list="drop;npcs;npcStats;items;skills;skillTrees;multisells;buylists;teleports;npcwalkers;fishing">
+
+		</td>
+		<td>
+			<button value="reload" action="bypass -h admin_reload $group2" width=60 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+</table>
+<br>
+<table width=270>
+	<tr>
+		<td fixwidth=90 align=center>
+			<font color=LEVEL>Кастом</font>
+
+		</td>
+		<td align=center>
+			<font color=LEVEL>Другое</font>
+		</td>
+	</tr>
+</table>
+<table width=270 bgcolor="444444">
+	<tr>
+		<td>
+			<combobox width=80 var="group3" list="tournaments;fightevents;worldevents;promocodes;scripts;dressMe;enchantItems;enchantSkills;premiums;itemmall;recipes">
+
+		</td>
+		<td>
+			<button value="reload" action="bypass -h admin_reload $group3" width=60 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+		<td>
+			<combobox width=80 var="group4" list="category;charTemplates;balancer;classList;colosseumFences;communityTeleports;communityBuffer;sellBuffs;damageLimits;donations;experience">
+
+		</td>
+		<td>
+			<button value="reload" action="bypass -h admin_reload $group4" width=60 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+</table>
+</center>
+</body></html>

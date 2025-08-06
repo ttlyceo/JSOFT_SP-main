@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rift">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:element name="area" minOccurs="1" maxOccurs="6">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="1">
+							<xs:element name="add_parameters" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="unbounded">
+										<xs:element name="set" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" />
+												<xs:attribute name="value" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="room" minOccurs="1" maxOccurs="9">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element name="teleport" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:attribute name="x" type="xs:integer" use="required" />
+												<xs:attribute name="y" type="xs:integer" use="required" />
+												<xs:attribute name="z" type="xs:integer" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="polygon" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:attribute name="minX" type="xs:integer" use="required" />
+												<xs:attribute name="maxX" type="xs:integer" use="required" />
+												<xs:attribute name="minY" type="xs:integer" use="required" />
+												<xs:attribute name="maxY" type="xs:integer" use="required" />
+												<xs:attribute name="minZ" type="xs:integer" use="required" />
+												<xs:attribute name="maxZ" type="xs:integer" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="spawn" minOccurs="1" maxOccurs="3">
+											<xs:complexType>
+												<xs:attribute name="count" type="xs:positiveInteger" use="required" />
+												<xs:attribute name="delay" type="xs:positiveInteger" use="required" />
+												<xs:attribute name="mobId" type="xs:positiveInteger" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:minInclusive value="1" />
+												<xs:maxInclusive value="9" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="isBossRoom" use="required" type="xs:boolean" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="type" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:integer">
+									<xs:minInclusive value="1" />
+									<xs:maxInclusive value="6" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="minPlayers" type="xs:integer" />
+						<xs:attribute name="hwidsLimit" type="xs:integer" />
+						<xs:attribute name="ipsLimit" type="xs:integer" />
+						<xs:attribute name="fragmentCount" type="xs:integer" />
+						<xs:attribute name="bossRoomChance" type="xs:decimal" />
+						<xs:attribute name="maxJumps" type="xs:integer" />
+						<xs:attribute name="customTeleFunction" type="xs:boolean" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

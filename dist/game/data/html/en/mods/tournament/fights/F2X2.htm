@@ -1,0 +1,72 @@
+<html noscrollbar><title>Tournament (2 vs 2)</title><body>
+<img src=L2UI.SquareGray width=300 height=1>
+<table border="0" width="300" bgcolor="000000">
+	<tr>
+		<td width=20></td>
+		<td width=50> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+		<td width=130> <font color=ff0019>Tournament (2 vs 2)</font></td>
+		<td width=65> <button value="Back" action="bypass -h bp_showTournamentPage main" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<br>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Players Registered: </font>%teamsRegF2X2%</td>
+		<td width="65"><button value="Register" action="bypass -h bp_registerTournament 2X2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Active Fights: </font>%activeFightsF2X2%</td>
+		<td width="65"><button value="Leave" action="bypass -h bp_removeTournamentParticipation" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Total Fights: </font>%allTimeFights%</td>
+		<td width="65"><button value="Del Team" action="bypass -h bp_deleteTournamentTeam" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="200"><font color=LEVEL>Active Observers: </font>%activeObserversF2X2%</td>
+		<td width="65"><button value="Observer" action="bypass -h bp_showTournamentPage observer/F2X2" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="265"><font color=994992>Type the name of your partner or use command: </font></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="265"><font color=994992>".tournamentinvite playername"</font></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td width="80"><font color=LEVEL>Player Name: </font></td>
+		<td width="120"><edit var="playerName" width=120 height=10></td>
+		<td width="65"><button value="Invite" action="bypass -h bp_inviteTournamentMember $playerName" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+<br>
+<img src=L2UI.SquareGray width=300 height=1>
+<table border="0" width="300" bgcolor="000000">
+	<tr>
+		<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+		<td width=99 align=center> <font color=ff0019>Your Team</font></td>
+		<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+%memberslist%
+</body></html>

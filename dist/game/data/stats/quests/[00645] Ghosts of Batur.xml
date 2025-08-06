@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="645" nameEn="Ghosts of Batur" nameRu="Призраки Батура">
+		<level min="80" max="85" />
+		<droplist>
+			<npc id="22703">
+				<item id="14861" min="1" chance="40" rateable="true" /> <!--Cursed Burial Items-->
+			</npc>
+			<npc id="22704">
+				<item id="14861" min="1" chance="40" rateable="true" /> <!--Cursed Burial Items-->
+			</npc>
+			<npc id="22705">
+				<item id="14861" min="1" chance="40" rateable="true" /> <!--Cursed Burial Items-->
+			</npc>
+			<npc id="22706">
+				<item id="14861" min="1" chance="40" rateable="true" /> <!--Cursed Burial Items-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"><!--Given one random item-->
+				<item id="9967" min="1" rateable="false" /> <!--Recipe - Dynasty Sword (60%)-->
+				<item id="9968" min="1" rateable="false" /> <!--Recipe - Dynasty Blade (60%)-->
+				<item id="9969" min="1" rateable="false" /> <!--Recipe - Dynasty Phantom (60%)-->
+				<item id="9970" min="1" rateable="false" /> <!--Recipe - Dynasty Bow (60%)-->
+				<item id="9971" min="1" rateable="false" /> <!--Recipe - Dynasty Knife (60%)-->
+				<item id="9972" min="1" rateable="false" /> <!--Recipe - Dynasty Halberd (60%)-->
+				<item id="9973" min="1" rateable="false" /> <!--Recipe - Dynasty Cudgel (60%)-->
+				<item id="9974" min="1" rateable="false" /> <!--Recipe - Dynasty Mace (60%)-->
+				<item id="9975" min="1" rateable="false" /> <!--Recipe - Dynasty Bagh-Nakh (60%)-->
+				<item id="10544" min="1" rateable="false" /> <!--Recipe - Dynasty Staff(60%)-->
+				<item id="10545" min="1" rateable="false" /> <!--Recipe - Dynasty Crusher(60%)-->
+			</variant>
+			<variant id="2">
+				<item id="9628" min="1" rateable="true" /> <!--Leonard-->
+			</variant>
+			<variant id="3">
+				<item id="9629" min="1" rateable="true" /> <!--Adamantine-->
+			</variant>
+			<variant id="4">
+				<item id="9630" min="1" rateable="true" /> <!--Orichalcum-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

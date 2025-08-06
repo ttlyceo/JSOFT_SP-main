@@ -1,0 +1,312 @@
+﻿<html noscrollbar>
+<title>Меню Набора в Клан %clanName%</title>
+<body><br>
+<!-- COMMUNITY -->
+<table width=770>
+<tr>
+<td>
+<table border=0 cellpadding=0 cellspacing=0 width=770 height=500 >
+<tr>
+<td valign="top" align="center" >
+<table width=755 height=500>
+<tr>
+<td width=755 valign="top" align="center">
+<!-- COMMUNITY INDEX -->
+<table width=730 height=350 cellpadding=0 cellspacing=0>
+<tr>
+<!-- Левый блок	-->
+<td width=537>
+<table width=536 height=60 background="l2ui_ct1_cn.titlebasebarmini">
+<tr>
+<td width=5></td>
+<td align=center valign=top>
+
+<!-- Шапка -->
+<table width=520 height=90 border=0 cellspacing=0 cellpadding=0>
+	<tr>
+	<td align=center valign=top>
+
+		<table width=510 height=90 background="l2ui_ct1_cn.gametip_bg">
+			<tr>
+				<td width=5></td>
+				<td width=15>
+				<br><img src="l2ui_ct1_cn.Minimap_Icon_Occupy_normal_CN" width="41" height="64">
+				</td>
+				<td width=375 align=left valign=top>
+					<br><br>
+					<font color="CDB38B" name="hs12">НАБОР В КЛАН</font>
+					<br1>
+					<font color="CDB88B" name="hs11">Управление набором клана <font color="LEVEL" name="hs11">%clanName%</font></font>
+					<br>
+				</td>
+				<td width=200 align=left valign=top>
+					<br><br>
+					<button value="СПИСОК КЛАНОВ" action="bypass -h _bbsclanlist_0"  back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="150" height="35"/>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Шапка -->
+</td>
+</tr>
+</table>
+<br>
+
+<!-- Персонаж -->
+<table width=535>
+<tr>
+<td align=center valign=top>
+
+<table width=250 height=220 border=0 cellspacing=0 cellpadding=0 background="l2ui_ct1_cn.titlebasebarmini">
+<tr>
+<td align=center valign=top>
+
+<table width=535 height=245 background="l2ui_ct1_cn.gametip_bg">
+<tr>
+<!-- Информация о персонаже -->
+<td width=535 align=center valign=top>
+	<br>
+	<center><font name="hs12" color="CDB38B">-= Классы, которые вы выбрали =-</font></center>
+	<br1>
+	<table width=520>
+		%choosenClasses%
+	</table>
+	<br><br>
+</td>
+<!-- Информация о персонаже -->
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<!-- Персонаж -->
+
+<!-- Персональная инфа -->
+<table width=535>
+	<tr>
+	<td align=center valign=top>
+		<br><font color="CDB38B" name="hs12"> -= Вопросы, которые вы хотите задать =- </font><br1>
+		<table width=535 height=100 border=0 cellspacing=0 cellpadding=0 background="l2ui_ct1_cn.titlebasebarmini">
+			<tr>
+			<td align=center valign=top>
+				<table width=535 height=100>
+					<tr>
+						<td align=center>
+							<table width=520>
+								<tr>
+									<td align=center>
+										<font color="CDB38B">%question1%</font>
+										<edit var="question1" width=100 height=12>
+										<br>
+									</td>
+									<td align=center>
+										<font color="CDB38B">%question2%</font>
+										<edit var="question2" width=100 height=12>
+										<br>
+									</td>
+									<td align=center>
+										<font color="CDB38B">%question3%</font>
+										<edit var="question3" width=100 height=12>
+										<br>
+									</td>
+									<td align=center>
+										<font color="CDB38B">%question4%</font>
+										<edit var="question4" width=100 height=12>
+										<br>
+									</td>
+								</tr>
+							</table>
+							<br1>
+							<table width=520>
+								<tr>
+									<td align=center>
+										<button action="bypass _bbsclanmanage_6 | $question1 | $question2 | $question3 | $question4 | $question5 | $question6 | $question7 | $question8 |" value="Сохранить Вопросы" width=160 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.button_df">
+									</td>
+									<td align=center>
+										<button action="bypass _bbsclanmanage_7" value="%recrutation% Набор" width=160 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.button_df">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+</table>
+<!-- Персональная инфа -->
+</td>
+<!-- Левый блок -->
+
+<!-- Правый блок -->
+<td width=220>
+<table width=185 height=428 >
+<tr>
+<td width=1></td>
+<td align=center valign=top>
+
+	<!-- Правый блок | Кнопка Премиум Аккаунта -->
+	<table width=210 height=58 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+		<td align=center valign=top>
+			<table width=210 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+				<tr>
+				<td width=5></td>
+				<td width=32 align=right>
+				<br>
+				<img src="l2ui_ct1_cn.Minimap_Icon_Occupy_normal_CN" width="42" height="40">
+				<br>
+				</td>
+					<td width=190 align=left>
+					<br>
+					<button value="НАЗАД" action="bypass -h _bbsclan" back=L2UI_CT1.ListCTRL_DF_Title_Down fore=L2UI_CT1.ListCTRL_DF_Title width="150" height="35"/>
+					<br>
+					</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+	<!-- Правый блок | Кнопка Премиум Аккаунта END-->
+<br1>
+	<!-- Правый блок | Предупреждение -->
+	<table width=220 height=40 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+	<td align=center valign=top>
+		<table width=220 border=0>
+			<tr>
+				<td width=220 align=center>
+					<br>
+					<font color="CDB38B" name="hs11">Управление</font>
+					<br>
+				</td>
+			</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+<!-- Правый блок | Предупреждение -->
+
+	<!-- Правый блок | Навигация -->
+	<table width=220 height=35 border=0 cellpadding=0 cellspacing=0 background="l2ui_ct1_cn.groupbox_goldline">
+		<tr>
+			<td align=center valign=top>
+				<table width=220 height=385 border=0 background="l2ui_ct1_cn.simple_notice_bg">
+					<tr>
+					<td width=220 align=center>
+						<br>
+						<table width=200 border=0>
+							<tr>
+								<td align=center fixwidth=220>
+									<font color="26bf45">Какие классы вы хотите набрать?</font>
+								</td>
+							</tr>
+						</table>
+						<table width=200 border=0>
+							<tr>
+								<td align=center fixwidth=100>
+									<table>
+										<tr>
+											<td align=center width=20>
+												<br>
+												<button action="bypass _bbsclanmanage_1" value=" " width=16 height=16 back="L2UI.CheckBox%checked1%" fore="L2UI.CheckBox%checked1%">
+											</td>
+											<td align=center width=80>
+												<br>
+												<font color="CDB38B">Любые</font>
+												<br>
+												<br>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td align=center fixwidth=100>
+									<table>
+										<tr>
+											<td align=center width=20>
+											<br>
+												<button action="bypass _bbsclanmanage_2" value=" " width=16 height=16 back="L2UI.CheckBox%checked2%" fore="L2UI.CheckBox%checked2%">
+											</td>
+											<td align=center width=100>
+												<br>
+												<font color="CDB38B">Выборочно</font>
+												<br>
+												<br>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<td width=140>
+									<font color="CDB38B">   Первая Группа:</font>
+								</td>
+							</tr>
+							<tr>
+								<td align=center width=150>
+									<combobox width=130 var=classes1 list="%firstClassGroup%">
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td align=center width=150>
+									<button action="bypass _bbsclanmanage_3 $classes1" value="Добавить" width=100 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.button_df">
+								</td>
+							</tr>
+							<tr>
+								<td width=140>
+									<font color="CDB38B">   Вторая Группа:</font>
+								</td>
+							</tr>
+							<tr>
+								<td align=center width=150>
+									<combobox width=130 var=classes2 list="%secondClassGroup%">
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td align=center width=150>
+									<button action="bypass _bbsclanmanage_3 $classes2" value="Добавить" width=100 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.button_df">	
+								</td>
+							</tr>
+						</table>
+					</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- Правый блок | Навигация END-->
+</td>
+</tr>
+</table>
+</td>
+<!-- Правый блок -->
+</tr>
+</table>	
+<!-- COMMUNITY INDEX END -->
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- COMMUNITY END -->
+</body>
+</html>

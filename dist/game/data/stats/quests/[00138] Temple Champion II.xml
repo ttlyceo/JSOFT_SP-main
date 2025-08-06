@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="138" nameEn="Temple Champion II" nameRu="Воитель Храма - 2">
+		<level min="36" max="85" />
+		<expirience>
+			<rewardExp val="187062" rateable="true" />
+			<rewardSp val="11307" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20176">
+				<item id="10342" min="1" chance="100" rateable="true" /> <!--Relics of the Dark Elf Trainee-->
+			</npc>
+			<npc id="20550">
+				<item id="10342" min="1" chance="100" rateable="true" /> <!--Relics of the Dark Elf Trainee-->
+			</npc>
+			<npc id="20551">
+				<item id="10342" min="1" chance="100" rateable="true" /> <!--Relics of the Dark Elf Trainee-->
+			</npc>
+			<npc id="20552">
+				<item id="10342" min="1" chance="100" rateable="true" /> <!--Relics of the Dark Elf Trainee-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="84593" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

@@ -1,0 +1,57 @@
+<html noscrollbar><title>Skill Bonuses Info</title>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=280 height=355 background="l2ui_ct1.Windows_DF_TooltipBG">
+	<tr>
+		<td valign="top">
+			<table border=0 width=298 height=47 background="l2ui_ct1.Windows_DF_TooltipBG">
+				<tr><td height=5></td></tr>
+				<tr>
+					<td width=40 align=center>
+						<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="%skillIcon%">
+							<tr>
+								<td width=32 height=32 align=center valign=top>
+									<button action="" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td fixwidth=190 align="left">
+						<font color=3292C2>%skillName%</font> <font color=96C764>Lv: %infoLevel%</font> 
+						<table>
+							<tr>
+								<td width=20>
+									<button width=16 height=16 back="L2UI_CH3.shortcut_rotate_down" fore="L2UI_CH3.shortcut_rotate" action="bypass -h _bbsrebirthSkillStatInfo_%skillId%_%skillLevel%_%type%_%maxLevel%" value=" ">
+								</td>
+								<td width=20 align=center>
+									<button width=16 height=16 back="L2UI_CH3.joypad_change_over" fore="L2UI_CH3.joypad_change" action="bypass -h _bbsrebirthSkillStatInfo_%skillId%_%skillLevel%_%type%_%switch%" value=" ">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<table width=280 align="center">
+				<tr>
+					<td width=10>
+					</td>
+					<td width=220><br>
+						<font color=CDB38B>Name</font>
+					</td>
+					<td width=60 align=center><br>
+						<font color=CDB38B>%title%</font>
+					</td>
+				</tr>
+			</table><br>
+			<img src="L2UI.squaregray" width="298" height="1">
+			<table width=280 align="center">
+				<tr>
+					<td>
+						%list%
+					</td>
+
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body></html>

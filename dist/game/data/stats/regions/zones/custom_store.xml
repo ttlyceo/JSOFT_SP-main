@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/zones.xsd">
+	<!-- Example Store & SellBuff Zones -->
+	<zone name="Giran large temple area (gatekeeper and Priest of Dawn area)" type="ScriptZone" shape="Cuboid" minZ="-3500" maxZ="-3350">
+		<stat name="allowStore" val="true" />
+		<stat name="allowSellBuff" val="true" />
+		<node X="82735" Y="147000" />
+		<node X="84320" Y="149780" />
+	</zone>
+	<zone name="Aden olympiad manager square" type="ScriptZone" shape="Cuboid" minZ="-2250" maxZ="-2150">
+		<stat name="allowStore" val="true" />
+		<stat name="allowSellBuff" val="true" />
+		<node X="146841" Y="26541" />
+		<node X="148071" Y="27425" />
+	</zone>
+	<zone name="Aden temple square" type="ScriptZone" shape="Cuboid" minZ="-2050" maxZ="-1950">
+		<stat name="allowStore" val="true" />
+		<stat name="allowSellBuff" val="true" />
+		<node X="146233" Y="25938" />
+		<node X="148729" Y="25553" />
+	</zone>
+</list>

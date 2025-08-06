@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list allowSystem="False">
+	<pvp id="1" request="50" color="99FF99" titleColor="0099FF" title="Cutom Title 1" />
+	<pvp id="2" request="100" color="99FF99" titleColor="0099FF" title="Cutom Title 2" />
+	<pvp id="3" request="150" color="99FF99" titleColor="0099FF" title="Cutom Title 3" />
+	<pvp id="4" request="200" color="99FF99" titleColor="0099FF" title="Cutom Title 4" />
+	<pvp id="5" request="250" color="99FF99" titleColor="0099FF" title="Cutom Title 5" />
+	<pvp id="6" request="300" color="99FF99" titleColor="0099FF" title="Cutom Title 6" />
+	<pvp id="7" request="350" color="99FF99" titleColor="0099FF" title="Cutom Title 7" />
+	<pvp id="8" request="400" color="99FF99" titleColor="0099FF" title="Cutom Title 8" />
+	<pvp id="9" request="450" color="99FF99" titleColor="0099FF" title="Cutom Title 9" />
+	<pvp id="10" request="500" color="99FF99" titleColor="0099FF" title="Cutom Title 10" />
+</list>

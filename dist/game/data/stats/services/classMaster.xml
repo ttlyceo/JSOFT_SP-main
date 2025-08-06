@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list allowClassMaster="false" allowCommunityClassMaster="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/classMaster.xsd">
+	<!-- First Class -->
+	<class level="1" allowedChange="true">
+		<requestItems>
+			<item id="57" count="100000" /> <!-- Adena -->
+		</requestItems>
+	</class>
+	<!-- Second Class -->
+	<class level="2" allowedChange="true">
+		<requestItems>
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</requestItems>
+	</class>
+	<!-- Third Class -->
+	<class level="3" allowedChange="true">
+		<requestItems>
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</requestItems>
+		<rewardItems classId="-1">  <!-- For All Classes -->
+			<item id="6622" count="1" chance="100" /> <!-- Book of Giants -->
+		</rewardItems>
+	</class>
+
+	<!-- Grand Masters rewards after change class -->
+	<grandMaster level="1">
+		<item id="8869" count="15" /> <!-- Shadow Item Exchange Coupon (D-Grade) -->
+	</grandMaster>
+	<grandMaster level="2">
+		<item id="8870" count="15" /> <!-- Shadow Item Exchange Coupon (C-Grade) -->
+	</grandMaster>
+</list>

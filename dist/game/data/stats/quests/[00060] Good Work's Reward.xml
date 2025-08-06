@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="60" nameEn="Good Work's Reward" nameRu="Награда за хорошую работу">
+		<level min="39" max="85" />
+		<droplist>
+			<npc id="27340">
+				<item id="10867" min="1" chance="50" rateable="false" /> <!--Bloody Cloth Fragment-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<variant id="1"> <!--Given only if player has at least mark-->
+				<item id="57" min="1000000" rateable="false" /> <!--Adena-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

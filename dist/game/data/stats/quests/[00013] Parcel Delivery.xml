@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="13" nameEn="Parcel Delivery" nameRu="Доставка посылки">
+		<level min="74" max="85" />
+		<expirience>
+			<rewardExp val="589092" rateable="true" />
+			<rewardSp val="58794" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="57" min="157834" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

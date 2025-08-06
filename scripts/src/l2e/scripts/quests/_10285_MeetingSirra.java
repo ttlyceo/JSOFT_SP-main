@@ -1,0 +1,365 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ *
+ */
+package l2e.scripts.quests;
+
+import l2e.gameserver.instancemanager.ReflectionManager;
+import l2e.gameserver.model.Location;
+import l2e.gameserver.model.actor.Npc;
+import l2e.gameserver.model.actor.Player;
+import l2e.gameserver.model.actor.templates.reflection.ReflectionWorld;
+import l2e.gameserver.model.quest.Quest;
+import l2e.gameserver.model.quest.QuestState;
+import l2e.gameserver.model.quest.State;
+import l2e.gameserver.network.NpcStringId;
+import l2e.gameserver.network.clientpackets.Say2;
+import l2e.gameserver.network.serverpackets.NpcSay;
+
+/**
+ * Rework by LordWinter 22.12.2019
+ */
+public final class _10285_MeetingSirra extends Quest
+{
+	public _10285_MeetingSirra(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+
+		addStartNpc(32020);
+		addTalkId(32020, 32760, 32761, 32762, 32781, 32029);
+	}
+
+	@Override
+	public String onAdvEvent(String event, Npc npc, Player player)
+	{
+		final QuestState qs = player.getQuestState(getName());
+		if (qs == null || qs.isCompleted())
+		{
+			return null;
+		}
+
+		String htmltext = null;
+		switch (event)
+		{
+			case "32020-02.htm":
+			{
+				htmltext = event;
+				break;
+			}
+			case "32020-03.htm":
+			{
+				if (qs.isCreated() && npc.getId() == 32020)
+				{
+					qs.startQuest();
+					qs.setMemoState(1);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-02.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 0) && npc.getId() == 32760)
+				{
+					qs.set("ex", 1);
+					qs.setCond(3, true);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-05.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 2) && npc.getId() == 32760)
+				{
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-06.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 2) && npc.getId() == 32760)
+				{
+					final Npc sirra = addSpawn(32762, -23905, -8790, -5384, 56238, false, 0, false, npc.getReflection());
+					sirra.broadcastPacketToOthers(2000, new NpcSay(sirra.getObjectId(), Say2.NPC_ALL, sirra.getId(), NpcStringId.THERES_NOTHING_YOU_CANT_SAY_I_CANT_LISTEN_TO_YOU_ANYMORE));
+					qs.set("ex", 3);
+					qs.setCond(5, true);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-09.htm":
+			case "32760-10.htm":
+			case "32760-11.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 4) && npc.getId() == 32760)
+				{
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-12.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 4) && npc.getId() == 32760)
+				{
+					qs.set("ex", 5);
+					qs.setCond(7, true);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-13.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 5) && npc.getId() == 32760)
+				{
+					qs.unset("ex");
+					qs.setMemoState(2);
+					final ReflectionWorld world = ReflectionManager.getInstance().getPlayerWorld(player);
+					if (world != null)
+					{
+						world.removeAllowed(player.getObjectId());
+					}
+					player.setReflection(ReflectionManager.DEFAULT);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32760-14.htm":
+			{
+				if (qs.isMemoState(2) && npc.getId() == 32760)
+				{
+					player.teleToLocation(new Location(113793, -109342, -845, 0), 0, true, player.getReflection());
+					htmltext = event;
+				}
+				break;
+			}
+			case "32761-02.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 1) && npc.getId() == 32761)
+				{
+					qs.set("ex", 2);
+					qs.setCond(4, true);
+					htmltext = event;
+				}
+				break;
+			}
+			case "32762-02.htm":
+			case "32762-03.htm":
+			case "32762-04.htm":
+			case "32762-05.htm":
+			case "32762-06.htm":
+			case "32762-07.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 3) && npc.getId() == 32762)
+				{
+					htmltext = event;
+				}
+				break;
+			}
+			case "32762-08.htm":
+			{
+				if (qs.isMemoState(1) && (qs.getInt("ex") == 3) && npc.getId() == 32762)
+				{
+					qs.set("ex", 4);
+					qs.setCond(6, true);
+					htmltext = event;
+					npc.deleteMe();
+				}
+				break;
+			}
+			case "32781-02.htm":
+			case "32781-03.htm":
+			{
+				if (qs.isMemoState(2) && npc.getId() == 32781)
+				{
+					htmltext = event;
+				}
+				break;
+			}
+			case "TELEPORT":
+			{
+				if (player.getLevel() >= getMinLvl(getId()))
+				{
+					player.teleToLocation(new Location(103045, -124361, -2768, 0), 0, true, player.getReflection());
+				}
+				break;
+			}
+		}
+		return htmltext;
+	}
+
+	@Override
+	public String onTalk(Npc npc, Player player)
+	{
+		QuestState qs = player.getQuestState(getName());
+		String htmltext = getNoQuestMsg(player);
+		switch (qs.getState())
+		{
+			case State.COMPLETED:
+			{
+				if (npc.getId() == 32020)
+				{
+					htmltext = "32020-05.htm";
+				}
+				break;
+			}
+			case State.CREATED:
+			{
+				if (npc.getId() == 32020)
+				{
+					qs = player.getQuestState("_10284_AcquisitionOfDivineSword");
+					htmltext = ((player.getLevel() >= getMinLvl(getId())) && (qs != null) && qs.isCompleted()) ? "32020-01.htm" : "32020-04.htm";
+				}
+				break;
+			}
+			case State.STARTED:
+			{
+				switch (npc.getId())
+				{
+					case 32020 :
+					{
+						switch (qs.getMemoState())
+						{
+							case 1:
+							{
+								htmltext = (player.getLevel() >= getMinLvl(getId())) ? "32020-06.htm" : "32020-09.htm";
+								break;
+							}
+							case 2:
+							{
+								htmltext = "32020-07.htm";
+								break;
+							}
+							case 3:
+							{
+								qs.calcExpAndSp(getId());
+								qs.calcReward(getId());
+								qs.exitQuest(false, true);
+								htmltext = "32020-08.htm";
+								break;
+							}
+						}
+						break;
+					}
+					case 32760 :
+					{
+						if (qs.isMemoState(1))
+						{
+							switch (qs.getInt("ex"))
+							{
+								case 0:
+								{
+									htmltext = "32760-01.htm";
+									break;
+								}
+								case 1:
+								{
+									htmltext = "32760-03.htm";
+									break;
+								}
+								case 2:
+								{
+									htmltext = "32760-04.htm";
+									break;
+								}
+								case 3:
+								{
+									htmltext = "32760-07.htm";
+									break;
+								}
+								case 4:
+								{
+									htmltext = "32760-08.htm";
+									break;
+								}
+								case 5:
+								{
+									htmltext = "32760-15.htm";
+									break;
+								}
+							}
+						}
+						break;
+					}
+					case 32761 :
+					{
+						if (qs.isMemoState(1))
+						{
+							switch (qs.getInt("ex"))
+							{
+								case 1:
+								{
+									htmltext = "32761-01.htm";
+									break;
+								}
+								case 2:
+								{
+									htmltext = "32761-03.htm";
+									break;
+								}
+								case 3:
+								{
+									htmltext = "32761-04.htm";
+									break;
+								}
+							}
+						}
+						break;
+					}
+					case 32762 :
+					{
+						if (qs.isMemoState(1))
+						{
+							final int state = qs.getInt("ex");
+							if (state == 3)
+							{
+								htmltext = "32762-01.htm";
+							}
+							else if (state == 4)
+							{
+								htmltext = "32762-09.htm";
+							}
+						}
+						break;
+					}
+					case 32781 :
+					{
+						if (qs.isMemoState(2))
+						{
+							htmltext = "32781-01.htm";
+						}
+						else if (qs.isMemoState(3))
+						{
+							htmltext = "32781-04.htm";
+						}
+						break;
+					}
+					case 32029 :
+					{
+						if (qs.isMemoState(2))
+						{
+							htmltext = "32029-01.htm";
+							qs.setCond(8, true);
+						}
+						break;
+					}
+				}
+				break;
+			}
+		}
+		return htmltext;
+	}
+
+	public static void main(String[] args)
+	{
+		new _10285_MeetingSirra(10285, _10285_MeetingSirra.class.getSimpleName(), "");
+	}
+}

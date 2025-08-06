@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/quests.xsd">
+	<quest id="139" nameEn="Shadow Fox I" nameRu="Сумрачный Лис - 1">
+		<level min="37" max="85" />
+		<expirience>
+			<rewardExp val="30000" rateable="true" />
+			<rewardSp val="2000" rateable="true" />
+		</expirience>
+		<droplist>
+			<npc id="20784">
+				<item id="10345" min="1" chance="100" rateable="true" /> <!--Records Chest Key Fragment-->
+				<item id="10346" min="1" chance="2" rateable="false" /> <!--Records Chest-->
+			</npc>
+			<npc id="20785">
+				<item id="10345" min="1" chance="100" rateable="true" /> <!--Records Chest Key Fragment-->
+				<item id="10346" min="1" chance="2" rateable="false" /> <!--Records Chest-->
+			</npc>
+		</droplist>
+		<rewardlist>
+			<item id="57" min="14050" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>
